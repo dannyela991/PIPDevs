@@ -1,0 +1,52 @@
+.green{
+    color: #33cc99;
+}
+.bg-green{
+    background-color: #33cc99;
+    color: #fff;
+}
+a.bg-green:hover{
+    background-color: #219770;
+    color: #fff;
+}
+.blue{
+    color: #32a7df;
+}
+.bg-blue{
+    background-color: #32a7df;
+    color: #fff;
+}
+a.bg-blue:hover{
+    background-color: #0080bb;
+    color: #fff;
+}
+.yellow{
+    color: #ffcc00;
+}
+.bg-yellow{
+    background-color: #ffcc00;
+    color: #333;
+}
+a.bg-yellow:hover{
+    background-color: #ffa600;
+    color: #fff;
+}
+.black{
+    color: #333;
+}
+.bg-black{
+    background-color: #333;
+    color: #fff;
+}
+a.bg-black:hover{
+    background-color: #000;
+    color: #fff;
+}
+.bg-white{
+    background-color: #fff;
+    color: #333;
+}
+a.bg-white:hover{
+    background-color: #333;
+    color: #fff;
+}
