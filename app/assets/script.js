@@ -41,6 +41,39 @@ function closeSearch() {
   document.getElementById("myOverlay").style.display = "none";
 }
 
+
+// FILTER CATEGORY
+filterSelection("all")
+function filterSelection(c) {
+  var x, i;
+  x = document.getElementsByClassName("filterDiv");
+  if (c == "all") c = "";
+  for (i = 0; i < x.length; i++) {
+    w3RemoveClass(x[i], "show");
+    if (x[i].className.indexOf(c) > -1) w3AddClass(x[i], "show");
+  }
+}
+function w3AddClass(element, name) {
+  var i, arr1, arr2;
+  arr1 = element.className.split(" ");
+  arr2 = name.split(" ");
+  for (i = 0; i < arr2.length; i++) {
+    if (arr1.indexOf(arr2[i]) == -1) {element.className += " " + arr2[i];}
+  }
+}
+function w3RemoveClass(element, name) {
+  var i, arr1, arr2;
+  arr1 = element.className.split(" ");
+  arr2 = name.split(" ");
+  for (i = 0; i < arr2.length; i++) {
+    while (arr1.indexOf(arr2[i]) > -1) {
+      arr1.splice(arr1.indexOf(arr2[i]), 1);     
+    }
+  }
+  element.className = arr1.join(" ");
+}
+
+
 // FULLBANNER
 $(function () {
   $('.carrossel-banner').slick({
@@ -77,38 +110,6 @@ $(function () {
         ]
   })
 })
-
-// FILTER CATEGORY
-filterSelection("all")
-function filterSelection(c) {
-  var x, i;
-  x = document.getElementsByClassName("filterDiv");
-  if (c == "all") c = "";
-  for (i = 0; i < x.length; i++) {
-    w3RemoveClass(x[i], "show");
-    if (x[i].className.indexOf(c) > -1) w3AddClass(x[i], "show");
-  }
-}
-function w3AddClass(element, name) {
-  var i, arr1, arr2;
-  arr1 = element.className.split(" ");
-  arr2 = name.split(" ");
-  for (i = 0; i < arr2.length; i++) {
-    if (arr1.indexOf(arr2[i]) == -1) {element.className += " " + arr2[i];}
-  }
-}
-function w3RemoveClass(element, name) {
-  var i, arr1, arr2;
-  arr1 = element.className.split(" ");
-  arr2 = name.split(" ");
-  for (i = 0; i < arr2.length; i++) {
-    while (arr1.indexOf(arr2[i]) > -1) {
-      arr1.splice(arr1.indexOf(arr2[i]), 1);     
-    }
-  }
-  element.className = arr1.join(" ");
-}
-
 // CARROSSEL MIDIAS
 $(function () {
 
@@ -137,9 +138,7 @@ $(function () {
   $('.carrossel-podcast').slick({
       infinite: true,
       slidesToShow: 3,
-      slidesToScroll: 1,    
-      autoplay: true,
-      autoplaySpeed: 2000,
+      slidesToScroll: 1,  
       prevArrow: $('#prev-podcast'),
       nextArrow: $('#next-podcast'),
 
@@ -154,8 +153,27 @@ $(function () {
         ]
   })
 })
+// CARROSSEL travel
+$(function () {
 
+  $('.carrossel-travel').slick({
+      infinite: true,
+      slidesToShow: 3,
+      slidesToScroll: 1,  
+      prevArrow: $('#prev-travel'),
+      nextArrow: $('#next-travel'),
 
+      responsive: [
+          {
+            breakpoint: 1140,
+            settings: {
+              slidesToShow: 1,
+              slidesToScroll: 1,
+            }
+          }
+        ]
+  })
+})
 // CARROSSEL further
 $(function () {
 
@@ -180,26 +198,23 @@ $(function () {
   })
 })
 
+
 // MODAL MIDIA
 function openModal() {
   document.getElementById("myModal").style.display = "block";
 }
-
 function closeModal() {
   document.getElementById("myModal").style.display = "none";
 }
-
 var slideIndex = 1;
 showSlides(slideIndex);
 
 function plusSlides(n) {
   showSlides(slideIndex += n);
 }
-
 function currentSlide(n) {
   showSlides(slideIndex = n);
 }
-
 function showSlides(n) {
   var i;
   var slides = document.getElementsByClassName("mySlides");

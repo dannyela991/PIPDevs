@@ -447,45 +447,148 @@
         </div>
     </section>    
 
-    <section class="trends">
-        
-    <article class="midias">
-            <div class="container">
-                <div class="content-midia">
-                    <div class="carrossel-midia">                        
-                        <div class="item midia">
-                            <div class="img-midia">
-                                <img src="app/assets/images/bg-showcase-cultural.png" onclick="openModal()" class="hover-shadow" />
-                            </div>                    
-                        </div>
-                        <div class="item midia">
-                            <div class="container-iframe">
-                                <iframe class="responsive-iframe" src="https://www.youtube.com/embed/tgbNymZ7vqY"></iframe>
+    <section class="trends"> 
+        <article class="travel-news">
+            <div class="container flex-container">
+                <div class="col-title">
+                    <div class="title blue">
+                        <h2>Travel News</h2>
+                    </div>
+                    <div class="description">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id ducimus possimus aliquid recusandae repellendus cupiditate nesciunt</p>
+                    </div>
+                    <div class="read-more">
+                        <a class="btn bg-blue" href="#" title="">Ver todos</a>
+                    </div>
+                </div>
+                <div class="col-articles"> 
+                    <div class="carrossel-travel">
+                        <div class="item travel">
+                            <div class="img-travel"></div>
+                            <div class="title">
+                                <a href="" class="black"><h3>Título do Artigo</h3></a>
+                            </div>
+                            <div class="description">
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+                            </div>
+                            <div class="button-more">
+                                <a class="blue" href="#">
+                                    Ler mais
+                                </a>
                             </div>
                         </div>
-                        <div class="item midia">
-                            <div class="container-iframe">
-                                <iframe class="responsive-iframe" src="https://www.youtube.com/embed/tgbNymZ7vqY"></iframe>
+                        <div class="item travel">
+                            <div class="img-travel"></div>
+                            <div class="title">
+                                <a href="" class="black"><h3>Título do Artigo</h3></a>
                             </div>
-                        </div>                        
-                        <div class="item midia">
-                            <div class="container-iframe">
-                                <iframe class="responsive-iframe" src="https://www.youtube.com/embed/tgbNymZ7vqY"></iframe>
+                            <div class="description">
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id ducimus possimus aliquid recusandae repellendus cupiditate nesciunt</p>
                             </div>
-                        </div>                        
-                        <div class="item midia">
-                            <div class="container-iframe">
-                                <iframe class="responsive-iframe" src="https://www.youtube.com/embed/tgbNymZ7vqY"></iframe>
+                            <div class="button-more">
+                                <a class="blue" href="#">
+                                    Ler mais
+                                </a>
+                            </div>
+                        </div>
+                        <div class="item travel">
+                            <div class="img-travel"></div>
+                            <div class="title">
+                                <a href="" class="black"><h3>Título do Artigo</h3></a>
+                            </div>
+                            <div class="description">
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+                            </div>
+                            <div class="button-more">
+                                <a class="blue" href="#">
+                                    Ler mais
+                                </a>
+                            </div>
+                        </div>
+                        <div class="item travel">
+                            <div class="img-travel"></div>
+                            <div class="title">
+                                <a href="" class="black"><h3>Título do Artigo</h3></a>
+                            </div>
+                            <div class="description">
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+                            </div>
+                            <div class="button-more">
+                                <a class="blue" href="#">
+                                    Ler mais
+                                </a>
+                            </div>
+                        </div>
+                        <div class="item travel">
+                            <div class="img-travel"></div>
+                            <div class="title">
+                                <a href="" class="black"><h3>Título do Artigo</h3></a>
+                            </div>
+                            <div class="description">
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id ducimus possimus aliquid recusandae repellendus cupiditate nesciunt</p>
+                            </div>
+                            <div class="button-more">
+                                <a class="blue" href="#">
+                                    Ler mais
+                                </a>
                             </div>
                         </div>
                     </div>
-                    <div class="nav-midia">
-                        <a id="prev-midia" class="icon arrow-left">
+                        
+                    <div class="nav-travel">
+                        <a id="prev-travel" class="icon arrow-left">
                             <i class="fas fa-chevron-left"></i>
                         </a>
-                        <a id="next-midia" class="icon arrow-right">
+                        <a id="next-travel" class="icon arrow-right">
                             <i class="fas fa-chevron-right"></i>
                         </a>
+                    </div>
+                </div>
+            </div>
+        </article>    
+
+        <article class="midias">
+            <div class="container">                
+                <div class="content-midia">
+                    <div class="title">
+                        <h2>Lives e Vídeos</h2>
+                    </div>
+                    <div class="content-carrossel-midia">
+                        <div class="carrossel-midia">                        
+                            <div class="item midia">
+                                <div class="img-midia">
+                                    <img src="app/assets/images/video-youtube.png" onclick="openModal();currentSlide(1)" class="hover-shadow" />
+                                </div>                    
+                            </div>
+                            <div class="item midia">
+                                <div class="img-midia">
+                                    <img src="app/assets/images/video-vimeo.png" onclick="openModal();currentSlide(2)" class="hover-shadow" />
+                                </div>
+                            </div>
+                            <div class="item midia">
+                                <div class="img-midia">
+                                    <img src="app/assets/images/video-youtube-02.png" onclick="openModal();currentSlide(3)" class="hover-shadow" />
+                                </div>
+                            </div>                        
+                            <div class="item midia">
+                                <div class="img-midia">
+                                    <img src="app/assets/images/video-vimeo.png" onclick="openModal();currentSlide(4)" class="hover-shadow" />
+                                </div>
+                            </div>                        
+                            <div class="item midia">
+                                <div class="img-midia">
+                                    <img src="app/assets/images/video-youtube-02.png" onclick="openModal();currentSlide(5)" class="hover-shadow" />
+                                </div>
+                            </div>
+                        </div>
+                        <div class="nav-midia">
+                            <a id="prev-midia" class="icon arrow-left">
+                                <i class="fas fa-chevron-left"></i>
+                            </a>
+                            <a id="next-midia" class="icon arrow-right">
+                                <i class="fas fa-chevron-right"></i>
+                            </a>
+                        </div>
                     </div>
                 </div>
             </div>            
@@ -496,7 +599,27 @@
                         <div class="container-iframe">
                             <iframe class="responsive-iframe" src="https://www.youtube.com/embed/tgbNymZ7vqY"></iframe>
                         </div>
-                    </div>                    
+                    </div>
+                    <div class="mySlides">
+                        <div class="container-iframe">
+                            <iframe class="responsive-iframe" src="https://player.vimeo.com/video/589115579?h=b2e18a66b2&color=ef0004"></iframe>
+                        </div>
+                    </div>
+                    <div class="mySlides">
+                        <div class="container-iframe">
+                            <iframe class="responsive-iframe" src="https://www.youtube.com/embed/vNumRTHEIqE"></iframe>
+                        </div>
+                    </div>      
+                    <div class="mySlides">
+                        <div class="container-iframe">
+                        <iframe class="responsive-iframe" src="https://player.vimeo.com/video/589115579?h=b2e18a66b2&color=ef0004"></iframe>
+                        </div>
+                    </div>      
+                    <div class="mySlides">
+                        <div class="container-iframe">
+                            <iframe class="responsive-iframe" src="https://www.youtube.com/embed/tgbNymZ7vqY"></iframe>
+                        </div>
+                    </div>                          
                 </div>
             </div>        
         </article>
@@ -510,6 +633,9 @@
                     <div class="description">
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id ducimus possimus aliquid recusandae repellendus cupiditate nesciunt</p>
                     </div>
+                    <div class="read-more">
+                        <a class="btn bg-green" href="#" title="">Ver todos</a>
+                    </div>
                 </div>
                 <div class="col-articles">
                     <div class="carrossel-podcast">
@@ -518,7 +644,7 @@
                                 <a href="" class="black"><h3><i class="fas fa-podcast"></i> Título do Podcast</h3></a>
                             </div>
                             <div class="description">
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id ducimus possimus aliquid recusandae repellendus cupiditate nesciunt</p>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
                             </div>
                             <div class="button-more">
                                 <a class="green" href="#">
@@ -591,6 +717,7 @@
                 </div>
             </div>
         </article>
+        
     </section>
 
     <section class="further">
