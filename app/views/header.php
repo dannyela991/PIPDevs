@@ -12,7 +12,6 @@
     
     <script src="app/assets/jquery.min.js"></script>
     <link rel="stylesheet" href="app/assets/style.css">
-    <link rel="stylesheet" href="app/assets/colors.css">
     <!-- SLICK -->
     <link rel="stylesheet" type="text/css" href="app/assets/slick/slick.css"/>
 
@@ -21,8 +20,6 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;0,300;0,400;0,500;0,600;1,200;1,300;1,400;1,500;1,600&display=swap" rel="stylesheet">
 
-    
-
 </head>
 <body>
     <header id="top-page">
@@ -30,7 +27,7 @@
         <div class="container">
             <div class="header-nav">
                 <div class="logotipo">
-                    <a href="index.html" title="HomePage">
+                    <a href="home.php" title="HomePage">
                         <img src="app/assets/images/logotipo.svg" alt="Logotipo"/>
                     </a>
                 </div>
@@ -43,13 +40,12 @@
                                 </button>
                                 <div class="dropdown-content">
                                     <a href="#">Sobre Nós</a>
-                                    <a href="#">Vitrine 2021</a>
-                                    <a href="#">Vitrine 2020</a>
+                                    <a href="#">Edições Anteriores</a>
                                     <a href="#">Contato</a>
                                 </div>
                             </div> 
                             <a href="#home">Parceiros</a>
-                            <a href="#news">Corrente do bem</a>
+                            <a href="#news">Apoiadores</a>
                             <div class="dropdown">
                                 <button class="dropbtn">Prêmio 2022 
                                     <i class="fa fa-caret-down"></i>
@@ -58,7 +54,6 @@
                                     <a href="#">Cronograma</a>
                                     <a href="#">Como participar</a>
                                     <a href="#">Categorias</a>
-                                    <a href="#">Embaixadores</a>
                                     <a href="#">Política</a>
                                     <a href="#">Premiação</a>
                                 </div>
@@ -92,7 +87,7 @@
                 </div>
 
                 <!-- subscription links -->
-                <div class="subscription-links flex-container">
+                <div class="subscription-links">
                     <div class="button-subscription">
                         <a href="#" class="btn bg-yellow">Inscreva seu Projeto</a>
                     </div>

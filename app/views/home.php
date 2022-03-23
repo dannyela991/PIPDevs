@@ -147,401 +147,831 @@
 
     <section class="showcases">
         <div class="container">
-
             <div class="title">
                 <h2>Vitrine Prêmio Impactos Positivos 2022</h2>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id ducimus possimus aliquid recusandae repellendus cupiditate nesciunt</p>
             </div>
 
-            <div class="category-nav">
-                <div id="myBtnContainer">
-                    <!-- <div class="btn-icon">
-                        <img src="assets/images/icone.png" />
-                        <button class="filter-btn active" onclick="filterSelection('all')"> Show all</button>
-                    </div> -->
-                    <div class="btn-icon">
-                        <img src="app/assets/images/icon-business.svg" />
-                        <button class="filter-btn" onclick="filterSelection('business')"> Negócio<br>de Impacto</button>
-                        <p><small>Negócios (empresas e iniciativas) que se destacam no ecossistema de impacto</small></p>
+            <article class="showcase-flex">
+                <div class="col-showcase">
+                    <div class="line bussines">                    
+                        <div class="title">
+                            <h3><a href="#">Negócio de Impacto</a></h3>                        
+                        </div>
+                        <div class="box-carrossel-bussiness">
+                            <div class="carrossel-bussiness">
+                                <div class="card-project">
+                                    <div class="title-project flex-container">
+                                        <div class="logo-project">
+                                            <img src="app/assets/images/denario.png" alt=""/>
+                                        </div>
+                                        <div class="title">                                        
+                                            <h4>ECOPONTO DE ENTREGA VOLUNTÁRIA</h4>
+                                            <p class="eixo">Cidades</p>
+                                        </div>
+                                    </div>
+                                    <div class="description-project">
+                                        <p class="city-uf">TRÊS COROAS | RS</p>
+                                        <p>Promover a coleta seletiva nas escolas e entidades com foco na educação ambiental, através do incentivo da reciclagem, economia solidária e sustentabilidade.</p>
+                                        <div class="img-ods">
+                                            <ul>
+                                                <li><img src="app/assets/images/img-ods/01.png" alt=""/></li>
+                                                <li><img src="app/assets/images/img-ods/04.png" alt=""/></li>
+                                                <li><img src="app/assets/images/img-ods/09.png" alt=""/></li>
+                                                <li><img src="app/assets/images/img-ods/16.png" alt=""/></li>
+                                            </ul>
+                                        </div>
+                                        <div class="list-tags">
+                                            <ul>
+                                                <li>categoria</li>
+                                                <li>categoria</li>
+                                                <li>categoria</li>
+                                                <li>categoria</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card-project">
+                                    <div class="title-project flex-container">
+                                        <div class="logo-project">
+                                            <img src="app/assets/images/gva.png" alt=""/>
+                                        </div>
+                                        <div class="title">                                        
+                                            <h4>PROJETO CAPOEIRA UM MEIO DE TIRA AS CRIANCAS DAS RUAS E FAZER ATIVIDADES</h4>
+                                            <p class="eixo">Cidadania</p>
+                                        </div>
+                                    </div>
+                                    <div class="description-project">
+                                        <p class="city-uf">SAO PAULO JD MARCELO | SP</p>
+                                        <p>ajuda as criancas no dia a dia atividades fisicas</p>
+                                        <div class="img-ods">
+                                            <ul>
+                                                <li><img src="app/assets/images/img-ods/01.png" alt=""/></li>
+                                                <li><img src="app/assets/images/img-ods/04.png" alt=""/></li>
+                                                <li><img src="app/assets/images/img-ods/09.png" alt=""/></li>
+                                                <li><img src="app/assets/images/img-ods/16.png" alt=""/></li>
+                                            </ul>
+                                        </div>
+                                        <div class="list-tags">
+                                            <ul>
+                                                <li>categoria</li>
+                                                <li>categoria</li>
+                                                <li>categoria</li>
+                                                <li>categoria</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card-project">
+                                    <div class="title-project flex-container">
+                                        <div class="logo-project">
+                                            <img src="app/assets/images/denario.png" alt=""/>
+                                        </div>
+                                        <div class="title">                                        
+                                            <h4>PROJETO CAPOEIRA UM MEIO DE TIRA AS CRIANCAS DAS RUAS E FAZER ATIVIDADES</h4>
+                                            <p class="eixo">Cidadania</p>
+                                        </div>
+                                    </div>
+                                    <div class="description-project">
+                                        <p class="city-uf">SAO PAULO JD MARCELO | SP</p>
+                                        <p>ajuda as criancas no dia a dia atividades fisicas</p>
+                                        <div class="img-ods">
+                                            <ul>
+                                                <li><img src="app/assets/images/img-ods/01.png" alt=""/></li>
+                                                <li><img src="app/assets/images/img-ods/04.png" alt=""/></li>
+                                                <li><img src="app/assets/images/img-ods/09.png" alt=""/></li>
+                                                <li><img src="app/assets/images/img-ods/16.png" alt=""/></li>
+                                            </ul>
+                                        </div>
+                                        <div class="list-tags">
+                                            <ul>
+                                                <li>categoria</li>
+                                                <li>categoria</li>
+                                                <li>categoria</li>
+                                                <li>categoria</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card-project">
+                                    <div class="title-project flex-container">
+                                        <div class="logo-project">
+                                            <img src="app/assets/images/gva.png" alt=""/>
+                                        </div>
+                                        <div class="title">                                        
+                                            <h4>PROJETO CAPOEIRA UM MEIO DE TIRA AS CRIANCAS DAS RUAS E FAZER ATIVIDADES</h4>
+                                            <p class="eixo">Cidadania</p>
+                                        </div>
+                                    </div>
+                                    <div class="description-project">
+                                        <p class="city-uf">SAO PAULO JD MARCELO | SP</p>
+                                        <p>ajuda as criancas no dia a dia atividades fisicas</p>
+                                        <div class="img-ods">
+                                            <ul>
+                                                <li><img src="app/assets/images/img-ods/01.png" alt=""/></li>
+                                                <li><img src="app/assets/images/img-ods/04.png" alt=""/></li>
+                                                <li><img src="app/assets/images/img-ods/09.png" alt=""/></li>
+                                                <li><img src="app/assets/images/img-ods/16.png" alt=""/></li>
+                                            </ul>
+                                        </div>
+                                        <div class="list-tags">
+                                            <ul>
+                                                <li>categoria</li>
+                                                <li>categoria</li>
+                                                <li>categoria</li>
+                                                <li>categoria</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card-project">
+                                    <div class="title-project flex-container">
+                                        <div class="logo-project">
+                                            <img src="app/assets/images/gva.png" alt=""/>
+                                        </div>
+                                        <div class="title">                                        
+                                            <h4>PROJETO CAPOEIRA UM MEIO DE TIRA AS CRIANCAS DAS RUAS E FAZER ATIVIDADES</h4>
+                                            <p class="eixo">Cidadania</p>
+                                        </div>
+                                    </div>
+                                    <div class="description-project">
+                                        <p class="city-uf">SAO PAULO JD MARCELO | SP</p>
+                                        <p>ajuda as criancas no dia a dia atividades fisicas</p>
+                                        <div class="img-ods">
+                                            <ul>
+                                                <li><img src="app/assets/images/img-ods/01.png" alt=""/></li>
+                                                <li><img src="app/assets/images/img-ods/04.png" alt=""/></li>
+                                                <li><img src="app/assets/images/img-ods/09.png" alt=""/></li>
+                                                <li><img src="app/assets/images/img-ods/16.png" alt=""/></li>
+                                            </ul>
+                                        </div>
+                                        <div class="list-tags">
+                                            <ul>
+                                                <li>categoria</li>
+                                                <li>categoria</li>
+                                                <li>categoria</li>
+                                                <li>categoria</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                    <div class="btn-icon">
-                        <img src="app/assets/images/icon-investment.svg" />
-                        <button class="filter-btn" onclick="filterSelection('investment')"> Investimento<br>de Impacto</button>
-                        <p><small>Entidades de recursos e investimentos que fortalecem o ecossistema de impacto</small></p>
+                    <div class="line ecosystem">                    
+                        <div class="title">
+                            <h3><a href="#">Ecossistema de Impacto</a></h3>                        
+                        </div>
+                        <div class="box-carrossel-ecosystem">
+                            <div class="carrossel-ecosystem">
+                                <div class="card-project">
+                                    <div class="title-project flex-container">
+                                        <div class="logo-project">
+                                            <img src="app/assets/images/gva.png" alt=""/>
+                                        </div>
+                                        <div class="title">                                        
+                                            <h4>ECOPONTO DE ENTREGA VOLUNTÁRIA</h4>
+                                            <p class="eixo">Cidades</p>
+                                        </div>
+                                    </div>
+                                    <div class="description-project">
+                                        <p class="city-uf">TRÊS COROAS | RS</p>
+                                        <p>Promover a coleta seletiva nas escolas e entidades com foco na educação ambiental, através do incentivo da reciclagem, economia solidária e sustentabilidade.</p>
+                                        <div class="img-ods">
+                                            <ul>
+                                                <li><img src="app/assets/images/img-ods/01.png" alt=""/></li>
+                                                <li><img src="app/assets/images/img-ods/04.png" alt=""/></li>
+                                                <li><img src="app/assets/images/img-ods/09.png" alt=""/></li>
+                                                <li><img src="app/assets/images/img-ods/16.png" alt=""/></li>
+                                            </ul>
+                                        </div>
+                                        <div class="list-tags">
+                                            <ul>
+                                                <li>categoria</li>
+                                                <li>categoria</li>
+                                                <li>categoria</li>
+                                                <li>categoria</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card-project">
+                                    <div class="title-project flex-container">
+                                        <div class="logo-project">
+                                            <img src="app/assets/images/gva.png" alt=""/>
+                                        </div>
+                                        <div class="title">                                        
+                                            <h4>PROJETO CAPOEIRA UM MEIO DE TIRA AS CRIANCAS DAS RUAS E FAZER ATIVIDADES</h4>
+                                            <p class="eixo">Cidadania</p>
+                                        </div>
+                                    </div>
+                                    <div class="description-project">
+                                        <p class="city-uf">SAO PAULO JD MARCELO | SP</p>
+                                        <p>ajuda as criancas no dia a dia atividades fisicas</p>
+                                        <div class="img-ods">
+                                            <ul>
+                                                <li><img src="app/assets/images/img-ods/01.png" alt=""/></li>
+                                                <li><img src="app/assets/images/img-ods/04.png" alt=""/></li>
+                                                <li><img src="app/assets/images/img-ods/09.png" alt=""/></li>
+                                                <li><img src="app/assets/images/img-ods/16.png" alt=""/></li>
+                                            </ul>
+                                        </div>
+                                        <div class="list-tags">
+                                            <ul>
+                                                <li>categoria</li>
+                                                <li>categoria</li>
+                                                <li>categoria</li>
+                                                <li>categoria</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card-project">
+                                    <div class="title-project flex-container">
+                                        <div class="logo-project">
+                                            <img src="app/assets/images/gva.png" alt=""/>
+                                        </div>
+                                        <div class="title">                                        
+                                            <h4>PROJETO CAPOEIRA UM MEIO DE TIRA AS CRIANCAS DAS RUAS E FAZER ATIVIDADES</h4>
+                                            <p class="eixo">Cidadania</p>
+                                        </div>
+                                    </div>
+                                    <div class="description-project">
+                                        <p class="city-uf">SAO PAULO JD MARCELO | SP</p>
+                                        <p>ajuda as criancas no dia a dia atividades fisicas</p>
+                                        <div class="img-ods">
+                                            <ul>
+                                                <li><img src="app/assets/images/img-ods/01.png" alt=""/></li>
+                                                <li><img src="app/assets/images/img-ods/04.png" alt=""/></li>
+                                                <li><img src="app/assets/images/img-ods/09.png" alt=""/></li>
+                                                <li><img src="app/assets/images/img-ods/16.png" alt=""/></li>
+                                            </ul>
+                                        </div>
+                                        <div class="list-tags">
+                                            <ul>
+                                                <li>categoria</li>
+                                                <li>categoria</li>
+                                                <li>categoria</li>
+                                                <li>categoria</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card-project">
+                                    <div class="title-project flex-container">
+                                        <div class="logo-project">
+                                            <img src="app/assets/images/gva.png" alt=""/>
+                                        </div>
+                                        <div class="title">                                        
+                                            <h4>PROJETO CAPOEIRA UM MEIO DE TIRA AS CRIANCAS DAS RUAS E FAZER ATIVIDADES</h4>
+                                            <p class="eixo">Cidadania</p>
+                                        </div>
+                                    </div>
+                                    <div class="description-project">
+                                        <p class="city-uf">SAO PAULO JD MARCELO | SP</p>
+                                        <p>Promover a coleta seletiva nas escolas e entidades com foco na educação ambiental, através do incentivo da reciclagem, economia solidária e sustentabilidade</p>
+                                        <div class="img-ods">
+                                            <ul>
+                                                <li><img src="app/assets/images/img-ods/01.png" alt=""/></li>
+                                                <li><img src="app/assets/images/img-ods/04.png" alt=""/></li>
+                                                <li><img src="app/assets/images/img-ods/09.png" alt=""/></li>
+                                                <li><img src="app/assets/images/img-ods/16.png" alt=""/></li>
+                                            </ul>
+                                        </div>
+                                        <div class="list-tags">
+                                            <ul>
+                                                <li>categoria</li>
+                                                <li>categoria</li>
+                                                <li>categoria</li>
+                                                <li>categoria</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card-project">
+                                    <div class="title-project flex-container">
+                                        <div class="logo-project">
+                                            <img src="app/assets/images/gva.png" alt=""/>
+                                        </div>
+                                        <div class="title">                                        
+                                            <h4>PROJETO CAPOEIRA UM MEIO DE TIRA AS CRIANCAS DAS RUAS E FAZER ATIVIDADES</h4>
+                                            <p class="eixo">Cidadania</p>
+                                        </div>
+                                    </div>
+                                    <div class="description-project">
+                                        <p class="city-uf">SAO PAULO JD MARCELO | SP</p>
+                                        <p>ajuda as criancas no dia a dia atividades fisicas</p>
+                                        <div class="img-ods">
+                                            <ul>
+                                                <li><img src="app/assets/images/img-ods/01.png" alt=""/></li>
+                                                <li><img src="app/assets/images/img-ods/04.png" alt=""/></li>
+                                                <li><img src="app/assets/images/img-ods/09.png" alt=""/></li>
+                                                <li><img src="app/assets/images/img-ods/16.png" alt=""/></li>
+                                            </ul>
+                                        </div>
+                                        <div class="list-tags">
+                                            <ul>
+                                                <li>categoria</li>
+                                                <li>categoria</li>
+                                                <li>categoria</li>
+                                                <li>categoria</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>                            
+                        </div>
                     </div>
-                    <div class="btn-icon">
-                        <img src="app/assets/images/icon-government.svg" />
-                        <button class="filter-btn" onclick="filterSelection('government')"> Governo<br>de Impacto</button>
-                        <p><small>Iniciativas federais, estaduais, municipais que apoiam o ecossistema de impacto</small></p>
-                    </div>
-                    <div class="btn-icon">
-                        <img src="app/assets/images/icon-dynamize.svg" />
-                        <button class="filter-btn" onclick="filterSelection('dynamize')"> Dinamizador<br>de Impacto</button>
-                        <p><small>Incubadoras, aceleradoras, empresas que fomentam o ecossistema de impacto</small></p>
-                    </div>
-                    <div class="btn-icon">
-                        <img src="app/assets/images/icon-ecosystem.svg" />
-                        <button class="filter-btn" onclick="filterSelection('ecosystem')"> Ecossistema<br>de Impacto</button>
-                        <p><small>Regiões que estão desenvolvendo ecossistemas locais de impacto modelo</small></p>
+                    <div class="read-more">
+                        <a href="#" class="bg-yellow btn">Ver todos os projetos</a>
                     </div>
                 </div>
-
-                <div class="content flex-container">
-                    <div class="filterDiv ecosystem">
-                        <a href="#">
-                            <div class="card-img"></div>
-                        </a>
-                        <div class="content-category">
-                            <div class="title blue">
-                                <h3><a class="blue" href="" title="">Título Projeto</a></h3>
-                                <span class="localization black">Cidade/UF</span>
+                <div class="col-sponsors">
+                    <div class="title">
+                        <h3>Patrocinadores</h3>
+                    </div>
+                    <div class="carrossel">
+                        <div class="carrossel-sponsors">
+                            <div class="logo-item">
+                                <div class="img-logo">
+                                    <a href=""><img src="app/assets/images/logo-further/alma-pelo-mundo.png" alt=""/></a>
+                                </div>
                             </div>
-                            <div class="content-description">
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                            <div class="logo-item">
+                                <div class="img-logo">
+                                    <a href=""><img src="app/assets/images/logo-further/assis-e-mendes.png" alt=""/></a>
+                                </div>
                             </div>
-                            <div class="tags-lists green">
-                                <ul>
-                                    <li>Interesse</li>
-                                    <li>Interesse</li>
-                                    <li>Interesse</li>
-                                    <li>Interesse</li>
-                                </ul>
+                            <div class="logo-item">
+                                <div class="img-logo">
+                                    <a href=""><img src="app/assets/images/logo-further/banco-perola.png" alt=""/></a>
+                                </div>
+                            </div>
+                            <div class="logo-item">
+                                <div class="img-logo">
+                                    <a href=""><img src="app/assets/images/logo-further/cacadores-de-bons-exemplos.png" alt=""/></a>
+                                </div>
+                            </div>
+                            <div class="logo-item">
+                                <div class="img-logo">
+                                    <a href=""><img src="app/assets/images/logo-further/alma-pelo-mundo.png" alt=""/></a>
+                                </div>
+                            </div>
+                            <div class="logo-item">
+                                <div class="img-logo">
+                                    <a href=""><img src="app/assets/images/logo-further/assis-e-mendes.png" alt=""/></a>
+                                </div>
+                            </div>
+                            <div class="logo-item">
+                                <div class="img-logo">
+                                    <a href=""><img src="app/assets/images/logo-further/banco-perola.png" alt=""/></a>
+                                </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="filterDiv dynamize">
-                        <a href="#">
-                            <div class="card-img"></div>
-                        </a>
-                        <div class="content-category">
-                            <div class="title blue">
-                                <h3><a class="blue" href="" title="">Título Projeto</a></h3>
-                                <span class="localization black">Cidade/UF</span>
-                            </div>
-                            <div class="content-description">
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id ducimus possimus aliquid recusandae repellendus cupiditate nesciunt</p>
-                            </div>
-                            <div class="tags-lists green">
-                                <ul>
-                                    <li>Interesse</li>
-                                    <li>Interesse</li>
-                                    <li>Interesse</li>
-                                    <li>Interesse</li>
-                                </ul>
-                            </div>
+                        <div class="nav-sponsors">
+                            <a id="prev-sponsors" class="icon arrow-up">
+                            <i class="fas fa-chevron-up"></i>
+                            </a>
+                            <a id="next-sponsors" class="icon arrow-down">
+                            <i class="fas fa-chevron-down"></i>
+                            </a>
                         </div>
-                    </div>
-                    <div class="filterDiv dynamize">
-                        <a href="#">
-                            <div class="card-img"></div>
-                        </a>
-                        <div class="content-category">
-                            <div class="title blue">
-                                <h3><a class="blue" href="" title="">Título Projeto</a></h3>
-                                <span class="localization black">Cidade/UF</span>
-                            </div>
-                            <div class="content-description">
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id ducimus possimus aliquid recusandae repellendus cupiditate nesciunt</p>
-                            </div>
-                            <div class="tags-lists green">
-                                <ul>
-                                    <li>Interesse</li>
-                                    <li>Interesse</li>
-                                    <li>Interesse</li>
-                                    <li>Interesse</li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="filterDiv business">
-                        <a href="#">
-                            <div class="card-img"></div>
-                        </a>
-                        <div class="content-category">
-                            <div class="title blue">
-                                <h3><a class="blue" href="" title="">Título Projeto</a></h3>
-                                <span class="localization black">Cidade/UF</span>
-                            </div>
-                            <div class="content-description">
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
-                            </div>
-                            <div class="tags-lists green">
-                                <ul>
-                                    <li>Interesse</li>
-                                    <li>Interesse</li>
-                                    <li>Interesse</li>
-                                    <li>Interesse</li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="filterDiv investment">
-                        <a href="#">
-                            <div class="card-img"></div>
-                        </a>
-                        <div class="content-category">
-                            <div class="title blue">
-                                <h3><a class="blue" href="" title="">Título Projeto</a></h3>
-                                <span class="localization black">Cidade/UF</span>
-                            </div>
-                            <div class="content-description">
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id ducimus possimus aliquid recusandae repellendus cupiditate nesciunt</p>
-                            </div>
-                            <div class="tags-lists green">
-                                <ul>
-                                    <li>Interesse</li>
-                                    <li>Interesse</li>
-                                    <li>Interesse</li>
-                                    <li>Interesse</li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="filterDiv ecosystem">
-                        <a href="#">
-                            <div class="card-img"></div>
-                        </a>
-                        <div class="content-category">
-                            <div class="title blue">
-                                <h3><a class="blue" href="" title="">Título Projeto</a></h3>
-                                <span class="localization black">Cidade/UF</span>
-                            </div>
-                            <div class="content-description">
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id ducimus possimus aliquid recusandae repellendus cupiditate nesciunt</p>
-                            </div>
-                            <div class="tags-lists green">
-                                <ul>
-                                    <li>Interesse</li>
-                                    <li>Interesse</li>
-                                    <li>Interesse</li>
-                                    <li>Interesse</li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="filterDiv dynamize">
-                        <a href="#">
-                            <div class="card-img"></div>
-                        </a>
-                        <div class="content-category">
-                            <div class="title blue">
-                                <h3><a class="blue" href="" title="">Título Projeto</a></h3>
-                                <span class="localization black">Cidade/UF</span>
-                            </div>
-                            <div class="content-description">
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id ducimus possimus aliquid recusandae repellendus cupiditate nesciunt</p>
-                            </div>
-                            <div class="tags-lists green">
-                                <ul>
-                                    <li>Interesse</li>
-                                    <li>Interesse</li>
-                                    <li>Interesse</li>
-                                    <li>Interesse</li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="filterDiv business3">
-                        <a href="#">
-                            <div class="card-img"></div>
-                        </a>
-                        <div class="content-category">
-                            <div class="title blue">
-                                <h3><a class="blue" href="" title="">Título Projeto</a></h3>
-                                <span class="localization black">Cidade/UF</span>
-                            </div>
-                            <div class="content-description">
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id ducimus possimus aliquid recusandae repellendus cupiditate nesciunt</p>
-                            </div>
-                            <div class="tags-lists green">
-                                <ul>
-                                    <li>Interesse</li>
-                                    <li>Interesse</li>
-                                    <li>Interesse</li>
-                                    <li>Interesse</li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="filterDiv government">
-                        <a href="#">
-                            <div class="card-img"></div>
-                        </a>
-                        <div class="content-category">
-                            <div class="title blue">
-                                <h3><a class="blue" href="" title="">Título Projeto</a></h3>
-                                <span class="localization black">Cidade/UF</span>
-                            </div>
-                            <div class="content-description">
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id ducimus possimus aliquid recusandae repellendus cupiditate nesciunt</p>
-                            </div>
-                            <div class="tags-lists green">
-                                <ul>
-                                    <li>Interesse</li>
-                                    <li>Interesse</li>
-                                    <li>Interesse</li>
-                                    <li>Interesse</li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="filterDiv government" href="#">
-                        <a href="#">
-                            <div class="card-img"></div>
-                        </a>
-                        <div class="content-category">
-                            <div class="title blue">
-                                <h3><a class="blue" href="" title="">Título Projeto</a></h3>
-                                <span class="localization black">Cidade/UF</span>
-                            </div>
-                            <div class="content-description">
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-                            </div>
-                            <div class="tags-lists green">
-                                <ul>
-                                    <li>Interesse</li>
-                                    <li>Interesse</li>
-                                    <li>Interesse</li>
-                                    <li>Interesse</li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            
-            <div class="read-more">
-                <a class="btn bg-green" href="#">Ver todos os projetos</a>
-            </div>
-
-        </div>            
+                    </div>                 
+                </div> 
+            </article>
+        </div>
     </section>
 
     <section class="honor">
         <div class="container">
-            <div class="col-honor-content">
-                <div class="title">
-                    <h2>Homenagens e Certificações</h2>
-                </div>
-                <div class="content">
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id ducimus possimus aliquid recusandae repellendus cupiditate nesciunt</p>
-                </div>
+            <div class="title">
+                <h3>Homenagens</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
             </div>
-            <div class="link-logos">
-                <div class="carrossel-logos">
-                    <div class="logo-item">
-                        <div class="img-logo">
-                            <img src="app/assets/images/logo-global-s-fundo.png" alt=""/>
+
+            <div class="flex-container">
+                <div class="col-impacts">                            
+                    <img src="app/assets/images/impact-citizen.svg" alt=""/>
+                    <p><a href="#" title="">Cidadão<br>de impacto</a></p>                            
+                    <div class="list-impacts">
+                        <div class="list-item">
+                            <p class="name">Nome Cidadão de Impacto</p>
+                            <ul class="list-social">
+                                <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                                <li><a href="#"><i class="fab fa-facebook"></i></a></li>
+                                <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+                                <li><a href="#"><i class="fab fa-youtube"></i></a></li>
+                                <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                            </ul>
+                        </div>
+                        <div class="list-item">
+                            <p class="name">Nome Cidadão de Impacto</p>
+                            <ul class="list-social">
+                                <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                                <li><a href="#"><i class="fab fa-facebook"></i></a></li>
+                                <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+                                <li><a href="#"><i class="fab fa-youtube"></i></a></li>
+                                <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                            </ul>
+                        </div>
+                        <div class="list-item">
+                            <p class="name">Nome Cidadão de Impacto</p>
+                            <ul class="list-social">
+                                <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                                <li><a href="#"><i class="fab fa-facebook"></i></a></li>
+                                <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+                                <li><a href="#"><i class="fab fa-youtube"></i></a></li>
+                                <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                            </ul>
+                        </div>
+                        <div class="list-item">
+                            <p class="name">Nome Cidadão de Impacto</p>
+                            <ul class="list-social">
+                                <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                                <li><a href="#"><i class="fab fa-facebook"></i></a></li>
+                                <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+                                <li><a href="#"><i class="fab fa-youtube"></i></a></li>
+                                <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                            </ul>
+                        </div>
+                        <div class="list-item">
+                            <p class="name">Nome Cidadão de Impacto</p>
+                            <ul class="list-social">
+                                <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                                <li><a href="#"><i class="fab fa-facebook"></i></a></li>
+                                <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+                                <li><a href="#"><i class="fab fa-youtube"></i></a></li>
+                                <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                            </ul>
+                        </div>
+                        <div class="list-item">
+                            <p class="name">Nome Cidadão de Impacto</p>
+                            <ul class="list-social">
+                                <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                                <li><a href="#"><i class="fab fa-facebook"></i></a></li>
+                                <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+                                <li><a href="#"><i class="fab fa-youtube"></i></a></li>
+                                <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                            </ul>
+                        </div>
+                        <div class="list-item">
+                            <p class="name">Nome Cidadão de Impacto</p>
+                            <ul class="list-social">
+                                <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                                <li><a href="#"><i class="fab fa-facebook"></i></a></li>
+                                <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+                                <li><a href="#"><i class="fab fa-youtube"></i></a></li>
+                                <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                            </ul>
+                        </div>
+                        <div class="list-item">
+                            <p class="name">Nome Cidadão de Impacto</p>
+                            <ul class="list-social">
+                                <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                                <li><a href="#"><i class="fab fa-facebook"></i></a></li>
+                                <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+                                <li><a href="#"><i class="fab fa-youtube"></i></a></li>
+                                <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                            </ul>
+                        </div>
+                        <div class="list-item">
+                            <p class="name">Nome Cidadão de Impacto</p>
+                            <ul class="list-social">
+                                <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                                <li><a href="#"><i class="fab fa-facebook"></i></a></li>
+                                <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+                                <li><a href="#"><i class="fab fa-youtube"></i></a></li>
+                                <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                            </ul>
+                        </div>
+                        <div class="list-item">
+                            <p class="name">Nome Cidadão de Impacto</p>
+                            <ul class="list-social">
+                                <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                                <li><a href="#"><i class="fab fa-facebook"></i></a></li>
+                                <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+                                <li><a href="#"><i class="fab fa-youtube"></i></a></li>
+                                <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                            </ul>
                         </div>
                     </div>
-                </div>                   
-                <div class="nav-link-logos">
-                    <a id="prev-link-logos" class="icon arrow-left">
-                        <i class="fas fa-chevron-left"></i>
-                    </a>
-                    <a id="next-link-logos" class="icon arrow-right">
-                        <i class="fas fa-chevron-right"></i>
-                    </a>
+                </div>
+                <div class="col-impacts">
+                    <img src="app/assets/images/impact-institutions.svg" alt=""/>
+                    <p><a href="#" title="">Instituição<br>de impacto</a></p>
+                    <div class="list-impacts">
+                        <div class="list-item">
+                            <p class="name">Nome Insituições de Impacto</p>
+                            <ul class="list-social">
+                                <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                                <li><a href="#"><i class="fab fa-facebook"></i></a></li>
+                                <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+                                <li><a href="#"><i class="fab fa-youtube"></i></a></li>
+                                <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                            </ul>
+                        </div>
+                        <div class="list-item">
+                            <p class="name">Nome Insituições de Impacto</p>
+                            <ul class="list-social">
+                                <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                                <li><a href="#"><i class="fab fa-facebook"></i></a></li>
+                                <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+                                <li><a href="#"><i class="fab fa-youtube"></i></a></li>
+                                <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                            </ul>
+                        </div>
+                        <div class="list-item">
+                            <p class="name">Nome Insituições de Impacto</p>
+                            <ul class="list-social">
+                                <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                                <li><a href="#"><i class="fab fa-facebook"></i></a></li>
+                                <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+                                <li><a href="#"><i class="fab fa-youtube"></i></a></li>
+                                <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                            </ul>
+                        </div>
+                        <div class="list-item">
+                            <p class="name">Nome Insituições de Impacto</p>
+                            <ul class="list-social">
+                                <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                                <li><a href="#"><i class="fab fa-facebook"></i></a></li>
+                                <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+                                <li><a href="#"><i class="fab fa-youtube"></i></a></li>
+                                <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                            </ul>
+                        </div>
+                        <div class="list-item">
+                            <p class="name">Nome Insituições de Impacto</p>
+                            <ul class="list-social">
+                                <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                                <li><a href="#"><i class="fab fa-facebook"></i></a></li>
+                                <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+                                <li><a href="#"><i class="fab fa-youtube"></i></a></li>
+                                <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                            </ul>
+                        </div>
+                        <div class="list-item">
+                            <p class="name">Nome Insituições de Impacto</p>
+                            <ul class="list-social">
+                                <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                                <li><a href="#"><i class="fab fa-facebook"></i></a></li>
+                                <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+                                <li><a href="#"><i class="fab fa-youtube"></i></a></li>
+                                <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                            </ul>
+                        </div>
+                        <div class="list-item">
+                            <p class="name">Nome Insituições de Impacto</p>
+                            <ul class="list-social">
+                                <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                                <li><a href="#"><i class="fab fa-facebook"></i></a></li>
+                                <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+                                <li><a href="#"><i class="fab fa-youtube"></i></a></li>
+                                <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                            </ul>
+                        </div>
+                        <div class="list-item">
+                            <p class="name">Nome Insituições de Impacto</p>
+                            <ul class="list-social">
+                                <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                                <li><a href="#"><i class="fab fa-facebook"></i></a></li>
+                                <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+                                <li><a href="#"><i class="fab fa-youtube"></i></a></li>
+                                <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                            </ul>
+                        </div>
+                        <div class="list-item">
+                            <p class="name">Nome Insituições de Impacto</p>
+                            <ul class="list-social">
+                                <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                                <li><a href="#"><i class="fab fa-facebook"></i></a></li>
+                                <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+                                <li><a href="#"><i class="fab fa-youtube"></i></a></li>
+                                <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                            </ul>
+                        </div>
+                        <div class="list-item">
+                            <p class="name">Nome Insituições de Impacto</p>
+                            <ul class="list-social">
+                                <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                                <li><a href="#"><i class="fab fa-facebook"></i></a></li>
+                                <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+                                <li><a href="#"><i class="fab fa-youtube"></i></a></li>
+                                <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>                            
+                </div>
+                <div class="col-impacts">                            
+                    <img src="app/assets/images/impact-communicator.svg" alt=""/>
+                    <p><a href="#" title="">Comunicador<br>de impacto</a></p>
+                    <div class="list-impacts">
+                        <div class="list-item">
+                            <p class="name">Nome Comunicador de Impacto</p>
+                            <ul class="list-social">
+                                <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                                <li><a href="#"><i class="fab fa-facebook"></i></a></li>
+                                <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+                                <li><a href="#"><i class="fab fa-youtube"></i></a></li>
+                                <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                            </ul>
+                        </div>
+                        <div class="list-item">
+                            <p class="name">Nome Comunicador de Impacto</p>
+                            <ul class="list-social">
+                                <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                                <li><a href="#"><i class="fab fa-facebook"></i></a></li>
+                                <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+                                <li><a href="#"><i class="fab fa-youtube"></i></a></li>
+                                <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                            </ul>
+                        </div>
+                        <div class="list-item">
+                            <p class="name">Nome Comunicador de Impacto</p>
+                            <ul class="list-social">
+                                <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                                <li><a href="#"><i class="fab fa-facebook"></i></a></li>
+                                <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+                                <li><a href="#"><i class="fab fa-youtube"></i></a></li>
+                                <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                            </ul>
+                        </div>
+                        <div class="list-item">
+                            <p class="name">Nome Comunicador de Impacto</p>
+                            <ul class="list-social">
+                                <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                                <li><a href="#"><i class="fab fa-facebook"></i></a></li>
+                                <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+                                <li><a href="#"><i class="fab fa-youtube"></i></a></li>
+                                <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                            </ul>
+                        </div>
+                        <div class="list-item">
+                            <p class="name">Nome Comunicador de Impacto</p>
+                            <ul class="list-social">
+                                <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                                <li><a href="#"><i class="fab fa-facebook"></i></a></li>
+                                <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+                                <li><a href="#"><i class="fab fa-youtube"></i></a></li>
+                                <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                            </ul>
+                        </div>
+                        <div class="list-item">
+                            <p class="name">Nome Comunicador de Impacto</p>
+                            <ul class="list-social">
+                                <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                                <li><a href="#"><i class="fab fa-facebook"></i></a></li>
+                                <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+                                <li><a href="#"><i class="fab fa-youtube"></i></a></li>
+                                <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                            </ul>
+                        </div>
+                        <div class="list-item">
+                            <p class="name">Nome Comunicador de Impacto</p>
+                            <ul class="list-social">
+                                <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                                <li><a href="#"><i class="fab fa-facebook"></i></a></li>
+                                <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+                                <li><a href="#"><i class="fab fa-youtube"></i></a></li>
+                                <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                            </ul>
+                        </div>
+                        <div class="list-item">
+                            <p class="name">Nome Comunicador de Impacto</p>
+                            <ul class="list-social">
+                                <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                                <li><a href="#"><i class="fab fa-facebook"></i></a></li>
+                                <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+                                <li><a href="#"><i class="fab fa-youtube"></i></a></li>
+                                <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                            </ul>
+                        </div>
+                        <div class="list-item">
+                            <p class="name">Nome Comunicador de Impacto</p>
+                            <ul class="list-social">
+                                <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                                <li><a href="#"><i class="fab fa-facebook"></i></a></li>
+                                <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+                                <li><a href="#"><i class="fab fa-youtube"></i></a></li>
+                                <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                            </ul>
+                        </div>
+                        <div class="list-item">
+                            <p class="name">Nome Comunicador de Impacto</p>
+                            <ul class="list-social">
+                                <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                                <li><a href="#"><i class="fab fa-facebook"></i></a></li>
+                                <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+                                <li><a href="#"><i class="fab fa-youtube"></i></a></li>
+                                <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
-    </section>    
+        
+    </section>
+
+    <section class="certification">
+        <div class="container">
+            <div class="title">
+                <h3>Certificações</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>                
+            </div>
+            <div class="imgs-certifications flex-container">
+                <div class="img-certification">
+                    <img src="app/assets/images/ods3.png" alt=""/>
+                    <p>Certificado pela excelência na implementação das ODSs.</p>
+                </div>
+                <div class="img-certification">
+                    <img src="app/assets/images/ods3.png" alt=""/>
+                    <p>Troféu PIP 2022</p>
+                </div>
+            </div>
+        </div>
+    </section>
 
     <section class="trends"> 
         <article class="travel-news">
             <div class="container flex-container">
                 <div class="col-title">
-                    <div class="title blue">
-                        <h2>Travel News</h2>
+                    <div class="title">
+                        <h2>Trends News</h2>
                     </div>
                     <div class="description">
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id ducimus possimus aliquid recusandae repellendus cupiditate nesciunt</p>
-                    </div>
-                    <div class="read-more">
-                        <a class="btn bg-blue" href="#" title="">Ver todos</a>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id ducimus possimus aliquid recusandae repellendus cupiditate nesciunt</p>                
+                        <div class="read-more">
+                            <a class="btn bg-black" href="#" title="">Ver todos</a>
+                        </div>
                     </div>
                 </div>
-                <div class="col-articles"> 
-                    <div class="carrossel-travel">
+                <div class="col-articles">
+                    <div class="flex-container">
                         <div class="item travel">
                             <div class="img-travel"></div>
                             <div class="title">
-                                <a href="" class="black"><h3>Título do Artigo</h3></a>
+                                <h3><a href="#">Lorem ipsum dolor sit amet consectetur adipisicing elit</a></h3>
                             </div>
-                            <div class="description">
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
-                            </div>
-                            <div class="button-more">
-                                <a class="blue" href="#">
-                                    Ler mais
-                                </a>
+                            <div class="content-travel">
+                                <p class="description">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit amet consectetur adipis. Lorem ipsum
+                                </p>
+                                <ul class="list-tags">
+                                    <li><a href="#">Impacto</a></li>
+                                    <li><a href="#">Economia</a></li>
+                                    <li><a href="#">Ecosistema</a></li>
+                                </ul>
                             </div>
                         </div>
                         <div class="item travel">
                             <div class="img-travel"></div>
                             <div class="title">
-                                <a href="" class="black"><h3>Título do Artigo</h3></a>
+                                <h3><a href="#">Lorem ipsum dolor sit amet consectetur adipisicing elit</a></h3>
                             </div>
-                            <div class="description">
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id ducimus possimus aliquid recusandae repellendus cupiditate nesciunt</p>
-                            </div>
-                            <div class="button-more">
-                                <a class="blue" href="#">
-                                    Ler mais
-                                </a>
-                            </div>
-                        </div>
-                        <div class="item travel">
-                            <div class="img-travel"></div>
-                            <div class="title">
-                                <a href="" class="black"><h3>Título do Artigo</h3></a>
-                            </div>
-                            <div class="description">
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
-                            </div>
-                            <div class="button-more">
-                                <a class="blue" href="#">
-                                    Ler mais
-                                </a>
+                            <div class="content-travel">
+                                <p class="description">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit amet consectetur adipis. Lorem ipsum
+                                </p>
+                                <ul class="list-tags">
+                                    <li><a href="#">Impacto</a></li>
+                                    <li><a href="#">Economia</a></li>
+                                    <li><a href="#">Ecosistema</a></li>
+                                </ul>
                             </div>
                         </div>
                         <div class="item travel">
                             <div class="img-travel"></div>
                             <div class="title">
-                                <a href="" class="black"><h3>Título do Artigo</h3></a>
+                                <h3><a href="#">Lorem ipsum dolor sit amet consectetur adipisicing elit</a></h3>
                             </div>
-                            <div class="description">
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
-                            </div>
-                            <div class="button-more">
-                                <a class="blue" href="#">
-                                    Ler mais
-                                </a>
+                            <div class="content-travel">
+                                <p class="description">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit amet consectetur adipis. Lorem ipsum
+                                </p>
+                                <ul class="list-tags">
+                                    <li><a href="#">Impacto</a></li>
+                                    <li><a href="#">Economia</a></li>
+                                    <li><a href="#">Ecosistema</a></li>
+                                </ul>
                             </div>
                         </div>
                         <div class="item travel">
                             <div class="img-travel"></div>
                             <div class="title">
-                                <a href="" class="black"><h3>Título do Artigo</h3></a>
+                                <h3><a href="#">Lorem ipsum dolor sit amet consectetur adipisicing elit</a></h3>
                             </div>
-                            <div class="description">
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id ducimus possimus aliquid recusandae repellendus cupiditate nesciunt</p>
-                            </div>
-                            <div class="button-more">
-                                <a class="blue" href="#">
-                                    Ler mais
-                                </a>
+                            <div class="content-travel">
+                                <p class="description">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit amet consectetur adipis. Lorem ipsum
+                                </p>
+                                <ul class="list-tags">
+                                    <li><a href="#">Impacto</a></li>
+                                    <li><a href="#">Economia</a></li>
+                                    <li><a href="#">Ecosistema</a></li>
+                                </ul>
                             </div>
                         </div>
-                    </div>
-                        
-                    <div class="nav-travel">
-                        <a id="prev-travel" class="icon arrow-left">
-                            <i class="fas fa-chevron-left"></i>
-                        </a>
-                        <a id="next-travel" class="icon arrow-right">
-                            <i class="fas fa-chevron-right"></i>
-                        </a>
                     </div>
                 </div>
             </div>
@@ -569,12 +999,22 @@
                                 <div class="img-midia">
                                     <img src="app/assets/images/video-youtube-02.png" onclick="openModal();currentSlide(3)" class="hover-shadow" />
                                 </div>
-                            </div>                        
+                            </div>
+                            <div class="item midia">
+                                <div class="img-midia">
+                                    <img src="app/assets/images/video-youtube-02.png" onclick="openModal();currentSlide(3)" class="hover-shadow" />
+                                </div>
+                            </div>                                   
                             <div class="item midia">
                                 <div class="img-midia">
                                     <img src="app/assets/images/video-vimeo.png" onclick="openModal();currentSlide(4)" class="hover-shadow" />
                                 </div>
                             </div>                        
+                            <div class="item midia">
+                                <div class="img-midia">
+                                    <img src="app/assets/images/video-youtube-02.png" onclick="openModal();currentSlide(5)" class="hover-shadow" />
+                                </div>
+                            </div>                       
                             <div class="item midia">
                                 <div class="img-midia">
                                     <img src="app/assets/images/video-youtube-02.png" onclick="openModal();currentSlide(5)" class="hover-shadow" />
@@ -627,7 +1067,7 @@
         <article class="podcast">
             <div class="container flex-container">
                 <div class="col-title">
-                    <div class="title green">
+                    <div class="title">
                         <h2>News Podcast</h2>
                     </div>
                     <div class="description">
@@ -716,15 +1156,14 @@
                     </div>
                 </div>
             </div>
-        </article>
-        
+        </article>        
     </section>
 
     <section class="further">
         <div class="container">
             <div class="col-further-content">
                 <div class="title">
-                    <h2>Apoiadores e Patrocinadores</h2>
+                    <h2>Apoiadores</h2>
                 </div>
             </div>
             <div class="link-logos">
