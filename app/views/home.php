@@ -88,7 +88,7 @@
                         </div>
                     </div>
                     <div class="title">
-                        <h2><a href="" title="">Lorem ipsum dolor sit amet consectetur adipisicing elit</a></h2>
+                        <h2><a href="" title="">Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit amet consectetur adipisicing elit</a></h2>
                     </div>
                 </div>
             </div>
@@ -101,7 +101,7 @@
                             <a href="" title=""><span>Categoria</span></a>
                         </div>
                         <div class="title">
-                            <a href="" title=""><h2>Lorem ipsum dolor sit amet consectetur adipisicing elit</h2></a>
+                            <a href="" title=""><h2>Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit amet consectetur adipisicing elit</h2></a>
                         </div>
                     </div>
                     <div class="list-news">
@@ -315,7 +315,10 @@
                                         </div>
                                     </div>
                                 </div>
-                            </div>
+                            </div>                             
+                            <div class="read-more">
+                                <a href="#" class="bg-blue btn">Ver todos</a>
+                            </div>    
                         </div>
                     </div>
                     <div class="line ecosystem">                    
@@ -479,64 +482,34 @@
                                         </div>
                                     </div>
                                 </div>
-                            </div>                            
+                            </div>   
+                            <div class="read-more">
+                                <a href="#" class="bg-yellow btn">Ver todos</a>
+                            </div>                         
                         </div>
-                    </div>
-                    <div class="read-more">
-                        <a href="#" class="bg-yellow btn">Ver todos os projetos</a>
                     </div>
                 </div>
                 <div class="col-sponsors">
                     <div class="title">
                         <h3>Patrocinadores</h3>
-                    </div>
-                    <div class="carrossel">
-                        <div class="carrossel-sponsors">
-                            <div class="logo-item">
-                                <div class="img-logo">
-                                    <a href=""><img src="app/assets/images/logo-further/alma-pelo-mundo.png" alt=""/></a>
-                                </div>
-                            </div>
-                            <div class="logo-item">
-                                <div class="img-logo">
-                                    <a href=""><img src="app/assets/images/logo-further/assis-e-mendes.png" alt=""/></a>
-                                </div>
-                            </div>
-                            <div class="logo-item">
-                                <div class="img-logo">
-                                    <a href=""><img src="app/assets/images/logo-further/banco-perola.png" alt=""/></a>
-                                </div>
-                            </div>
-                            <div class="logo-item">
-                                <div class="img-logo">
-                                    <a href=""><img src="app/assets/images/logo-further/cacadores-de-bons-exemplos.png" alt=""/></a>
-                                </div>
-                            </div>
-                            <div class="logo-item">
-                                <div class="img-logo">
-                                    <a href=""><img src="app/assets/images/logo-further/alma-pelo-mundo.png" alt=""/></a>
-                                </div>
-                            </div>
-                            <div class="logo-item">
-                                <div class="img-logo">
-                                    <a href=""><img src="app/assets/images/logo-further/assis-e-mendes.png" alt=""/></a>
-                                </div>
-                            </div>
-                            <div class="logo-item">
-                                <div class="img-logo">
-                                    <a href=""><img src="app/assets/images/logo-further/banco-perola.png" alt=""/></a>
-                                </div>
-                            </div>
+                    </div>    
+                    <div class="logo-sponsors">
+                        <div class="img-sponsors">
+                            <img src="app/assets/images/logo-further/assis-e-mendes.png" alt=""/>
                         </div>
-                        <div class="nav-sponsors">
-                            <a id="prev-sponsors" class="icon arrow-up">
-                            <i class="fas fa-chevron-up"></i>
-                            </a>
-                            <a id="next-sponsors" class="icon arrow-down">
-                            <i class="fas fa-chevron-down"></i>
-                            </a>
+                        <div class="img-sponsors">
+                            <img src="app/assets/images/logo-further/cacadores-de-bons-exemplos.png" alt=""/>
                         </div>
-                    </div>                 
+                        <div class="img-sponsors">
+                            <img src="app/assets/images/logo-further/integracao-trade.png" alt=""/>
+                        </div>
+                        <div class="img-sponsors">
+                            <img src="app/assets/images/logo-further/dotsy.png" alt=""/>
+                        </div>
+                        <div class="img-sponsors">
+                            <img src="app/assets/images/logo-further/mulheres-do-turismo" alt=""/>
+                        </div>
+                    </div>            
                 </div> 
             </article>
         </div>
@@ -874,19 +847,23 @@
     </section>
 
     <section class="certification">
-        <div class="container">
-            <div class="title">
-                <h3>Certificações</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>                
-            </div>
-            <div class="imgs-certifications flex-container">
-                <div class="img-certification">
-                    <img src="app/assets/images/ods3.png" alt=""/>
-                    <p>Certificado pela excelência na implementação das ODSs.</p>
+        <div class="container flex-container">
+            <div class="col-certification">
+                <div class="title">
+                    <h3>Certificação Pacto Global</h3>
                 </div>
                 <div class="img-certification">
                     <img src="app/assets/images/ods3.png" alt=""/>
-                    <p>Troféu PIP 2022</p>
+                    <h4>Certificado pela excelência na implemantação das ODSs</h4>
+                </div>
+            </div>
+            <div class="col-trophy">
+                <div class="title">
+                    <h3>Troféu PIP 2022</h3>
+                </div>
+                <div class="img-certification">
+                    <img src="app/assets/images/trofeu.png" alt=""/>
+                    <h4>Lorem ipsum dolor sit amet consectetur adipisicing elit</h4>
                 </div>
             </div>
         </div>
@@ -911,7 +888,7 @@
                         <div class="item travel">
                             <div class="img-travel"></div>
                             <div class="title">
-                                <h3><a href="#">Lorem ipsum dolor sit amet consectetur adipisicing elit</a></h3>
+                                <h3><a href="#">Lorem ipsum dolor sit amet consectetur adipisicing elit Lorem ipsum dolor sit amet consectetur adipisicing elit</a></h3>
                             </div>
                             <div class="content-travel">
                                 <p class="description">
@@ -931,7 +908,7 @@
                             </div>
                             <div class="content-travel">
                                 <p class="description">
-                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit amet consectetur adipis. Lorem ipsum
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit amet consectetur adipis. Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit amet consectetur adipis. 
                                 </p>
                                 <ul class="list-tags">
                                     <li><a href="#">Impacto</a></li>
@@ -1014,12 +991,7 @@
                                 <div class="img-midia">
                                     <img src="app/assets/images/video-youtube-02.png" onclick="openModal();currentSlide(5)" class="hover-shadow" />
                                 </div>
-                            </div>                       
-                            <div class="item midia">
-                                <div class="img-midia">
-                                    <img src="app/assets/images/video-youtube-02.png" onclick="openModal();currentSlide(5)" class="hover-shadow" />
-                                </div>
-                            </div>
+                            </div>    
                         </div>
                         <div class="nav-midia">
                             <a id="prev-midia" class="icon arrow-left">
@@ -1081,15 +1053,30 @@
                     <div class="carrossel-podcast">
                         <div class="item podcast">
                             <div class="title">
-                                <a href="" class="black"><h3><i class="fas fa-podcast"></i> Título do Podcast</h3></a>
+                                <a href="" class="black"><h3><i class="fas fa-podcast"></i> Título do Podcast Lorem ipsum dolor sit amet consectetur adipisicing elit.</h3></a>
                             </div>
                             <div class="description">
                                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
                             </div>
-                            <div class="button-more">
-                                <a class="green" href="#">
-                                    Ouvir agora
-                                </a>
+                            <div class="podcast-audio">
+                                <audio controls>
+                                    <source src="app/assets/audio/kiss-i-was-made-for-lovin-you.mp3" type="audio/mpeg">
+                                    Seu navegador não suporta o elemento de áudio.
+                                </audio>
+                            </div>
+                        </div>
+                        <div class="item podcast">
+                            <div class="title">
+                                <a href="" class="black"><h3><i class="fas fa-podcast"></i> Título do Podcast Lorem ipsum dolor sit amet consectetur adipisicing elit.</h3></a>
+                            </div>
+                            <div class="description">
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id ducimus possimus aliquid recusandae repellendus cupiditate nesciunt</p>
+                            </div>
+                            <div class="podcast-audio">
+                                <audio controls>
+                                    <source src="app/assets/audio/kiss-i-was-made-for-lovin-you.mp3" type="audio/mpeg">
+                                    Seu navegador não suporta o elemento de áudio.
+                                </audio>
                             </div>
                         </div>
                         <div class="item podcast">
@@ -1099,10 +1086,11 @@
                             <div class="description">
                                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id ducimus possimus aliquid recusandae repellendus cupiditate nesciunt</p>
                             </div>
-                            <div class="button-more">
-                                <a class="green" href="#">
-                                    Ouvir agora
-                                </a>
+                            <div class="podcast-audio">
+                                <audio controls>
+                                    <source src="app/assets/audio/kiss-i-was-made-for-lovin-you.mp3" type="audio/mpeg">
+                                    Seu navegador não suporta o elemento de áudio.
+                                </audio>
                             </div>
                         </div>
                         <div class="item podcast">
@@ -1112,10 +1100,11 @@
                             <div class="description">
                                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id ducimus possimus aliquid recusandae repellendus cupiditate nesciunt</p>
                             </div>
-                            <div class="button-more">
-                                <a class="green" href="#">
-                                    Ouvir agora
-                                </a>
+                            <div class="podcast-audio">
+                                <audio controls>
+                                    <source src="app/assets/audio/kiss-i-was-made-for-lovin-you.mp3" type="audio/mpeg">
+                                    Seu navegador não suporta o elemento de áudio.
+                                </audio>
                             </div>
                         </div>
                         <div class="item podcast">
@@ -1125,23 +1114,11 @@
                             <div class="description">
                                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id ducimus possimus aliquid recusandae repellendus cupiditate nesciunt</p>
                             </div>
-                            <div class="button-more">
-                                <a class="green" href="#">
-                                    Ouvir agora
-                                </a>
-                            </div>
-                        </div>
-                        <div class="item podcast">
-                            <div class="title">
-                                <a href="" class="black"><h3><i class="fas fa-podcast"></i> Título do Podcast</h3></a>
-                            </div>
-                            <div class="description">
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id ducimus possimus aliquid recusandae repellendus cupiditate nesciunt</p>
-                            </div>
-                            <div class="button-more">
-                                <a class="green" href="#">
-                                    Ouvir agora
-                                </a>
+                            <div class="podcast-audio">
+                                <audio controls>
+                                    <source src="app/assets/audio/kiss-i-was-made-for-lovin-you.mp3" type="audio/mpeg">
+                                    Seu navegador não suporta o elemento de áudio.
+                                </audio>
                             </div>
                         </div>
                     </div>

@@ -228,14 +228,14 @@
   
     $('.carrossel-podcast').slick({
         infinite: true,
-        slidesToShow: 3,
+        slidesToShow: 2,
         slidesToScroll: 1,  
         prevArrow: $('#prev-podcast'),
         nextArrow: $('#next-podcast'),
   
         responsive: [
             {
-              breakpoint: 1140,
+              breakpoint: 769,
               settings: {
                 slidesToShow: 1,
                 slidesToScroll: 1,
