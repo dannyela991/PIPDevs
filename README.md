@@ -53,7 +53,7 @@ Lista de homenagiados cadastrados, até 10.
 
 Sessão estática?
 
-### Trands
+### Trends
 TRENDS NEWS
     - Últimas Notícias cadastradas
     Cards
