@@ -9,6 +9,27 @@
     text-decoration: none;
     font-family: 'Montserrat', sans-serif;
 }
+main{
+    margin-top: 120px;
+}
+@media  screen and (min-width: 768px){
+    main{
+        margin-top: 80px;
+    }
+}
+@media  screen and (min-width: 1140px){
+    main{
+        margin-top: 140px;
+    }    
+}
+body::-webkit-scrollbar {
+    width: 15px;               /* width of the entire scrollbar */
+}
+body::-webkit-scrollbar-thumb {
+    background-color: #32a7df;    /* color of the scroll thumb */
+    border-radius: 8px;       /* roundness of the scroll thumb */
+   
+  }
 /* COLORS */
 .green{
     color: #33cc99;
@@ -638,18 +659,7 @@ footer .description{
 
 /* Fullbanner slick */
 .fullbanner{
-    margin-top: 120px;
     position: relative;
-}
-@media screen and (min-width: 768px){
-    .fullbanner{
-        margin-top: 80px;
-    }
-}
-@media screen and (min-width: 1140px){
-    .fullbanner{
-        margin-top: 140px;
-    }
 }
 .fullbanner .read-more{
     width: 100%;

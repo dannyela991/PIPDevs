@@ -27,7 +27,7 @@
         <div class="container">
             <div class="header-nav">
                 <div class="logotipo">
-                    <a href="index.html" title="HomePage">
+                    <a href="index.php" title="HomePage">
                         <img src="app/assets/images/logotipo.svg" alt="Logotipo"/>
                     </a>
                 </div>
