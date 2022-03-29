@@ -91,7 +91,7 @@ include 'app/views/header.php';
                 <div class="card-news accent">
                     <div class="card-img news-accent">
                         <div class="category">
-                            <a href="" title=""><span>Categoria</span></a>
+                            <a href="" title=""><span>Notícias</span></a>
                         </div>
                     </div>
                     <div class="title">
@@ -173,7 +173,7 @@ include 'app/views/header.php';
                                             <img src="app/assets/images/denario.png" alt=""/>
                                         </div>
                                         <div class="title">                                        
-                                            <h4>ECOPONTO DE ENTREGA VOLUNTÁRIA</h4>
+                                            <a href="" title=""><h4>ECOPONTO DE ENTREGA VOLUNTÁRIA</h4></a>
                                             <p class="eixo">Cidades</p>
                                         </div>
                                     </div>
@@ -204,7 +204,7 @@ include 'app/views/header.php';
                                             <img src="app/assets/images/gva.png" alt=""/>
                                         </div>
                                         <div class="title">                                        
-                                            <h4>PROJETO CAPOEIRA UM MEIO DE TIRA AS CRIANCAS DAS RUAS E FAZER ATIVIDADES</h4>
+                                            <a href="" title=""><h4>PROJETO CAPOEIRA UM MEIO DE TIRA AS CRIANCAS DAS RUAS E FAZER ATIVIDADES</h4></a>
                                             <p class="eixo">Cidadania</p>
                                         </div>
                                     </div>
@@ -235,7 +235,7 @@ include 'app/views/header.php';
                                             <img src="app/assets/images/denario.png" alt=""/>
                                         </div>
                                         <div class="title">                                        
-                                            <h4>PROJETO CAPOEIRA UM MEIO DE TIRA AS CRIANCAS DAS RUAS E FAZER ATIVIDADES</h4>
+                                            <a href="" title=""><h4>PROJETO CAPOEIRA UM MEIO DE TIRA AS CRIANCAS DAS RUAS E FAZER ATIVIDADES</h4></a>
                                             <p class="eixo">Cidadania</p>
                                         </div>
                                     </div>
@@ -266,7 +266,7 @@ include 'app/views/header.php';
                                             <img src="app/assets/images/gva.png" alt=""/>
                                         </div>
                                         <div class="title">                                        
-                                            <h4>PROJETO CAPOEIRA UM MEIO DE TIRA AS CRIANCAS DAS RUAS E FAZER ATIVIDADES</h4>
+                                            <a href="" title=""><h4>PROJETO CAPOEIRA UM MEIO DE TIRA AS CRIANCAS DAS RUAS E FAZER ATIVIDADES</h4></a>
                                             <p class="eixo">Cidadania</p>
                                         </div>
                                     </div>
@@ -297,7 +297,7 @@ include 'app/views/header.php';
                                             <img src="app/assets/images/gva.png" alt=""/>
                                         </div>
                                         <div class="title">                                        
-                                            <h4>PROJETO CAPOEIRA UM MEIO DE TIRA AS CRIANCAS DAS RUAS E FAZER ATIVIDADES</h4>
+                                            <a href="" title=""><h4>PROJETO CAPOEIRA UM MEIO DE TIRA AS CRIANCAS DAS RUAS E FAZER ATIVIDADES</h4></a>
                                             <p class="eixo">Cidadania</p>
                                         </div>
                                     </div>
@@ -340,7 +340,7 @@ include 'app/views/header.php';
                                             <img src="app/assets/images/gva.png" alt=""/>
                                         </div>
                                         <div class="title">                                        
-                                            <h4>ECOPONTO DE ENTREGA VOLUNTÁRIA</h4>
+                                            <a href="" title=""><h4>ECOPONTO DE ENTREGA VOLUNTÁRIA</h4></a>
                                             <p class="eixo">Cidades</p>
                                         </div>
                                     </div>
@@ -371,7 +371,7 @@ include 'app/views/header.php';
                                             <img src="app/assets/images/gva.png" alt=""/>
                                         </div>
                                         <div class="title">                                        
-                                            <h4>PROJETO CAPOEIRA UM MEIO DE TIRA AS CRIANCAS DAS RUAS E FAZER ATIVIDADES</h4>
+                                            <a href="" title=""><h4>PROJETO CAPOEIRA UM MEIO DE TIRA AS CRIANCAS DAS RUAS E FAZER ATIVIDADES</h4></a>
                                             <p class="eixo">Cidadania</p>
                                         </div>
                                     </div>
@@ -402,7 +402,7 @@ include 'app/views/header.php';
                                             <img src="app/assets/images/gva.png" alt=""/>
                                         </div>
                                         <div class="title">                                        
-                                            <h4>PROJETO CAPOEIRA UM MEIO DE TIRA AS CRIANCAS DAS RUAS E FAZER ATIVIDADES</h4>
+                                            <a href="" title=""><h4>PROJETO CAPOEIRA UM MEIO DE TIRA AS CRIANCAS DAS RUAS E FAZER ATIVIDADES</h4></a>
                                             <p class="eixo">Cidadania</p>
                                         </div>
                                     </div>
@@ -433,7 +433,7 @@ include 'app/views/header.php';
                                             <img src="app/assets/images/gva.png" alt=""/>
                                         </div>
                                         <div class="title">                                        
-                                            <h4>PROJETO CAPOEIRA UM MEIO DE TIRA AS CRIANCAS DAS RUAS E FAZER ATIVIDADES</h4>
+                                            <a href="" title=""><h4>PROJETO CAPOEIRA UM MEIO DE TIRA AS CRIANCAS DAS RUAS E FAZER ATIVIDADES</h4></a>
                                             <p class="eixo">Cidadania</p>
                                         </div>
                                     </div>
@@ -464,7 +464,7 @@ include 'app/views/header.php';
                                             <img src="app/assets/images/gva.png" alt=""/>
                                         </div>
                                         <div class="title">                                        
-                                            <h4>PROJETO CAPOEIRA UM MEIO DE TIRA AS CRIANCAS DAS RUAS E FAZER ATIVIDADES</h4>
+                                            <a href="" title=""><h4>PROJETO CAPOEIRA UM MEIO DE TIRA AS CRIANCAS DAS RUAS E FAZER ATIVIDADES</h4></a>
                                             <p class="eixo">Cidadania</p>
                                         </div>
                                     </div>

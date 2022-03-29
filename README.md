@@ -86,6 +86,7 @@ Carrossel de Apoiadores
 
 ### Conteúdo post
 **Título do post**
+
 Info Post
 - **Autor**: com link para página com as publicações do autor
 - **Data publicação**
