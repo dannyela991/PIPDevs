@@ -106,4 +106,13 @@ Info Post
 
 ### sidebar
 
+**Últimas Notícias**
+4 ultimas notícias cadastradas
+
+**Categoria**
+A definir categorias das notícias
+
+**Imagem de pratrocinio**
+
+
 
