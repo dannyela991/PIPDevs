@@ -84,16 +84,26 @@ Carrossel de Apoiadores
 
 ## POST SINGLE
 
-Título do post
+### Conteúdo post
+**Título do post**
 Info Post
-- Autor: com link para página com as publicações do autor
-- Data publicação
+- **Autor**: com link para página com as publicações do autor
+- **Data publicação**
 
-**Imagem destaque** do Post
+**Imagem destaque**
 
-Conteúdo do post, pode conter:
+**Conteúdo do post**
 - Textos
 - imagens
 - Vídeos
 - Listas
+
+**Sessão autor do post**
+- Imagem do colunistas
+- Nome
+- Descrição
+- Link Página do Autor
+
+### sidebar
+
 
