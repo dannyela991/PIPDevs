@@ -10,24 +10,24 @@
     font-family: 'Montserrat', sans-serif;
 }
 main{
-    margin-top: 120px;
+    margin: 120px 0;
 }
 @media  screen and (min-width: 768px){
     main{
-        margin-top: 80px;
+        margin: 80px 0;
     }
 }
 @media  screen and (min-width: 1140px){
     main{
-        margin-top: 140px;
+        margin: 140px 0;
     }    
 }
 body::-webkit-scrollbar {
-    width: 15px;               /* width of the entire scrollbar */
+    width: 12px;               /* width of the entire scrollbar */
 }
 body::-webkit-scrollbar-thumb {
     background-color: #32a7df;    /* color of the scroll thumb */
-    border-radius: 8px;       /* roundness of the scroll thumb */
+    border-radius: 0;       /* roundness of the scroll thumb */
    
   }
 /* COLORS */
@@ -184,7 +184,7 @@ li.slick-active button {
 header{
     position: fixed;
     width: 100%;
-    background-color: #fff;
+    background-color: #ffffff;
     z-index: 999;
     top: 0;
 }
@@ -1536,3 +1536,273 @@ source{
 .img-logo{
     width: 100%;
 }
+/* END HOME PAGE */
+
+/* ==================== POST SINGLE ======================= */
+.post-single .flex-container{
+    align-items: flex-start;
+}
+.page-header{
+    padding: 50px 0;
+}
+.page-header h1{
+    text-transform: uppercase;
+    font-family: Gothan, sans-serif;
+    font-size: 32px;
+}
+.info-post{
+    margin-top: 15px;
+    font-size: 12px;
+    font-weight: bold;
+    color: #333;
+}
+.info-post span{
+    font-weight: normal;
+}
+.info-post a:hover{
+    text-decoration: underline;
+}
+ul.list-inline li{
+    display: inline;
+    list-style: none;
+    padding-right: 10px;
+    margin-right: 10px;
+    border-right: 1px solid #32a7df;
+}
+ul.list-inline li:last-child{
+    margin-right: 0;
+    border-right: none;
+}
+.content{
+    width: 100%;
+    padding: 0 20px;
+}
+@media  screen and (min-width: 768px){
+    .content{
+        width: 70%;
+        padding-right: 20px;
+        border-right: 1px solid #ccc;
+    }
+}
+@media  screen and (min-width: 1140px){
+    .content{
+        padding-right: 40px;
+    }    
+}
+.img-show{
+    text-align: center;
+    margin-bottom: 40px;
+}
+.img-show img{
+    width: 100%;
+}
+.content-post h1, .content-post h2, .content-post h3, .content-post h4, .content-post h5, .content-post h6{
+    margin-bottom: 20px;
+}
+.content-post p{
+    line-height: 1.5;
+    margin-bottom: 10px;
+}
+.container-img{
+    margin: 20px 0;
+    text-align: center;
+}
+.container-img img{
+    width: 80%;
+}
+.container-iframe {
+    position: relative;
+    margin: 30px 0;
+    width: 100%;
+    overflow: hidden;
+    padding-top: 56.25%; /* 16:9 Aspect Ratio */
+}  
+.responsive-iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    border: none;
+}
+.content-post ul {
+    margin-block-start: 0.5em;
+    margin-block-end: 0.5em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 20px;
+    list-style-type: square;
+}
+.content-post > ul{    
+    margin: 20px 0;
+}
+.content-post ul > ul{
+    list-style: circle;
+}
+.content-post a{
+    color: #32a7df;
+    font-weight: bold;
+}
+.content-post a:hover{
+    color: #32a7df;
+}
+/* author */
+.content-author{
+    margin-top: 50px;
+    border-top: 1px solid #ccc;
+    display: flex;
+    flex-direction: column;
+    padding: 20px 0;
+}
+.img-author{
+    width: 100%;
+    text-align: center;
+}
+.img-author img{
+    width: 60%;
+}
+.info-author{
+    width: 100%;
+    margin-top: 30px;
+    line-height: 1.5;
+}
+.info-author h3{
+    margin-bottom: 15px;
+    text-transform: uppercase;
+}
+.info-author p{
+    font-size: 14px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 5;
+    -webkit-box-orient: vertical;
+}
+.info-author .read-more{
+    text-align: right;
+}
+@media  screen and (min-width: 1140px){    
+    .content-author{
+        flex-direction: row;
+    }
+    .img-author{
+        width: 20%;
+    }
+    .img-author img{
+        width: 100%;
+    }
+    .info-author{
+        width: 80%;
+        padding-left: 20px;
+        margin-top: 0;
+    }
+}
+
+/* sidebar */
+.sidebar{
+    width: 100%;
+    padding: 50px 20px 0 40px;
+}
+.sidebar h2{
+    font-size: 18px;
+}
+@media  screen and (min-width: 768px){
+    .sidebar{
+        width: 30%;
+    }
+}
+@media  screen and (min-width: 1140px){
+    .sidebar h2{
+        font-size: 22px;
+    }
+}
+.card-post{
+    display: flex;
+    align-items: flex-start;
+    flex-direction: row;
+    padding: 10px 0;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #ccc;
+}
+.card-post:last-child{
+    border-bottom: none;
+}
+.post-single .card-img{
+    width: 18%;
+}
+.img-post{
+    background: url(images/img-news.png) center no-repeat;
+    background-size: cover;
+    height: 65px;
+}
+.sidebar .title{
+    width: 83%;
+    padding-left: 10px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+}
+.sidebar .title h3{
+    font-size: 14px;
+}
+@media  screen and (min-width: 768px){
+    .card-post{
+        flex-direction: column;
+    }
+    .post-single .card-img{
+        width: 100%;
+    }
+    .sidebar .title{
+        width: 100%;
+        padding-left: 0;
+    }
+}
+@media  screen and (min-width: 1140px){
+    .card-post{
+        flex-direction: row;
+    }
+    .post-single .card-img{
+        width: 18%;
+    }
+    .sidebar .title{
+        width: 83%;
+    }
+    .sidebar .title{        
+        padding-left: 10px;
+    }
+    .sidebar .title h3{
+        font-size: 18px;
+    }
+}
+.sidebar .title a:hover{
+    color: #32a7df;
+    text-decoration: underline;
+}
+.sidebar span.category{
+    font-size: 13px;
+}
+.list-category{
+    margin: 30px 0;
+}
+.list-category ul{
+    margin-top: 15px;
+}
+.list-category > ul li{
+    list-style: none;
+    line-height: 2;
+}
+.list-category li a:hover{
+    color: #32a7df;
+    text-decoration: underline;
+}
+
+/* ads post */
+.sidebar .img-ads img{
+    width: 100%;
+}
+
+/* relacionados */

@@ -323,3 +323,11 @@
     dots[slideIndex-1].className += " active";
     captionText.innerHTML = dots[slideIndex-1].alt;
   }
+
+  //REPONSIVE IFRAME
+  $(".content-post iframe").wrap("<div class='container-iframe'></div>");
+  $(".content-post iframe").addClass("responsive-iframe");
+  
+  //REPONSIVE IMG
+  $(".content-post img").wrap("<div class='container-img'></div>");
+  $(".content-post img").addClass("responsive-img");
