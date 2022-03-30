@@ -139,6 +139,9 @@ include 'app/views/header.php';
                     </div>
                     <div class="img-ads">
                         <img class="ads-img" src="app/assets/images/ads-post.png" />
+                    </div>                    
+                    <div class="img-ads">
+                        <img class="ads-img" src="app/assets/images/ads-post.png" />
                     </div>
                 </div>
             </div>            

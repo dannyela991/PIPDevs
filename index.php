@@ -1,6 +1,10 @@
+<!-- /* Site: Prêmio Impactos Positivos
+Autor: Global Vision
+Responsáveis:   Daniela Silva - Front End Project
+                Gustavo - Back End Project
+                Thiago - Back End Project*/ -->
+
 <?php
-/* Site: Prêmio Impactos Positivos
-Autor: Daniela - Font End GVA */
 // header
 include 'app/views/header.php';
 ?>
@@ -105,10 +109,10 @@ include 'app/views/header.php';
                 <div class="card-news">
                     <div class="list-news">
                         <div class="category">
-                            <a href="" title=""><span>Categoria</span></a>
+                            <a href="" title=""><span>Video</span></a>
                         </div>
                         <div class="title">
-                            <a href="" title=""><h2>Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit amet consectetur adipisicing elit</h2></a>
+                            <a href="media-single.php" title=""><h2>Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit amet consectetur adipisicing elit</h2></a>
                         </div>
                     </div>
                     <div class="list-news">

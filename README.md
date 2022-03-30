@@ -8,6 +8,7 @@ Repositório de todo CSS/HTML/JS Puro do sistema do Prêmio Impactos Positivos
 ### Fullbanner
  - Cadastro de imagens
  - URL se necessário
+ - Tamanho imagens: 1920x450 pixels (até 3M)
 
 ### Apresentação
 Sessão estática
@@ -16,7 +17,7 @@ Sessão estática
 COL 1
 - Notícia em Destaque
 - Título
-- Imagem da notícia
+- Imagem da notícia (até 3M)
 - Categoria: podcast, vídeo ou notícia
 
 COL 2
@@ -92,6 +93,9 @@ Info Post
 - **Data publicação**
 
 **Imagem destaque**
+- Escala 16:9
+- Horizontal
+- Até 3M (para não demorar para carregar)
 
 **Conteúdo do post**
 - Textos
@@ -114,6 +118,10 @@ Info Post
 A definir categorias das notícias
 
 **Imagem de pratrocinio**
+- Tamanho: 400x600 pixels
+- Até 3MB (para não demorar para carregar)
 
 
+## MEDIA SINGLE
 
+Mesmos elementos da página **Post Single**, mas sem a **Imagem de destaque**
