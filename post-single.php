@@ -137,6 +137,14 @@ include 'app/views/header.php';
                             <li><a href="">Categoria</a></li>
                         </ul>
                     </div>
+                    <div class="list-contents">
+                        <h2>Conteúdos</h2>
+                        <ul>
+                            <li><a href="trend-news.php">Notícias</a></li>
+                            <li><a href="medias.php">Lives e Vídeos</a></li>
+                            <li><a href="podcast.php">Podcast</a></li>
+                        </ul>
+                    </div>
                     <div class="img-ads">
                         <img class="ads-img" src="app/assets/images/ads-post.png" />
                     </div>                    

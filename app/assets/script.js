@@ -331,3 +331,6 @@
   //REPONSIVE IMG
   $(".content-post img").wrap("<div class='container-img'></div>");
   $(".content-post img").addClass("responsive-img");
+
+
+  

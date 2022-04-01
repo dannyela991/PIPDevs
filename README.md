@@ -119,9 +119,9 @@ A definir categorias das notícias
 
 **Imagem de pratrocinio**
 - Tamanho: 400x600 pixels
-- Até 3MB (para não demorar para carregar)
+- Até 3MB
 
 
 ## MEDIA SINGLE
 
-Mesmos elementos da página **Post Single**, mas sem a **Imagem de destaque**
+Mesmos elementos da página **Post Single**, sem a **Imagem de destaque**

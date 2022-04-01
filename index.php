@@ -99,7 +99,7 @@ include 'app/views/header.php';
                         </div>
                     </div>
                     <div class="title">
-                        <h2><a href="post-single.php" title="">Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit amet consectetur adipisicing elit</a></h2>
+                        <h2><a href="post-single.php" title="">Semear educação financeira e colher realizações</a></h2>
                     </div>
                 </div>
             </div>
@@ -112,7 +112,7 @@ include 'app/views/header.php';
                             <a href="" title=""><span>Video</span></a>
                         </div>
                         <div class="title">
-                            <a href="media-single.php" title=""><h2>Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit amet consectetur adipisicing elit</h2></a>
+                            <a href="media-single.php" title=""><h2>Noruega e o luxo inusitado IV com Liliana Calisto e Maria Alarcon de V.O.S.</h2></a>
                         </div>
                     </div>
                     <div class="list-news">
@@ -332,6 +332,9 @@ include 'app/views/header.php';
                             </div>    
                         </div>
                     </div>
+
+                    <div class="separate"></div>
+
                     <div class="line ecosystem">                    
                         <div class="title">
                             <h3><a href="#">Ecossistema de Impacto</a></h3>                        
@@ -881,7 +884,7 @@ include 'app/views/header.php';
     </section>
 
     <section class="trends"> 
-        <article class="travel-news">
+        <article class="trend-news">
             <div class="container flex-container">
                 <div class="col-title">
                     <div class="title">
@@ -896,28 +899,12 @@ include 'app/views/header.php';
                 </div>
                 <div class="col-articles">
                     <div class="flex-container">
-                        <div class="item travel">
-                            <div class="img-travel"></div>
-                            <div class="title">
-                                <h3><a href="#">Lorem ipsum dolor sit amet consectetur adipisicing elit Lorem ipsum dolor sit amet consectetur adipisicing elit</a></h3>
-                            </div>
-                            <div class="content-travel">
-                                <p class="description">
-                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit amet consectetur adipis. Lorem ipsum
-                                </p>
-                                <ul class="list-tags">
-                                    <li><a href="#">Impacto</a></li>
-                                    <li><a href="#">Economia</a></li>
-                                    <li><a href="#">Ecosistema</a></li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div class="item travel">
-                            <div class="img-travel"></div>
+                        <div class="item trend">
+                            <div class="img-trend"></div>
                             <div class="title">
                                 <h3><a href="#">Lorem ipsum dolor sit amet consectetur adipisicing elit</a></h3>
                             </div>
-                            <div class="content-travel">
+                            <div class="content-trend">
                                 <p class="description">
                                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit amet consectetur adipis. Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit amet consectetur adipis. 
                                 </p>
@@ -928,12 +915,12 @@ include 'app/views/header.php';
                                 </ul>
                             </div>
                         </div>
-                        <div class="item travel">
-                            <div class="img-travel"></div>
+                        <div class="item trend">
+                            <div class="img-trend"></div>
                             <div class="title">
                                 <h3><a href="#">Lorem ipsum dolor sit amet consectetur adipisicing elit</a></h3>
                             </div>
-                            <div class="content-travel">
+                            <div class="content-trend">
                                 <p class="description">
                                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit amet consectetur adipis. Lorem ipsum
                                 </p>
@@ -944,12 +931,12 @@ include 'app/views/header.php';
                                 </ul>
                             </div>
                         </div>
-                        <div class="item travel">
-                            <div class="img-travel"></div>
+                        <div class="item trend">
+                            <div class="img-trend"></div>
                             <div class="title">
                                 <h3><a href="#">Lorem ipsum dolor sit amet consectetur adipisicing elit</a></h3>
                             </div>
-                            <div class="content-travel">
+                            <div class="content-trend">
                                 <p class="description">
                                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit amet consectetur adipis. Lorem ipsum
                                 </p>

@@ -90,6 +90,14 @@ img{
     max-width: 100%;
     max-height: 100%;
 }
+.separate{
+    width: 100%;
+    height: 50px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-image: url(images/separate-01.png);
+}
 .arrows .icon{
     width:35px;
     height:35px;
@@ -959,14 +967,6 @@ footer .description{
     text-transform:uppercase;
     margin-bottom: 20px;
 }
-.showcases h2::after{
-    content:"\020";
-    display: block;
-    height: 4px;
-    margin: 10px auto;
-    width: 15%;   
-    background: #219770;
-}
 .showcase-flex{
     display: flex;
     flex-direction: column;
@@ -1193,7 +1193,7 @@ background-color: #ccc;    /* color of the scroll thumb */
 
 /* CERTIFICATIONS */
 .certification{
-    padding: 100px 0;
+    padding-top: 100px;
     text-align: center;
 }
 .certification .title h3{
@@ -1252,7 +1252,7 @@ background-color: #ccc;    /* color of the scroll thumb */
     position: relative;
 }
 @media  screen and (min-width: 768px){
-    .travel-news .container.flex-container{
+    .trend-news .container.flex-container{
         flex-direction: column;
     }
 }
@@ -1260,12 +1260,15 @@ background-color: #ccc;    /* color of the scroll thumb */
     .col-title{
         width: 35%;
     }
+    .trend-news .col-articles{
+        padding: 0 10px;
+    }
     .col-articles{
         width: 65%;
         margin-top: 0;
         padding: 0px 50px;
     }
-    .travel-news .container.flex-container{
+    .trend-news .container.flex-container{
         flex-direction: row;
     }
 }
@@ -1313,41 +1316,48 @@ background-color: #ccc;    /* color of the scroll thumb */
     -webkit-box-orient: vertical;
 
 }
-.travel-news .read-more{
+.trend-news .read-more{
     margin-top: 30px;
 }
-/* travel news */
-.travel-news{
+/* trend news */
+.trend-news{
     padding: 100px 0;
 }
 .col-articles .flex-container{
     flex-wrap: wrap;
     flex-direction: row;
 }
-.item.travel{
+.item.trend{
     border: none;
     width: 100%;
+    margin: 0;
+    padding: 10px;
 }
 @media  screen and (min-width: 768px){    
-    .item.travel{
-        width: 48%;
+    .item.trend{
+        width: 33%;
     }
 }
-.img-travel{
+.img-trend{
     height: 180px;
     width: 100%;
     background: url(images/img-news.png) center no-repeat;
     background-size: cover;
 }
-.travel .title a{
+.trend .title h3 a{
+    margin-top: 10px;
     text-transform: uppercase;
     color: #333;
+    font-size: 16px;
     text-decoration: underline;
     overflow: hidden;
     text-overflow: ellipsis;
     display: -webkit-box;
     -webkit-line-clamp: 2;
     -webkit-box-orient: vertical;
+}
+.trend .title h3 a:hover{
+    color: #32a7df;
 }
 .list-tags{
     margin-top: 15px;
@@ -1367,6 +1377,7 @@ ul.list-tags li{
     padding-right: 6px;
     text-transform: uppercase;
     font-weight: bold;
+    font-size: 12px;
 }
 ul.list-tags li:last-child{
     border-right: none;
@@ -1552,7 +1563,7 @@ source{
 /* END HOME PAGE */
 
 /* ==================== POST SINGLE ======================= */
-.post-single .flex-container{
+.post-single .flex-container, .archives .flex-container{
     align-items: flex-start;
 }
 .page-header{
@@ -1659,7 +1670,8 @@ ul.list-inline li:last-child{
     font-weight: bold;
 }
 .content-post a:hover{
-    color: #32a7df;
+    color: #0080bb;
+    text-decoration: underline;
 }
 /* author */
 .content-author{
@@ -1720,6 +1732,14 @@ ul.list-inline li:last-child{
 }
 .sidebar h2{
     font-size: 18px;
+}
+.sidebar h2::after{
+    content:"\020";
+    display: block;
+    height: 1px;
+    margin: 10px 0;
+    width: 50%;   
+    background: #32a7df;
 }
 @media  screen and (min-width: 768px){
     .sidebar{
@@ -1798,17 +1818,20 @@ ul.list-inline li:last-child{
 .sidebar span.category{
     font-size: 13px;
 }
-.list-category{
+.list-category, .list-contents{
     margin: 30px 0;
 }
-.list-category ul{
+.archives .list-category{
+    margin-top: 0;
+}
+.list-category ul, .list-contents ul{
     margin-top: 15px;
 }
-.list-category > ul li{
+.list-category > ul li, .list-contents > ul li{
     list-style: none;
     line-height: 2;
 }
-.list-category li a:hover{
+.list-category li a:hover, .list-contents li a:hover{
     color: #32a7df;
     text-decoration: underline;
 }
@@ -1821,4 +1844,98 @@ ul.list-inline li:last-child{
     width: 100%;
 }
 
-/* relacionados */
+
+/* ARCHIVES */
+.archives .page-header{
+    border-bottom: 2px solid #ccc;
+    margin-bottom: 50px;
+    padding-bottom: 20px;
+}
+.archives .page-header h1{
+    font-size: 48px;
+}
+.content-archives{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+.card{
+    width: 100%;
+    margin-bottom: 50px;
+    background-color: #f8f8ff;
+}
+@media  screen and (min-width: 768px){
+    .content-archives{
+        flex-direction: row;
+    }
+    .card{
+        width: 47%;
+        margin-right: 10px;
+    }
+}
+@media  screen and (min-width: 1140px){
+    .card{
+        width: 31%;
+        margin-right: 20px;
+    }
+}
+.img-card{
+    width: 100%;
+    height: 150px;
+    background: url(images/rodas-de-conversa-sero-sobre-educao-financeira-em-maro.png) center no-repeat;
+    background-size: cover;
+}
+.description-article{
+    padding: 10px 20px 20px;
+}
+.description-article h2{
+    font-size: 20px;
+    text-decoration: underline;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+}
+.description-article h2:hover{
+    color: #32a7df;
+}
+.description-article p{
+    padding-top: 10px;
+    font-size: 14px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;
+}
+.description-article .read-more{
+    text-align: right;
+    color: #0080bb;
+}
+.description-article .read-more a{
+    color: #0080bb;
+    font-weight: bold;
+    font-size: 14px;
+}
+.description-article .read-more a:hover{
+    background-color: #32a7df;
+    color: #f8f8ff;
+}
+.pagination{
+    text-align: center;
+}
+.pagination ul li{
+    display: inline;
+    padding: 6px;
+}
+.pagination ul li a{
+    padding: 6px;
+    font-weight: bold;
+}
+.pagination ul li a.active, .pagination ul li a:hover{
+    background-color: #0080bb;
+    color: #fff;
+}
