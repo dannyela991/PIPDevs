@@ -7,7 +7,15 @@ include 'app/views/header.php';
     <section class="post-single">
         <div class="container">
             <div class="flex-container">
-                <div class="content">
+                <div class="content">                    
+                    <div class="nav-posts">
+                        <ul class="inline">
+                            <li><a href="posts.php"><i class="fas fa-home"></i></a></li>
+                            <li><a href="medias.php">Lives e Vídeos</a></li>
+                            <li><a href="#">Categoria</a></li>
+                            <li><a href="media-single.php" class="active">Titulo Post</a></li>
+                        </ul>
+                    </div>
                     <div class="page-header">
                         <h1>Noruega e o luxo inusitado IV com Liliana Calisto e Maria Alarcon de V.O.S.</h1>
                         <div class="info-post">
@@ -64,7 +72,7 @@ include 'app/views/header.php';
                 <!-- sidebar -->
                 <div class="sidebar">
                     <div class="latest-post">
-                        <h2>Últimos Vídeos</h2>
+                        <h2>Últimas Publicações</h2>
                         <div class="card-post">
                             <div class="card-img">
                                 <div class="img-post"></div>

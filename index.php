@@ -344,7 +344,7 @@ include 'app/views/header.php';
                                 <div class="card-project">
                                     <div class="title-project flex-container">
                                         <div class="logo-project">
-                                            <img src="app/assets/images/gva.png" alt=""/>
+                                            <img src="app/assets/images/logo-global-s-fundo.png" alt=""/>
                                         </div>
                                         <div class="title">                                        
                                             <a href="" title=""><h4>ECOPONTO DE ENTREGA VOLUNTÁRIA</h4></a>
@@ -498,7 +498,7 @@ include 'app/views/header.php';
                                 </div>
                             </div>   
                             <div class="read-more">
-                                <a href="#" class="bg-yellow btn">Ver todos</a>
+                                <a href="#" class="bg-green btn">Ver todos</a>
                             </div>                         
                         </div>
                     </div>

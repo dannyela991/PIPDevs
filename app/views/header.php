@@ -11,6 +11,7 @@
     <script src="https://kit.fontawesome.com/4c0e9dac04.js" crossorigin="anonymous"></script>
     
     <script src="app/assets/jquery.min.js"></script>
+    <script src="app/assets/jquery.mask.min.js"></script>
     <link rel="stylesheet" href="app/assets/style.css">
     <!-- SLICK -->
     <link rel="stylesheet" type="text/css" href="app/assets/slick/slick.css"/>
@@ -89,7 +90,7 @@
                 <!-- subscription links -->
                 <div class="subscription-links">
                     <div class="button-subscription">
-                        <a href="#" class="btn bg-yellow">Inscreva seu Projeto</a>
+                        <a href="form-projects.php" class="btn bg-yellow">Inscreva seu Projeto</a>
                     </div>
                     <div class="button-subscription">
                         <a href="#" class="btn bg-green">Cadastre-se para Votar</a>

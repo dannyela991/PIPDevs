@@ -128,7 +128,7 @@ img{
     right: 50%;
 }
 .read-more{
-    margin-top: 15px;
+    margin-top: 30px;
 }
 .button-more{
     text-align: right;
@@ -161,19 +161,10 @@ li.slick-active button {
 }
 /* CONTAINER */
 .container{
-    max-width: 375px;
+    max-width: 1400px;
     margin: 0 auto;
     position: relative;
-}
-@media  screen and (min-width: 768px){
-    .container{
-        max-width: 750px;
-    }
-}
-@media  screen and (min-width: 1140px){
-    .container{
-        max-width: 1400px;
-    }
+    padding: 0 30px;
 }
 
 /* FLEXBOX */
@@ -401,6 +392,7 @@ header{
     padding: 8px;
     font-size: 20px;
     cursor: pointer;
+    border-radius: 4px;
 }
 .openBtn:hover {
     background: #0080bb;
@@ -495,7 +487,7 @@ header{
 }
 .subscription-links{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     flex-direction: row;
 }
 .button-subscription{
@@ -521,7 +513,7 @@ header{
 }
 @media screen and (min-width: 1140px){    
     .subscription-links{
-        width: 450px;
+        width: 500px;
         top: 90px;
         right: 250px;
     }
@@ -924,7 +916,13 @@ footer .description{
     -webkit-line-clamp: 2;
     -webkit-box-orient: vertical;
 }
-
+.list-news .title a:hover{
+    color: #32a7df;
+}
+.list-news .category a{
+    color: #33cc99;
+    font-weight: bold;
+}
 /* COL ADS */
 .card-news .img-ads{
     width: 100%;
@@ -963,7 +961,7 @@ footer .description{
 .showcases h2{
     font-family: Gothan, sans-serif;
     font-weight: bold;
-    font-size: 28px;
+    font-size: 38px;
     text-transform:uppercase;
     margin-bottom: 20px;
 }
@@ -1118,7 +1116,7 @@ footer .description{
     text-align: center;
 }
 .honor h3{
-    font-size: 26px;
+    font-size: 38px;
     text-transform: uppercase;
 }
 .honor .flex-container{
@@ -1392,7 +1390,6 @@ ul.list-tags li:last-child{
     text-align: center;
     padding-bottom: 22px;
     font-size: 24px;
-    color: #333;
     font-family: Gothan, sans-serif;
 }
 @media  screen and (min-width: 1140px){
@@ -1548,7 +1545,6 @@ source{
 .col-further-content .title{
     margin-bottom: 40px;
     font-size: 26px;
-    color: #333;
 }
 .link-logos{
     position: relative;
@@ -1567,7 +1563,7 @@ source{
     align-items: flex-start;
 }
 .page-header{
-    padding: 50px 0;
+    padding: 30px 0;
 }
 .page-header h1{
     text-transform: uppercase;
@@ -1844,12 +1840,38 @@ ul.list-inline li:last-child{
     width: 100%;
 }
 
-
 /* ARCHIVES */
+.nav-posts{
+    margin-top: 50px;
+    width: 100%;
+}
+.nav-posts ul.inline li{
+    display: inline-block;
+    padding-right: 8px;
+    font-size: 12px;
+}
+.nav-posts ul.inline li::after{
+    content: ">"; /* Insert content that looks like bullets */
+    padding-left: 8px;
+    color: #ccc; /* Or a color you prefer */
+}
+.nav-posts ul.inline li:last-child::after{
+    content: none;
+}
+.nav-posts a{
+    color: #bbb;
+}
+.nav-posts a:hover{
+    color: #0080bb;
+}
+.nav-posts a.active{
+    color: #0080bb;
+}
 .archives .page-header{
     border-bottom: 2px solid #ccc;
     margin-bottom: 50px;
     padding-bottom: 20px;
+    padding-top: 30px;
 }
 .archives .page-header h1{
     font-size: 48px;
@@ -1886,6 +1908,22 @@ ul.list-inline li:last-child{
     height: 150px;
     background: url(images/rodas-de-conversa-sero-sobre-educao-financeira-em-maro.png) center no-repeat;
     background-size: cover;
+}
+.posts .img-card{
+    position: relative;
+}
+.posts .img-card span.category{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    padding: 8px 0;
+    background: rgba(0, 0, 0, 0.8);
+    width: 70%;
+    color: #fff;
+    font-weight: bold;
+    border-radius: 0 10px 0 0;
+    text-align: center;
+    text-transform: uppercase;
 }
 .description-article{
     padding: 10px 20px 20px;
@@ -1924,6 +1962,16 @@ ul.list-inline li:last-child{
     background-color: #32a7df;
     color: #f8f8ff;
 }
+.content-archives .card.podcast{
+    padding-top: 0;
+}
+.content-post audio{
+    width: 100%;
+    height: 55px;
+    box-shadow: 3px 3px 10px #333;
+    margin: 50px 0;
+    border-radius: 10px;
+}
 .pagination{
     text-align: center;
 }
@@ -1939,3 +1987,108 @@ ul.list-inline li:last-child{
     background-color: #0080bb;
     color: #fff;
 }
+
+/* form */
+.regForm .page-header{
+    background-color: #f2f2f2;
+}
+.regForm .page-header h1{
+    margin-bottom: 20px;
+}
+.regForm .page-header span{
+    font-size: 45px;
+}
+.regForm form{
+    width: 100%;
+    margin: 80px auto;
+}
+fieldset{
+    border: none;
+    margin-bottom: 50px;
+}
+fieldset.step h2{
+    text-transform: uppercase;
+    font-family: Gothan, sans-serif;
+    margin-bottom: 50px;
+}
+fieldset.step h2::after{    
+    content: "\020";
+    display: block;
+    height: 6px;
+    margin: 5px 0;
+    width: 100%;
+    background: #0080bb;
+}
+fieldset.step h2::before{    
+    content: "\020";
+    display: block;
+    height: 6px;
+    margin: 5px 0;
+    width: 100%;
+    background: #0080bb;
+}
+.regForm label:not('label.content-checkbox'){
+    font-size: 18px;
+    font-weight: bold;
+    padding: 10px 0;
+}
+.regForm input{
+    line-height: 3;
+    display: block;
+    width: 100%;
+    margin: 8px 0;
+    border: 1px solid #ccc;
+    padding: 0 6px;
+}
+.regForm select{
+    padding: 12px 0;
+    display: block;
+    width: 100%;
+    margin: 8px 0;
+    border: 1px solid #ccc;
+}
+.regForm input[type="checkbox"], .regForm input[type="radio"]{
+    width: auto;
+    display: inline;
+    font-size: 22px;
+    width: 20px;
+    height: 20px;
+    vertical-align: middle;
+
+}
+.regForm label span{
+    font-size: 12px;
+    color: rgb(130, 130, 130);
+}
+.flex-form{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: space-between;
+    align-content: space-between;
+}
+.flex-form .form-group{
+    width: 100%;
+}
+.form-group{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+@media  screen and (min-width: 768px){
+    .flex-form .form-group{
+        width: 47%;
+    }
+}
+@media  screen and (min-width: 1140px){
+    .regForm form{
+        width: 70%;
+        margin: 80px auto;
+    }
+}
+
+
+
+

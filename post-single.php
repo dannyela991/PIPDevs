@@ -10,6 +10,14 @@ include 'app/views/header.php';
             <div class="flex-container">
                 <!-- content -->
                 <div class="content">
+                    <div class="nav-posts">
+                        <ul class="inline">
+                            <li><a href="posts.php"><i class="fas fa-home"></i></a></li>
+                            <li><a href="trend-news.php">Notícias</a></li>
+                            <li><a href="#">Categoria</a></li>
+                            <li><a href="post-single.php" class="active">Titulo Post</a></li>
+                        </ul>
+                    </div>
                     <div class="page-header">
                         <h1>Semear educação financeira e colher realizações</h1>
                         <div class="info-post">
@@ -87,7 +95,7 @@ include 'app/views/header.php';
                 <!-- sidebar -->
                 <div class="sidebar">
                     <div class="latest-post">
-                        <h2>Últimas Notícias</h2>
+                        <h2>Últimas Publicações</h2>
                         <div class="card-post">
                             <div class="card-img">
                                 <div class="img-post"></div>

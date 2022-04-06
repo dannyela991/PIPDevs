@@ -332,5 +332,9 @@
   $(".content-post img").wrap("<div class='container-img'></div>");
   $(".content-post img").addClass("responsive-img");
 
+//MASK PHONE
+$("#tel-phone").mask("(00) 00000-0000");
+$("#tel-fixed").mask("(00) 0000-0000");
 
-  
+
+

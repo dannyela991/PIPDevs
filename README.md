@@ -34,7 +34,7 @@ COL 3
 
 COL 1
 - Categoria Negócio de Impacto e Ecossistema de Impacto - Mostrar últimos 5 projetos / mais votados
-    - Logo empresa
+    - Logo empresa **tamanho 300x120 pixels**
     - Título do projeto
     - Eixo / Subcategoria
     - Localização
