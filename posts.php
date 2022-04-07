@@ -9,14 +9,6 @@ include 'app/views/header.php';
             <div class="flex-container"> 
                 <!-- content --> 
                 <div class="content">
-                    <!-- <div class="nav-posts">
-                        <ul class="inline">
-                            <li><a href="posts.php" class="active"><i class="fas fa-home"></i></a></li>
-                            <li><a href="#">Lives e Vídeos</a></li>
-                            <li><a href="#">Categoria</a></li>
-                            <li><a href="#">Titulo Post</a></li>
-                        </ul>
-                    </div> -->
                     <div class="page-header">
                         <h1>Portal de Conteúdos</h1>
                     </div>

@@ -82,8 +82,33 @@ Carrossel de Apoiadores
 - Link externo
     
 
+## LISTA DE ARTIGOS
 
-## POST SINGLE
+1. Página central para todas as publicações / Portal de conteúdo
+- Imagem de destaque (link)
+- Categoria da publicação (span: podcast/notícias/vídeo)
+- Título publicação (link)
+- Resumo publicação
+- Link para publicação
+
+2. Página central para Notícias / Midias / Podcast
+- Sem categoria da publicação
+
+**Lista de Navegação do portal**
+1. Ínicio
+2. Categoria da publicação (video, notícia, podcast)
+3. Categoria do post
+4. Título do post
+
+**sidebar**
+1. Categorias dos posts (a definir)
+2. Conteúdo
+3. Ultimas publicações
+4. Banner ADS (2 imagens link)
+
+
+
+## POST SINGLE / MEDIA SINGLE / PODCAST SINGLE
 
 ### Conteúdo post
 **Título do post**
@@ -121,7 +146,20 @@ A definir categorias das notícias
 - Tamanho: 400x600 pixels
 - Até 3MB
 
+## VITRINE PROJETOS
+1. Lista de projetos
+    - Categoria Negócio de Impacto e Ecossistema de Impacto
+        - Logo empresa **tamanho 300x120 pixels** (link)
+        - Título do projeto (link)
+        - Eixo / Subcategoria
+        - Localização
+        - Objetivo do projeto
+        - Imagens ODSs
 
-## MEDIA SINGLE
 
-Mesmos elementos da página **Post Single**, sem a **Imagem de destaque**
+**sidebar**
+1. Categoria projetos
+    - Dropdown com os eixos
+2. Conteúdos
+3. Banner ADS (2 imagens link)
+

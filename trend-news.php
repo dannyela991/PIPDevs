@@ -234,7 +234,7 @@ include 'app/views/header.php';
                         </ul>
                     </div>
                     <div class="latest-post">
-                        <h2>Últimos Vídeos</h2>
+                        <h2>Últimas Publicações</h2>
                         <div class="card-post">
                             <div class="card-img">
                                 <div class="img-post"></div>

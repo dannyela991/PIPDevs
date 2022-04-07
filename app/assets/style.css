@@ -1023,15 +1023,21 @@ footer .description{
 .title-project.flex-container{
     flex-direction: row;
 }
-.title-project .title{
+.title-project .title h4{
     margin-bottom: 0;
     font-size: 12px;
     width: 180px;
+    text-transform: uppercase;
     overflow: hidden;
     text-overflow: ellipsis;
     display: -webkit-box;
     -webkit-line-clamp: 2;
     -webkit-box-orient: vertical;
+}
+.title-project .title p{
+    font-size: 12px;
+    font-weight: bold;
+    padding-top: 6px;
 }
 .logo-project{
     width: 100px;
@@ -1559,7 +1565,7 @@ source{
 /* END HOME PAGE */
 
 /* ==================== POST SINGLE ======================= */
-.post-single .flex-container, .archives .flex-container{
+.post-single .flex-container, .archives .flex-container {
     align-items: flex-start;
 }
 .page-header{
@@ -1724,7 +1730,7 @@ ul.list-inline li:last-child{
 /* sidebar */
 .sidebar{
     width: 100%;
-    padding: 50px 20px 0 40px;
+    margin-top: 50px;
 }
 .sidebar h2{
     font-size: 18px;
@@ -1740,6 +1746,8 @@ ul.list-inline li:last-child{
 @media  screen and (min-width: 768px){
     .sidebar{
         width: 30%;
+        padding: 50px 20px 0 40px;
+        margin-top: 0;
     }
 }
 @media  screen and (min-width: 1140px){
@@ -1986,6 +1994,90 @@ ul.list-inline li:last-child{
 .pagination ul li a.active, .pagination ul li a:hover{
     background-color: #0080bb;
     color: #fff;
+}
+
+/* PG PROJECTS */
+.list-projects .content{
+    padding: 0;
+    padding-right: 20px;
+    width: 100%;
+}
+.list-projects .sidebar{
+    width: 100%;
+}
+.list-projects .card-project{
+    width: 100%;
+    margin: 0 5px 50px 5px;
+    background: #f8f8ff;
+}
+@media  screen and (min-width: 768px){
+    .list-projects .card-project{
+        width: 30%;
+    }
+}
+@media  screen and (min-width: 1140px){
+    .list-projects .content{
+        width: 75%;
+    }
+    .list-projects .sidebar{
+        width: 25%;
+    }
+    .list-projects .card-project{
+        width: 23%;
+    }
+}
+.list-projects .logo-project{
+    width: 100%;
+    height: 100px;
+    text-align: center;
+    margin: 0;
+    margin-bottom: 10px;
+}
+.list-projects .logo-project img{
+    margin: 0 auto;
+}
+.list-projects .title-project h4{    
+    width: 100%;
+}
+.list-projects .title-project.flex-container{
+    flex-direction: column;
+}
+.sidenav {
+    width: 100%;
+    z-index: 1;
+    overflow-x: hidden;
+    padding-top: 20px;
+}
+.sidenav a, .dropdown-btn {
+    text-decoration: none;
+    font-size: 20px;
+    color: #333;
+    display: block;
+    border: none;
+    background: none;
+    width: 100%;
+    text-align: left;
+    cursor: pointer;
+    outline: none;
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+.sidenav a:hover, .dropdown-btn:hover {
+    color: #0080bb;
+}
+.dropdown-container {
+    display: none;
+    padding-left: 8px;
+    margin-top: 10px;
+}  
+/* Optional: Style the caret down icon */
+.fa-caret-down {
+    padding-left: 8px;
+}  
+/* Some media queries for responsiveness */
+@media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
 }
 
 /* form */

@@ -19,7 +19,7 @@
             <div class="contact-footer">                
                 <h4><a href="#" title="Termos de uso">Termos de uso e Política de Privacidade</a></h4>
                 <div class="read-more">
-                    <a href="#" title="" class="btn bg-green"><i class="fas fa-phone-alt"></i> Fale Conosco</a>
+                    <a href="#" class="btn bg-green"><i class="fas fa-phone-alt"></i> Fale Conosco</a>
                 </div>
             </div>
         </div>
@@ -27,40 +27,38 @@
             <div class="about-links-footer">
                 <h4>Sobre</h4>
                 <ul>
-                    <li><a href="" title="">Sobre Nós</a> </li>
-                    <li><a href="" title="">Manifesto</a> </li>
-                    <li><a href="" title="">Equipe</a> </li>
-                    <li><a href="" title="">Na mídia</a> </li>
+                    <li><a href="">Sobre Nós</a> </li>
+                    <li><a href="">Manifesto</a> </li>
+                    <li><a href="">Equipe</a> </li>
+                    <li><a href="posts.php">Na mídia</a> </li>
                 </ul>
             </div>
             <div class="member-links-footer">
                 <h4>Associe-se</h4>
                 <ul>
-                    <li><a href="" title="">Como Associar</a> </li>
-                    <li><a href="" title="">Empresas Associadas</a> </li>
-                    <li><a href="" title="">Parceiros</a> </li>
-                    <li><a href="" title="">Embaixadores</a> </li>
+                    <li><a href="">Como Associar</a> </li>
+                    <li><a href="">Empresas Associadas</a> </li>
+                    <li><a href="">Parceiros</a> </li>
                 </ul>
             </div>
             <div class="content-links-footer">
                 <h4>Conteúdos</h4>
                 <ul>
-                    <li><a href="" title="">Podcast</a> </li>
-                    <li><a href="" title="">Lives</a> </li>
-                    <li><a href="" title="">Vídeos</a> </li>
-                    <li><a href="" title="">Galeria</a> </li>
+                    <li><a href="">Podcast</a> </li>
+                    <li><a href="">Lives</a> </li>
+                    <li><a href="">Vídeos</a> </li>
                 </ul>
             </div>            
             <div class="events-links-footer">
-                <h4>Eventos</h4>
+                <h4>Premiação</h4>
                 <ul>
-                    <li><a href="" title="">Sobre o Evento</a> </li>
-                    <li><a href="" title="">Como Participar</a> </li>
-                    <li><a href="" title="">Categorias</a> </li>
-                    <li><a href="" title="">Projetos</a> </li>
-                    <li><a href="" title="">Cronograma</a> </li>
-                    <li><a href="" title="">Política</a> </li>
-                    <li><a href="" title="">Premiação</a> </li>
+                    <li><a href="">Sobre o prêmio</a></li>
+                    <li><a href="projects.php">Projetos</a></li>
+                    <li><a href="">Categorias</a> </li>
+                    <li><a href="">Como Participar</a></li>
+                    <li><a href="">Cronograma</a> </li>
+                    <li><a href="">Política</a> </li>
+                    <li><a href="">Premiação</a> </li>
                 </ul>
             </div>                      
         </div>
