@@ -42,7 +42,7 @@ COL 1
     - Imagens ODSs
 
 COL 2
-    Logo de patrocinadores
+Logo de patrocinadores
 
 ### Homenagens / Honors
 
@@ -85,14 +85,14 @@ Carrossel de Apoiadores
 ## LISTA DE ARTIGOS
 
 1. Página central para todas as publicações / Portal de conteúdo
-- Imagem de destaque (link)
-- Categoria da publicação (span: podcast/notícias/vídeo)
-- Título publicação (link)
-- Resumo publicação
-- Link para publicação
+    - Imagem de destaque (link)
+    - Categoria da publicação (span: podcast/notícias/vídeo)
+    - Título publicação (link)
+    - Resumo publicação
+    - Link para publicação
 
 2. Página central para Notícias / Midias / Podcast
-- Sem categoria da publicação
+    - Sem categoria da publicação
 
 **Lista de Navegação do portal**
 1. Ínicio
