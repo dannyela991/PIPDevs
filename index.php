@@ -1,9 +1,3 @@
-<!-- /* Site: Prêmio Impactos Positivos
-Autor: Global Vision
-Responsáveis:   Daniela Silva - Front End Project
-                Gustavo - Back End Project
-                Thiago - Back End Project*/ -->
-
 <?php
 // header
 include 'app/views/header.php';
@@ -17,7 +11,7 @@ include 'app/views/header.php';
                     <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit</h2>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id ducimus possimus aliquid recusandae repellendus cupiditate nesciunt, harum quia, et, excepturi nihil laboriosam veniam.</p>
                     <div class="read-more">
-                        <a class="btn bg-yellow" href="#" title="">Saiba mais</a>
+                        <a class="btn bg-gray" href="#" title="">Saiba mais</a>
                     </div>
                 </div>
             </div>
@@ -26,7 +20,7 @@ include 'app/views/header.php';
                     <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit</h2>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id ducimus possimus aliquid recusandae repellendus cupiditate nesciunt.</p>
                     <div class="read-more">
-                        <a class="btn bg-blue" href="#" title="">Saiba mais</a>
+                        <a class="btn bg-black" href="#" title="">Saiba mais</a>
                     </div>
                 </div>
             </div>
@@ -35,7 +29,7 @@ include 'app/views/header.php';
                     <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit</h2>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id ducimus possimus aliquid recusandae repellendus cupiditate nesciunt.</p>
                     <div class="read-more">
-                        <a class="btn bg-green" href="#" title="">Saiba mais</a>
+                        <a class="btn bg-gray" href="#" title="">Saiba mais</a>
                     </div>
                 </div>
             </div>
@@ -53,34 +47,34 @@ include 'app/views/header.php';
     <section class="welcome">
         <div class="container flex-container">
             <div class="text-welcome">
-                <div class="title blue">
+                <div class="title black">
                     <h1>Prêmio Impactos Positivos</h1>
                 </div>
                 <div class="content-welcome">
                     <p>Somos uma grande vitrine de iniciativas que impactam positivamente nosso país e o mundo.</p>
                     <div class="read-more">
-                        <a class="btn bg-blue" href="#" title="">Sobre o Prêmio</a>
+                        <a class="btn bg-gray" href="#" title="">Sobre o Prêmio</a>
                     </div>
                 </div>
             </div>
             <div class="counter-welcome flex-container">
                 <div class="col-counter">                    
                     <div class="counter-item">
-                        <span class="counter-up">+ 210</span>
+                        <span class="counter-up green">+ 210</span>
                         <p>Projetos Inscritos</p>
                     </div>
                     <div class="counter-item">
-                        <span class="counter-up">2.5 milhões</span>
+                        <span class="counter-up green">2.5 milhões</span>
                         <p>de Interações</p>
                     </div>   
                 </div> 
                 <div class="col-counter">                      
                     <div class="counter-item">
-                        <span class="counter-up">R$15 milhões</span>
+                        <span class="counter-up green">R$15 milhões</span>
                         <p>de exposição em midias</p>
                     </div>
                     <div class="counter-item">
-                        <span class="counter-up">59</span>
+                        <span class="counter-up green">59</span>
                         <p>Países acessam a plataforma</p>
                     </div>     
                 </div>     
@@ -95,7 +89,7 @@ include 'app/views/header.php';
                 <div class="card-news accent">
                     <div class="card-img news-accent">
                         <div class="category">
-                            <a href="" title=""><span>Notícias</span></a>
+                            <a href="posts.php" title=""><span>Notícias</span></a>
                         </div>
                     </div>
                     <div class="title">
@@ -109,7 +103,7 @@ include 'app/views/header.php';
                 <div class="card-news">
                     <div class="list-news">
                         <div class="category">
-                            <a href="" title=""><span>Video</span></a>
+                            <a href="medias.php" title=""><span>Video</span></a>
                         </div>
                         <div class="title">
                             <a href="media-single.php" title=""><h2>Noruega e o luxo inusitado IV com Liliana Calisto e Maria Alarcon de V.O.S.</h2></a>
@@ -117,10 +111,10 @@ include 'app/views/header.php';
                     </div>
                     <div class="list-news">
                         <div class="category">
-                            <a href="" title=""><span>Categoria</span></a>
+                            <a href="podcast.php" title=""><span>Podcast</span></a>
                         </div>
                         <div class="title">
-                            <a href="" title=""><h2>Lorem ipsum dolor sit amet consectetur adipisicing elit</h2></a>
+                            <a href="podcast-single.php" title=""><h2>Lorem ipsum dolor sit amet consectetur adipisicing elit</h2></a>
                         </div>
                     </div>
                     <div class="list-news">
@@ -328,7 +322,7 @@ include 'app/views/header.php';
                                 </div>
                             </div>                             
                             <div class="read-more">
-                                <a href="#" class="bg-blue btn">Ver todos</a>
+                                <a href="#" class="bg-gray btn">Ver todos</a>
                             </div>    
                         </div>
                     </div>
@@ -498,7 +492,7 @@ include 'app/views/header.php';
                                 </div>
                             </div>   
                             <div class="read-more">
-                                <a href="#" class="bg-green btn">Ver todos</a>
+                                <a href="#" class="bg-gray btn">Ver todos</a>
                             </div>                         
                         </div>
                     </div>
@@ -1044,14 +1038,14 @@ include 'app/views/header.php';
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id ducimus possimus aliquid recusandae repellendus cupiditate nesciunt</p>
                     </div>
                     <div class="read-more">
-                        <a class="btn bg-green" href="#" title="">Ver todos</a>
+                        <a class="btn bg-gray" href="podcast.php" title="">Ver todos</a>
                     </div>
                 </div>
                 <div class="col-articles">
                     <div class="carrossel-podcast">
                         <div class="item podcast">
                             <div class="title">
-                                <a href="" class="black"><h3><i class="fas fa-podcast"></i> Título do Podcast Lorem ipsum dolor sit amet consectetur adipisicing elit.</h3></a>
+                                <a href="podcast-single.php" class="black"><h3><i class="fas fa-podcast"></i> Título do Podcast Lorem ipsum dolor sit amet consectetur adipisicing elit.</h3></a>
                             </div>
                             <div class="description">
                                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
@@ -1065,7 +1059,7 @@ include 'app/views/header.php';
                         </div>
                         <div class="item podcast">
                             <div class="title">
-                                <a href="" class="black"><h3><i class="fas fa-podcast"></i> Título do Podcast Lorem ipsum dolor sit amet consectetur adipisicing elit.</h3></a>
+                                <a href="podcast-single.php" class="black"><h3><i class="fas fa-podcast"></i> Título do Podcast Lorem ipsum dolor sit amet consectetur adipisicing elit.</h3></a>
                             </div>
                             <div class="description">
                                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id ducimus possimus aliquid recusandae repellendus cupiditate nesciunt</p>
@@ -1079,7 +1073,7 @@ include 'app/views/header.php';
                         </div>
                         <div class="item podcast">
                             <div class="title">
-                                <a href="" class="black"><h3><i class="fas fa-podcast"></i> Título do Podcast</h3></a>
+                                <a href="podcast-single.php" class="black"><h3><i class="fas fa-podcast"></i> Título do Podcast</h3></a>
                             </div>
                             <div class="description">
                                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id ducimus possimus aliquid recusandae repellendus cupiditate nesciunt</p>
@@ -1093,7 +1087,7 @@ include 'app/views/header.php';
                         </div>
                         <div class="item podcast">
                             <div class="title">
-                                <a href="" class="black"><h3><i class="fas fa-podcast"></i> Título do Podcast</h3></a>
+                                <a href="podcast-single.php" class="black"><h3><i class="fas fa-podcast"></i> Título do Podcast</h3></a>
                             </div>
                             <div class="description">
                                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id ducimus possimus aliquid recusandae repellendus cupiditate nesciunt</p>
@@ -1107,7 +1101,7 @@ include 'app/views/header.php';
                         </div>
                         <div class="item podcast">
                             <div class="title">
-                                <a href="" class="black"><h3><i class="fas fa-podcast"></i> Título do Podcast</h3></a>
+                                <a href="podcast-single.php" class="black"><h3><i class="fas fa-podcast"></i> Título do Podcast</h3></a>
                             </div>
                             <div class="description">
                                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id ducimus possimus aliquid recusandae repellendus cupiditate nesciunt</p>

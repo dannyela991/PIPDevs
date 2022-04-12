@@ -1,3 +1,8 @@
+/* Site: Prêmio Impactos Positivos
+Autor: Global Vision
+Responsáveis:   Daniela Silva - Front End Project
+                Gustavo - Back End Project
+                Thiago - Back End Project*/
 @font-face {
     font-family: Gothan;
     src: url(fonts/GothamBold.ttf);
@@ -26,7 +31,7 @@ body::-webkit-scrollbar {
     width: 12px;               /* width of the entire scrollbar */
 }
 body::-webkit-scrollbar-thumb {
-    background-color: #32a7df;    /* color of the scroll thumb */
+    background-color: #595959;    /* color of the scroll thumb */
     border-radius: 0;       /* roundness of the scroll thumb */
    
   }
@@ -58,10 +63,22 @@ a.bg-blue:hover{
 }
 .bg-yellow{
     background-color: #ffcc00;
-    color: #333;
+    color: #fff;
+    font-weight: bold;
 }
 a.bg-yellow:hover{
-    background-color: #ffa600;
+    background-color: #F2C12E;
+    color: #fff;
+}
+.gray{
+    color: #595959;
+}
+.bg-gray{
+    background-color: #595959;
+    color: #fff;
+}
+a.bg-gray:hover{
+    background-color: #262626;
     color: #fff;
 }
 .black{
@@ -157,7 +174,7 @@ img{
     border: none;
 }
 li.slick-active button {
-    background-color: #33cc99;
+    background-color: #595959;
 }
 /* CONTAINER */
 .container{
@@ -386,7 +403,7 @@ header{
     }
 }
 .openBtn {
-    background: #32a7df;
+    background: #595959;
     color: #fff;
     border: none;
     padding: 8px;
@@ -395,7 +412,7 @@ header{
     border-radius: 4px;
 }
 .openBtn:hover {
-    background: #0080bb;
+    background: #262626;
 }
 .overlay {
     height: 100%;
@@ -587,7 +604,7 @@ footer .description{
     .about-footer{
         width: 33%;
         padding-right: 20px;
-        border-right: 1px solid #32a7df;
+        border-right: 1px solid #8C8C8C;
     }
     footer .description{
         text-align: left;
@@ -746,14 +763,15 @@ footer .description{
 .text-welcome .title{
     font-family: Gothan, sans-serif;
     text-transform: uppercase;
+    font-size: 18px;
 }
 .text-welcome h1::after{
     content:"\020";
     display: block;
-    height: 4px;
+    height: 2px;
     margin: 10px auto;
-    width: 15%;   
-    background: #0080bb;
+    width: 25%;
+    background: #595959;
 }
 .counter-welcome{
     width: 100%;
@@ -775,12 +793,12 @@ footer .description{
     font-size: 28px;
     font-weight: bold;
     font-family: 'Montserrat', sans-serif;
-    color: #33cc99;
 }
 .counter-item p{
     font-size: 12px;
     font-weight: bold;
-    text-transform: uppercase;    
+    text-transform: uppercase;
+    color: #595959;
 }
 @media  screen and (min-width: 768px){    
     .counter-item span{
@@ -798,10 +816,10 @@ footer .description{
     } 
     .counter-item:first-child{
         padding-bottom: 15px;
-        border-bottom: 1px solid #0080bb;
+        border-bottom: 1px solid #8C8C8C;
     } 
     .col-counter:first-child{
-        border-right: 1px solid #0080bb;
+        border-right: 1px solid #8C8C8C;
     }
 }
 @media  screen and (min-width: 1140px){    
@@ -826,13 +844,13 @@ footer .description{
     }
     .counter-item:first-child{
         padding-bottom: 15px;
-        border-bottom: 1px solid #0080bb;
+        border-bottom: 1px solid #8C8C8C;
     }
     .col-counter{
         width: 50%;
     }
     .col-counter:first-child{
-        border-right: 1px solid #0080bb;
+        border-right: 1px solid #8C8C8C;
     }
     .counter-item span{
         font-size: 44px;
@@ -872,7 +890,7 @@ footer .description{
 }
 /* col accent */
 .card-news.accent .title a{
-    color: #33cc99;
+    color: #595959;
     font-size: 26px;
     overflow: hidden;
     text-overflow: ellipsis;
@@ -888,7 +906,7 @@ footer .description{
     background-size: cover;
 }
 .card-img .category span{
-    background: #33cc99;
+    background: #0D0D0D;
     position: absolute;
     bottom: 0;
     text-align: center;
@@ -899,7 +917,7 @@ footer .description{
     text-transform: uppercase;
     font-weight: bold;
     color: #fff;
-    box-shadow: 3px -3px 10px #333;
+    box-shadow: 3px -3px 10px #262626;
 }
 
 /* col news */
@@ -917,11 +935,15 @@ footer .description{
     -webkit-box-orient: vertical;
 }
 .list-news .title a:hover{
-    color: #32a7df;
+    color: #595959;
+    text-decoration: underline;
 }
 .list-news .category a{
-    color: #33cc99;
+    color: #595959;
     font-weight: bold;
+}
+.list-news .category a:hover{
+    text-decoration: underline;
 }
 /* COL ADS */
 .card-news .img-ads{
@@ -1081,6 +1103,9 @@ footer .description{
     width: 100%;
     min-height: 200px;
     margin-top: 50px;
+}
+.col-sponsors .title{
+    color: #333;
 }
 @media  screen and (min-width: 768px){
     .col-sponsors{
@@ -1299,10 +1324,10 @@ background-color: #ccc;    /* color of the scroll thumb */
 .col-title .title h2::after{
     content:"\020";
     display: block;
-    height: 4px;
+    height: 2px;
     margin: 10px 0;
-    width: 20%;   
-    background: #ffa600;
+    width: 25%;
+    background: #595959;
 }
 .col-articles .item .title{
     margin-bottom: 10px;
@@ -1353,7 +1378,6 @@ background-color: #ccc;    /* color of the scroll thumb */
     text-transform: uppercase;
     color: #333;
     font-size: 16px;
-    text-decoration: underline;
     overflow: hidden;
     text-overflow: ellipsis;
     display: -webkit-box;
@@ -1361,7 +1385,8 @@ background-color: #ccc;    /* color of the scroll thumb */
     -webkit-box-orient: vertical;
 }
 .trend .title h3 a:hover{
-    color: #32a7df;
+    color: #595959;
+    text-decoration: underline;
 }
 .list-tags{
     margin-top: 15px;
@@ -1406,10 +1431,10 @@ ul.list-tags li:last-child{
 .content-midia .title h2::after{
     content:"\020";
     display: block;
-    height: 4px;
+    height: 2px;
     margin: 10px auto;
-    width: 15%;   
-    background: #0080bb;
+    width: 25%;
+    background: #595959;
 }
 .content-midia{    
     padding: 0px 20px;
@@ -1497,7 +1522,7 @@ ul.list-tags li:last-child{
 }  
 .midias .arrow-left i, .midias .arrow-right i{
     font-size: 35px;
-    color: #0080bb;
+    color: #262626;
 }
 /* podcast */
 .podcast{
@@ -1593,7 +1618,7 @@ ul.list-inline li{
     list-style: none;
     padding-right: 10px;
     margin-right: 10px;
-    border-right: 1px solid #32a7df;
+    border-right: 1px solid #595959;
 }
 ul.list-inline li:last-child{
     margin-right: 0;
@@ -1668,11 +1693,12 @@ ul.list-inline li:last-child{
     list-style: circle;
 }
 .content-post a{
-    color: #32a7df;
+    color: #262626;
     font-weight: bold;
+    font-style: italic;
 }
 .content-post a:hover{
-    color: #0080bb;
+    color: #595959;
     text-decoration: underline;
 }
 /* author */
@@ -1710,6 +1736,18 @@ ul.list-inline li:last-child{
 .info-author .read-more{
     text-align: right;
 }
+.info-author .read-more a::before{
+    content: '>>';
+    margin-right: 5px;
+    color: #595959;
+}
+.info-author .read-more a{
+    color: #262626;
+}
+.info-author .read-more a:hover{
+    color: #595959;
+    text-decoration: underline;
+}
 @media  screen and (min-width: 1140px){    
     .content-author{
         flex-direction: row;
@@ -1741,7 +1779,7 @@ ul.list-inline li:last-child{
     height: 1px;
     margin: 10px 0;
     width: 50%;   
-    background: #32a7df;
+    background: #595959;
 }
 @media  screen and (min-width: 768px){
     .sidebar{
@@ -1816,7 +1854,7 @@ ul.list-inline li:last-child{
     }
 }
 .sidebar .title a:hover{
-    color: #32a7df;
+    color: #595959;
     text-decoration: underline;
 }
 .sidebar span.category{
@@ -1836,7 +1874,7 @@ ul.list-inline li:last-child{
     line-height: 2;
 }
 .list-category li a:hover, .list-contents li a:hover{
-    color: #32a7df;
+    color: #8C8C8C;
     text-decoration: underline;
 }
 
@@ -1870,10 +1908,10 @@ ul.list-inline li:last-child{
     color: #bbb;
 }
 .nav-posts a:hover{
-    color: #0080bb;
+    color: #262626;
 }
 .nav-posts a.active{
-    color: #0080bb;
+    color: #262626;
 }
 .archives .page-header{
     border-bottom: 2px solid #ccc;
@@ -1938,7 +1976,6 @@ ul.list-inline li:last-child{
 }
 .description-article h2{
     font-size: 20px;
-    text-decoration: underline;
     overflow: hidden;
     text-overflow: ellipsis;
     display: -webkit-box;
@@ -1946,7 +1983,8 @@ ul.list-inline li:last-child{
     -webkit-box-orient: vertical;
 }
 .description-article h2:hover{
-    color: #32a7df;
+    color: #595959;
+    text-decoration: underline;
 }
 .description-article p{
     padding-top: 10px;
@@ -1959,16 +1997,17 @@ ul.list-inline li:last-child{
 }
 .description-article .read-more{
     text-align: right;
-    color: #0080bb;
 }
 .description-article .read-more a{
-    color: #0080bb;
+    color: #595959;
     font-weight: bold;
     font-size: 14px;
+    padding: 3px 6px;
+    border-radius: 3px;
 }
 .description-article .read-more a:hover{
-    background-color: #32a7df;
-    color: #f8f8ff;
+    background-color: #333;
+    color: #fff;
 }
 .content-archives .card.podcast{
     padding-top: 0;
@@ -1992,7 +2031,7 @@ ul.list-inline li:last-child{
     font-weight: bold;
 }
 .pagination ul li a.active, .pagination ul li a:hover{
-    background-color: #0080bb;
+    background-color: #595959;
     color: #fff;
 }
 
@@ -2080,6 +2119,83 @@ ul.list-inline li:last-child{
     .sidenav a {font-size: 18px;}
 }
 
+/* select-project */
+
+.select-projetcs h1::after{
+    content: "\20";
+    display: block;
+    width: 100%;
+    height: 1px;
+    background: #595959;
+    margin: 5px 0;
+}
+.select-projetcs .flex-container{
+    justify-content: flex-start;
+    flex-direction: column;
+    padding-top: 60px;
+    align-items: flex-start;
+}
+.btn-project{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    align-items: center;
+    padding: 40px 0;
+    background: #f8f8ff;
+    margin-bottom: 20px;
+    box-shadow: 5px 3px 10px #595959;
+}
+.btn-img{
+    width: 15%;
+}
+.btn-txt{
+    width: 85%;
+    padding-right: 40px;
+}
+.btn-project h3{
+    margin-bottom: 15px;
+}
+.btn-project h3 a{
+    color: #262626;
+    text-transform: uppercase;
+}
+.btn-project h3 a:hover{
+    color: #595959;
+    text-decoration: underline;
+}
+.btn-project p.button{
+    margin-top: 20px;
+    text-transform: uppercase;
+    text-align: center;
+}
+.btn-project .button a.btn{
+    display: block;
+    padding: 15px 0;
+    font-weight: bold;
+}
+.col-ads{
+    margin-top: 50px;
+}
+.select-projetcs .img-ads{
+    width: 80%;
+    margin: 0 auto 20px auto;
+}
+@media  screen and (min-width: 768px){
+    .select-projetcs .flex-container{
+        flex-direction: row;
+    }
+    .col-content{
+        width: 75%;
+        padding-right: 60px;
+    }
+    .select-projetcs .img-ads{
+        width: 70%;
+        margin: 0 auto 20px auto;
+    }
+    .col-ads{
+        margin-top: 0;
+    }
+}
 /* form */
 .regForm .page-header{
     background-color: #f2f2f2;

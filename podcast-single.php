@@ -65,7 +65,7 @@ include 'app/views/header.php';
                             <h3>Global Vision Access</h3>
                             <p>A Global Vision Access é uma empresa de Comunicação e Marketing que fornece soluções completas em consultoria estratégica com foco em novos negócios e inovação, representação comercial, serviços de comunicação, relações públicas e marketing digital para marcas e organizações nacionais e internacionais. Por isso, nos orgulhamos por ter em nosso portfólio e histórico de clientes uma variedade riquíssima de parceiros de excelência.</p>
                             <div class="read-more">
-                                <a href="#" class="blue">Ver todas as publicações</a>
+                                <a href="#">Ver todas as publicações</a>
                             </div>
                         </div>
                     </div>

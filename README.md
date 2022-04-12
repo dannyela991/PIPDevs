@@ -46,7 +46,7 @@ Logo de patrocinadores
 
 ### Homenagens / Honors
 
-Lista de homenagiados cadastrados, até 10.
+Lista de homenagiados cadastrados, até 10
 - Nome do homenagiado
 - Link redes sociais cadastradas
 

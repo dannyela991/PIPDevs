@@ -87,7 +87,7 @@ include 'app/views/header.php';
                             Conteudista para Ensino Bilíngue em espanhol na América Latina<br>
                             Autora de games na área de idiomas.</p>
                             <div class="read-more">
-                                <a href="#" class="blue">Ver todas as publicações</a>
+                                <a href="#">Ver todas as publicações</a>
                             </div>
                         </div>
                     </div>
