@@ -2141,7 +2141,6 @@ ul.list-inline li:last-child{
     flex-direction: row;
     align-items: center;
     padding: 40px 0;
-    background: #f8f8ff;
     margin-bottom: 20px;
     box-shadow: 5px 3px 10px #595959;
 }

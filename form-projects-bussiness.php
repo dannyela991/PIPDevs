@@ -746,6 +746,7 @@ include 'app/views/header.php';
                             <input type="radio" name="" value="Objetivo 1. Acabar com a pobreza em todas as suas formas, em todos os lugares">
                             Objetivo 1. Acabar com a pobreza em todas as suas formas, em todos os lugares
                         </label>
+                        <!-- Subárea - Objetivo 01 -->
                         <div class="form-group">
                             <label for="">                            
                                 <input type="checkbox" name="" value="1.1 Até 2030, erradicar a pobreza extrema para todas as pessoas em todos os lugares, atualmente medida como pessoas vivendo com menos de US$ 1,90 por dia">

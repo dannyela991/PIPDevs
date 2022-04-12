@@ -28,7 +28,7 @@ include 'app/views/header.php';
                             <a href=""><img src="app/assets/images/icon-ecosystem.svg"/></a>
                         </div>
                         <div class="btn-txt">
-                            <h3><a href="">Ecosistema de Impacto</a></h3>
+                            <h3><a href="">Ecossistema de Impacto</a></h3>
                             <p>Regiões que estão desenvolvendo ecossistemas locais de impacto modelo</p>
                             <p class="button"><a href="#" class="btn bg-gray">Inscrever agora</a></p>
                         </div>
