@@ -34,19 +34,11 @@
                 </div>
                 <div class="menu">
                     <div class="topnav" id="myTopnav">
-                        <div class="nav">
-                            <div class="dropdown">
-                                <button class="dropbtn">Menu 
-                                    <i class="fa fa-caret-down"></i>
-                                </button>
-                                <div class="dropdown-content">
-                                    <a href="#">Sobre Nós</a>
-                                    <a href="#">Edições Anteriores</a>
-                                    <a href="#">Contato</a>
-                                </div>
-                            </div> 
-                            <a href="#home">Parceiros</a>
-                            <a href="#news">Apoiadores</a>
+                        <div class="nav">                            
+                            <a href="#">Sobre Nós</a>
+                            <a href="#">Edições Anteriores</a>
+                            <a href="#">Contato</a>
+                            <a href="projects.php">Vitrine 2022</a>
                             <div class="dropdown">
                                 <button class="dropbtn">Prêmio 2022 
                                     <i class="fa fa-caret-down"></i>
@@ -93,7 +85,7 @@
                         <a href="select-project.php" class="btn bg-yellow">Inscreva seu Projeto</a>
                     </div>
                     <div class="button-subscription">
-                        <a href="#" class="btn bg-green">Cadastre-se para Votar</a>
+                        <a href="form-user.php" class="btn bg-green">Cadastre-se para Votar</a>
                     </div>
                 </div>
             </div>     

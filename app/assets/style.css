@@ -176,6 +176,9 @@ img{
 li.slick-active button {
     background-color: #595959;
 }
+ul.inline li{
+    display: inline-block;
+}
 /* CONTAINER */
 .container{
     max-width: 1400px;
@@ -276,7 +279,7 @@ header{
 }
 @media screen and (min-width: 1140px){
     .menu{
-        width: 700px;
+        width: 70%;
         top: 25px;
         right: 0px;
     }
@@ -871,6 +874,9 @@ footer .description{
     padding: 0 20px;
     margin-bottom: 30px;
 }
+.latest-news .read-more{
+    text-align: center;
+}
 @media  screen and (min-width: 768px){
     .col-archives{
         width: 50%;
@@ -881,7 +887,7 @@ footer .description{
 }
 @media  screen and (min-width: 1140px){
     .col-archives{
-        width: 35%;
+        width: 33%;
         margin-bottom: 0;
     }
     .col-archives.ads{
@@ -945,6 +951,9 @@ footer .description{
 .list-news .category a:hover{
     text-decoration: underline;
 }
+.list-news .list-tags{
+    margin-top: 0;
+}
 /* COL ADS */
 .card-news .img-ads{
     width: 100%;
@@ -1000,7 +1009,7 @@ footer .description{
 .line .title{
     margin-bottom: 10px;
 }
-.line .title h3{
+.line .title h3, .col-sponsors .title h3{
     text-transform: uppercase;
     margin-top: 30px;
     font-size: 28px;
@@ -1206,9 +1215,47 @@ background-color: #ccc;    /* color of the scroll thumb */
 .list-item ul li:last-child{
     margin-right: 0;
 }
+.nav-project{
+    text-transform: uppercase;
+    margin-top: 20px;
+    font-weight: bold;
+    font-size: 14px;
+}
+.nav-project ul{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.nav-project li{
+    padding: 4px 10px;
+}
+.nav-project li:last-child{
+    border: none;
+}
+.nav-project li:hover{
+    box-shadow: 3px 3px 5px #ebebeb;
+}
+.nav-project li a{
+    color: #595959;
+    display: block;
+}
+.nav-project li a:hover{
+    color: #333;
+    text-decoration: underline;
+}
 @media  screen and (min-width: 768px){    
     .col-impacts{
         width: 30%;
+    }
+    .nav-project ul{
+        flex-direction: row;
+        flex-wrap: nowrap;
+    }
+    .nav-project li{
+        border-right: 1px solid #ccc;
+        width: 100%;
     }
 }
 @media  screen and (min-width: 1140px){
@@ -1387,9 +1434,6 @@ background-color: #ccc;    /* color of the scroll thumb */
 .trend .title h3 a:hover{
     color: #595959;
     text-decoration: underline;
-}
-.list-tags{
-    margin-top: 15px;
 }
 p.description{
     font-size: 14px;
@@ -2141,7 +2185,7 @@ ul.list-inline li:last-child{
     flex-direction: row;
     align-items: center;
     padding: 40px 0;
-    margin-bottom: 20px;
+    margin-bottom: 40px;
     box-shadow: 5px 3px 10px #595959;
 }
 .btn-img{
@@ -2194,6 +2238,9 @@ ul.list-inline li:last-child{
     .col-ads{
         margin-top: 0;
     }
+    .btn-project{        
+        margin-bottom: 100px;
+    }
 }
 /* form */
 .regForm .page-header{
@@ -2211,8 +2258,10 @@ ul.list-inline li:last-child{
     margin: 80px auto;
 }
 fieldset{
-    border: none;
+    border:none;
+    box-shadow: 2px 2px 4px #595959;
     margin-bottom: 50px;
+    padding: 30px;
 }
 fieldset.step h2{
     text-transform: uppercase;
@@ -2296,6 +2345,21 @@ fieldset.step h2::before{
 .regForm label{
     margin-bottom: 15px;
     line-height: 1.5;
+}
+.form-aceite .form-group{
+    margin-bottom: 5px;
+}
+.form-aceite label{
+    margin: 0;
+    line-height: 1;
+}
+.form-aceite a{
+    font-style: italic;
+    color: #595959;
+}
+.form-aceite a:hover{
+    text-decoration: underline;
+    color: #333;
 }
 @media  screen and (min-width: 768px){
     .flex-form .form-group{

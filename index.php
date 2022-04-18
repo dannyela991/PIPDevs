@@ -83,69 +83,115 @@ include 'app/views/header.php';
     </section>
 
     <section class="latest-news">
-        <div class="container flex-container">
-            <!-- COL NEWS ACCENT -->
-            <div class="col-archives">
-                <div class="card-news accent">
-                    <div class="card-img news-accent">
-                        <div class="category">
-                            <a href="posts.php" title=""><span>Notícias</span></a>
+        <div class="container">
+            <div class="flex-container">
+                <!-- COL NEWS ACCENT -->
+                <div class="col-archives">
+                    <div class="card-news accent">
+                        <div class="card-img news-accent">
+                            <div class="category">
+                                <a href="posts.php" title=""><span>Notícias</span></a>
+                            </div>
                         </div>
-                    </div>
-                    <div class="title">
-                        <h2><a href="post-single.php" title="">Semear educação financeira e colher realizações</a></h2>
+                        <div class="title">
+                            <h2><a href="post-single.php" title="">Semear educação financeira e colher realizações</a></h2>
+                        </div>
+                        <ul class="list-tags">
+                            <li><a href="#">Impacto</a></li>
+                            <li><a href="#">Economia</a></li>
+                            <li><a href="#">Ecosistema</a></li>
+                        </ul>
                     </div>
                 </div>
+                <!-- COL NEWS -->
+                <div class="col-archives">
+                    <div class="card-news">
+                        <div class="list-news">
+                            <div class="category">
+                                <a href="medias.php" title=""><span>Video</span></a>
+                            </div>
+                            <div class="title">
+                                <a href="media-single.php" title=""><h2>Noruega e o luxo inusitado IV com Liliana Calisto e Maria Alarcon de V.O.S.</h2></a>
+                            </div>
+                            <ul class="list-tags">
+                                <li><a href="#">Impacto</a></li>
+                                <li><a href="#">Economia</a></li>
+                                <li><a href="#">Ecosistema</a></li>
+                            </ul>
+                        </div>
+                        <div class="list-news">
+                            <div class="category">
+                                <a href="podcast.php" title=""><span>Podcast</span></a>
+                            </div>
+                            <div class="title">
+                                <a href="podcast-single.php" title=""><h2>Lorem ipsum dolor sit amet consectetur adipisicing elit</h2></a>
+                            </div>
+                            <ul class="list-tags">
+                                <li><a href="#">Impacto</a></li>
+                                <li><a href="#">Economia</a></li>
+                                <li><a href="#">Ecosistema</a></li>
+                            </ul>
+                        </div>
+                        <div class="list-news">
+                            <div class="category">
+                                <a href="" title=""><span>Categoria</span></a>
+                            </div>
+                            <div class="title">
+                                <a href="" title=""><h2>Lorem ipsum dolor sit amet consectetur adipisicing elit</h2></a>
+                            </div>
+                            <ul class="list-tags">
+                                <li><a href="#">Impacto</a></li>
+                                <li><a href="#">Economia</a></li>
+                                <li><a href="#">Ecosistema</a></li>
+                            </ul>
+                        </div>
+                        <div class="list-news">
+                            <div class="category">
+                                <a href="" title=""><span>Categoria</span></a>
+                            </div>
+                            <div class="title">
+                                <a href="" title=""><h2>Lorem ipsum dolor sit amet consectetur adipisicing elit</h2></a>
+                            </div>
+                            <ul class="list-tags">
+                                <li><a href="#">Impacto</a></li>
+                                <li><a href="#">Economia</a></li>
+                                <li><a href="#">Ecosistema</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <!-- COL NEWS ACCENT -->
+                <div class="col-archives">
+                    <div class="card-news accent">
+                        <div class="card-img news-accent">
+                            <div class="category">
+                                <a href="posts.php" title=""><span>Notícias</span></a>
+                            </div>
+                        </div>
+                        <div class="title">
+                            <h2><a href="post-single.php" title="">Semear educação financeira e colher realizações</a></h2>
+                        </div>
+                        <ul class="list-tags">
+                            <li><a href="#">Impacto</a></li>
+                            <li><a href="#">Economia</a></li>
+                            <li><a href="#">Ecosistema</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <!-- COL NEWS ADS -->
+                <!-- <div class="col-archives ads">
+                    <div class="card-news">                    
+                        <div class="img-ads">
+                            <img src="app/assets/images/banner-latest01.png" alt="" />
+                        </div>
+                        <div class="img-ads">
+                            <img src="app/assets/images/banner-latest02.png" alt="" />
+                        </div>
+                    </div>
+                </div> -->
             </div>
-
-            <!-- COL NEWS -->
-            <div class="col-archives">
-                <div class="card-news">
-                    <div class="list-news">
-                        <div class="category">
-                            <a href="medias.php" title=""><span>Video</span></a>
-                        </div>
-                        <div class="title">
-                            <a href="media-single.php" title=""><h2>Noruega e o luxo inusitado IV com Liliana Calisto e Maria Alarcon de V.O.S.</h2></a>
-                        </div>
-                    </div>
-                    <div class="list-news">
-                        <div class="category">
-                            <a href="podcast.php" title=""><span>Podcast</span></a>
-                        </div>
-                        <div class="title">
-                            <a href="podcast-single.php" title=""><h2>Lorem ipsum dolor sit amet consectetur adipisicing elit</h2></a>
-                        </div>
-                    </div>
-                    <div class="list-news">
-                        <div class="category">
-                            <a href="" title=""><span>Categoria</span></a>
-                        </div>
-                        <div class="title">
-                            <a href="" title=""><h2>Lorem ipsum dolor sit amet consectetur adipisicing elit</h2></a>
-                        </div>
-                    </div>
-                    <div class="list-news">
-                        <div class="category">
-                            <a href="" title=""><span>Categoria</span></a>
-                        </div>
-                        <div class="title">
-                            <a href="" title=""><h2>Lorem ipsum dolor sit amet consectetur adipisicing elit</h2></a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <!-- COL NEWS ADS -->
-            <div class="col-archives ads">
-                <div class="card-news">                    
-                    <div class="img-ads">
-                        <img src="app/assets/images/banner-latest01.png" alt="" />
-                    </div>
-                    <div class="img-ads">
-                        <img src="app/assets/images/banner-latest02.png" alt="" />
-                    </div>
-                </div>
+            <div class="read-more">
+                <a href="#" class="btn bg-gray">Ver todos</a>
             </div>
         </div>
     </section>
@@ -162,6 +208,16 @@ include 'app/views/header.php';
                     <div class="line bussines">                    
                         <div class="title">
                             <h3><a href="#">Negócio de Impacto</a></h3>                        
+                        </div>                        
+                        <div class="nav-project">
+                            <ul class="inline">
+                                <li><a href="#">Cidadania</a></li>
+                                <li><a href="#">Cidades</a></li>
+                                <li><a href="#">Educação</a></li>
+                                <li><a href="#">Saúde</a></li>
+                                <li><a href="#">Finanças</a></li>
+                                <li><a href="#">Tecnologia Verde</a></li>
+                            </ul>
                         </div>
                         <div class="box-carrossel-bussiness">
                             <div class="carrossel-bussiness">
@@ -332,6 +388,15 @@ include 'app/views/header.php';
                     <div class="line ecosystem">                    
                         <div class="title">
                             <h3><a href="#">Ecossistema de Impacto</a></h3>                        
+                        </div>
+                        <div class="nav-project">
+                            <ul class="inline">
+                                <li><a href="#">Investimento</a></li>
+                                <li><a href="#">Setor Público</a></li>
+                                <li><a href="#">Dinamizadores</a></li>
+                                <li><a href="#">Comunidades</a></li>
+                                <li><a href="#">Grandes Empresas</a></li>
+                            </ul>
                         </div>
                         <div class="box-carrossel-ecosystem">
                             <div class="carrossel-ecosystem">
@@ -882,7 +947,7 @@ include 'app/views/header.php';
             <div class="container flex-container">
                 <div class="col-title">
                     <div class="title">
-                        <h2>Trends News</h2>
+                        <h2>Na Mídia</h2>
                     </div>
                     <div class="description">
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id ducimus possimus aliquid recusandae repellendus cupiditate nesciunt</p>                
@@ -902,11 +967,6 @@ include 'app/views/header.php';
                                 <p class="description">
                                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit amet consectetur adipis. Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit amet consectetur adipis. 
                                 </p>
-                                <ul class="list-tags">
-                                    <li><a href="#">Impacto</a></li>
-                                    <li><a href="#">Economia</a></li>
-                                    <li><a href="#">Ecosistema</a></li>
-                                </ul>
                             </div>
                         </div>
                         <div class="item trend">
@@ -918,11 +978,6 @@ include 'app/views/header.php';
                                 <p class="description">
                                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit amet consectetur adipis. Lorem ipsum
                                 </p>
-                                <ul class="list-tags">
-                                    <li><a href="#">Impacto</a></li>
-                                    <li><a href="#">Economia</a></li>
-                                    <li><a href="#">Ecosistema</a></li>
-                                </ul>
                             </div>
                         </div>
                         <div class="item trend">
@@ -934,11 +989,6 @@ include 'app/views/header.php';
                                 <p class="description">
                                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit amet consectetur adipis. Lorem ipsum
                                 </p>
-                                <ul class="list-tags">
-                                    <li><a href="#">Impacto</a></li>
-                                    <li><a href="#">Economia</a></li>
-                                    <li><a href="#">Ecosistema</a></li>
-                                </ul>
                             </div>
                         </div>
                     </div>

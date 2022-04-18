@@ -15,22 +15,22 @@ include 'app/views/header.php';
                     </div>
                     <div class="btn-project">
                         <div class="btn-img">
-                            <a href="form-projects-bussiness.php"><img src="app/assets/images/icon-business.svg"/></a>
+                            <a href="form-projects-bus.php"><img src="app/assets/images/icon-business.svg"/></a>
                         </div>
                         <div class="btn-txt">
-                            <h3><a href="form-projects-bussiness.php">Negócio de Impacto</a> </h3>
+                            <h3><a href="form-projects-bus.php">Negócio de Impacto</a> </h3>
                             <p>Negócios (empresas e iniciativas) que se destacam no ecossistema de impacto</p>
-                            <p class="button"><a href="form-projects-bussiness.php" class="btn bg-gray">Inscrever agora</a></p>
+                            <p class="button"><a href="form-projects-bus.php" class="btn bg-gray">Inscrever agora</a></p>
                         </div>
                     </div>
                     <div class="btn-project">
                         <div class="btn-img">
-                            <a href=""><img src="app/assets/images/icon-ecosystem.svg"/></a>
+                            <a href="form-projects-eco.php"><img src="app/assets/images/icon-ecosystem.svg"/></a>
                         </div>
                         <div class="btn-txt">
-                            <h3><a href="">Ecossistema de Impacto</a></h3>
+                            <h3><a href="form-projects-eco.php">Ecossistema de Impacto</a></h3>
                             <p>Regiões que estão desenvolvendo ecossistemas locais de impacto modelo</p>
-                            <p class="button"><a href="#" class="btn bg-gray">Inscrever agora</a></p>
+                            <p class="button"><a href="form-projects-eco.php" class="btn bg-gray">Inscrever agora</a></p>
                         </div>
                     </div>
                 </div>

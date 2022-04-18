@@ -29,36 +29,34 @@
                 <ul>
                     <li><a href="">Sobre Nós</a> </li>
                     <li><a href="">Manifesto</a> </li>
-                    <li><a href="">Equipe</a> </li>
                     <li><a href="posts.php">Na mídia</a> </li>
                 </ul>
             </div>
             <div class="member-links-footer">
-                <h4>Associe-se</h4>
+                <h4>Participe</h4>
                 <ul>
-                    <li><a href="">Como Associar</a> </li>
-                    <li><a href="">Empresas Associadas</a> </li>
-                    <li><a href="">Parceiros</a> </li>
+                    <li><a href="">Como participar</a> </li>
+                    <li><a href="">Como ser um apoiador</a> </li>
+                    <li><a href="">Como ser um patrocinador</a> </li>
                 </ul>
             </div>
             <div class="content-links-footer">
                 <h4>Conteúdos</h4>
                 <ul>
+                    <li><a href="">Notícias</a> </li>
+                    <li><a href="">Lives e Vídeos</a> </li>
                     <li><a href="">Podcast</a> </li>
-                    <li><a href="">Lives</a> </li>
-                    <li><a href="">Vídeos</a> </li>
+                    <li><a href="posts.php">Na mídia</a> </li>
                 </ul>
             </div>            
             <div class="events-links-footer">
                 <h4>Premiação</h4>
                 <ul>
+                    <li><a href="projects.php">Vitrine 2022</a></li>
                     <li><a href="">Sobre o prêmio</a></li>
-                    <li><a href="projects.php">Projetos</a></li>
                     <li><a href="">Categorias</a> </li>
                     <li><a href="">Como Participar</a></li>
                     <li><a href="">Cronograma</a> </li>
-                    <li><a href="">Política</a> </li>
-                    <li><a href="">Premiação</a> </li>
                 </ul>
             </div>                      
         </div>
