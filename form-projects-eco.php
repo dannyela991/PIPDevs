@@ -16,10 +16,48 @@ include 'app/views/header.php';
         <div class="container">
 
             <form id="regProject">
-                <!-- perfil -->
+
+                <!-- SUBCATEGORIA -->
+                <fieldset class="step">
+                    <h2>Subcategoria</h2>
+                    <div class="form-group">
+                        <label>Em qual Ecossistema de Impacto se enquadra seu projeto</label>
+                        <label for="">                            
+                            <input type="radio" name="" value="Investidores">
+                            Investidores
+                        </label> 
+                        <label for="">                            
+                            <input type="radio" name="" value="Setor Público">
+                            Setor Público
+                        </label>  
+                        <label for="">                            
+                            <input type="radio" name="" value="Dinamizadores">
+                            Dinamizadores
+                        </label>  
+                        <label for="">                            
+                            <input type="radio" name="" value="Comunidades">
+                            Comunidades
+                        </label>  
+                        <label for="">                            
+                            <input type="radio" name="" value="Agências de fomento">
+                            Grandes Empresas
+                        </label> 
+                    </div>
+                    <div class="flex-form">
+                        <div class="read-more">
+                            <a href="#" class="btn bg-gray">Voltar</a>
+                        </div>                            
+                        <div class="read-more">
+                            <a href="#" class="btn bg-gray">Próximo</a>
+                        </div>
+                    </div>
+                </fieldset>
+
+                <!-- perfil INVESTIDORES -->
                 <fieldset class="step">
                     <h2>Escolha um dos perfis abaixo</h2>
                         <div class="form-group">
+                            <label>Escolha um dos perfis abaixo de acordo com o tipo de investidor que é</label>
                             <label for="">                            
                                 <input type="radio" name="" value="Intermediário de serviços financeiros">
                                 Intermediário de serviços financeiros
@@ -87,6 +125,148 @@ include 'app/views/header.php';
                         </div>
                 </fieldset>
 
+                <!-- perfil SETOR PÚBLICO -->
+                <fieldset class="step">
+                    <h2>Escolha um dos perfis abaixo</h2>
+                    <div class="form-group">
+                        <label>Escolha um dos perfis abaixo de acordo com o tipo de setor público:</label>
+                        <label for="">                            
+                            <input type="radio" name="" value="Intermediário de serviços financeiros">
+                            Intermediário de serviços financeiros
+                        </label> 
+                        <label for="">                            
+                            <input type="radio" name="" value="Gestor Público">
+                            Gestor Público (Governo Estadual)
+                        </label>  
+                        <label for="">                            
+                            <input type="radio" name="" value="Gestor Público">
+                            Gestor Público (Governo Municipal)
+                        </label>  
+                        <label for="">                            
+                            <input type="radio" name="" value="Laboratórios de Inovação Social">
+                            Laboratórios de Inovação Social
+                        </label>
+                    </div>
+                    <div class="flex-form">
+                        <div class="read-more">
+                            <a href="#" class="btn bg-gray">Voltar</a>
+                        </div>                            
+                        <div class="read-more">
+                            <a href="#" class="btn bg-gray">Próximo</a>
+                        </div>
+                    </div>
+                </fieldset>
+
+                <!-- perfil DINAMIZADORES -->
+                <fieldset class="step">
+                    <h2>Escolha um dos perfis abaixo</h2>
+                    <div class="form-group">
+                        <label>Escolha um dos perfis abaixo de acordo com o tipo de dinamizador que é:</label>
+                        <label for="">                            
+                            <input type="radio" name="" value="Institutos">
+                            Institutos
+                        </label> 
+                        <label for="">                            
+                            <input type="radio" name="" value="Fundações">
+                            Fundações
+                        </label>  
+                        <label for="">                            
+                            <input type="radio" name="" value="Empresas">
+                            Empresas
+                        </label>  
+                        <label for="">                            
+                            <input type="radio" name="" value="Aceleradoras">
+                            Aceleradoras
+                        </label>  
+                        <label for="">                            
+                            <input type="radio" name="" value="Incubadoras e Parques Tecnológico">
+                            Incubadoras e Parques Tecnológico
+                        </label>  
+                        <label for="">                            
+                            <input type="radio" name="" value="Hubs e Comunidades de Negócios">
+                            Hubs e Comunidades de Negócios
+                        </label>  
+                        <label for="">                            
+                            <input type="radio" name="" value="Mentores">
+                            Mentores
+                        </label>  
+                        <label for="">                            
+                            <input type="radio" name="" value="Academia/Universidade">
+                            Academia/Universidade (Centro de Pesquisa e Inovação), Laboratório, Empresas Juniores, Instituições Tecnológicas)
+                        </label>  
+                        <label for="">                            
+                            <input type="radio" name="" value="Pesquisadores, técnicos, professores, estudantes universitários">
+                            Pesquisadores, técnicos, professores, estudantes universitários
+                        </label>  
+                        <label for="">                            
+                            <input type="radio" name="" value="Prestadora de Serviço, Consultoria de Avaliação e Monitoramento de impacto/certificadoras">
+                            Prestadora de Serviço, Consultoria de Avaliação e Monitoramento de impacto/certificadoras
+                        </label>  
+                        <label for="">                            
+                            <input type="radio" name="" value="Advogados e assessores jurídicos">
+                            Advogados e assessores jurídicos
+                        </label>  
+                        <label for="">                            
+                            <input type="radio" name="" value="Outros prestadores de serviços">
+                            Outros prestadores de serviços
+                        </label>
+                    </div>
+                    <div class="flex-form">
+                        <div class="read-more">
+                            <a href="#" class="btn bg-gray">Voltar</a>
+                        </div>                            
+                        <div class="read-more">
+                            <a href="#" class="btn bg-gray">Próximo</a>
+                        </div>
+                    </div>
+                </fieldset>
+
+                <!-- perfil COMUNIDADES -->
+                <fieldset class="step">
+                    <h2>Escolha um dos perfis abaixo</h2>
+                    <div class="form-group">
+                        <label>Escolha um dos perfis abaixo de acordo com o tipo de Comunidade que representa:</label>
+                        <label for="">                            
+                            <input type="radio" name="" value="Organização Internacional ou multilateral, cooperação internacional">
+                            Organização Internacional ou multilateral, cooperação internacional
+                        </label> 
+                        <label for="">                            
+                            <input type="radio" name="" value="Organização Não Governamental">
+                            Organização Não Governamental
+                        </label>  
+                        <label for="">                            
+                            <input type="radio" name="" value="Associações">
+                            Associações
+                        </label>  
+                        <label for="">                            
+                            <input type="radio" name="" value="Movimentos Sociais">
+                            Movimentos Sociais
+                        </label>  
+                        <label for="">                            
+                            <input type="radio" name="" value="Cidadania">
+                            Cidadania
+                        </label>  
+                        <label for="">                            
+                            <input type="radio" name="" value="Institutos">
+                            Institutos
+                        </label>  
+                        <label for="">                            
+                            <input type="radio" name="" value="Fundações">
+                            Fundações
+                        </label> 
+                    </div>
+                    <div class="flex-form">
+                        <div class="read-more">
+                            <a href="#" class="btn bg-gray">Voltar</a>
+                        </div>                            
+                        <div class="read-more">
+                            <a href="#" class="btn bg-gray">Próximo</a>
+                        </div>
+                    </div>
+                </fieldset>
+
+                <!-- GRANDES EMPRESAS NÃO TEM PERFIL -->
+                
                 <!-- dados do responsavel -->
                 <fieldset class="step">
                     <h2>Dados do Responsável</h2>
@@ -169,6 +349,12 @@ include 'app/views/header.php';
                             <label for="enterprise">Nome do Negócio/Empreendimento</label>
                             <input type="text" name="enterprise" id="enterprise">
                         </div>
+                        <!-- SETOR PÚBLICO -->
+                        <div class="form-group">
+                            <label for="enterprise">Nome da Organização</label>
+                            <input type="text" name="enterprise" id="enterprise">
+                        </div>
+                        <!-- SETOR PÚBLICO -->
                         <div class="form-group">
                             <label for="image">Adicione uma imagem de identificação <span>Dimensão recomendada para melhor visualização: 500x350px</span></label>
                             <input type="hidden" name="MAX_FILE_SIZE" value="4194304" />
@@ -196,6 +382,12 @@ include 'app/views/header.php';
                         <label for="cnpj">CNPJ</label>  
                         <input type="text" id="cnpj" name="cnpj">
                     </div>
+                    <!-- SETOR PÚBLICO -->
+                    <div class="form-group">
+                        <label for="area">Seção/Área (Detalhe)</label>  
+                        <input type="text" id="area" name="area">
+                    </div>
+                    <!-- SETOR PÚBLICO -->
                     <div class="flex-form">
                         <div class="form-group">
                             <label for="uf_Company">Estado</label>

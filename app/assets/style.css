@@ -686,7 +686,7 @@ footer .description{
     text-align: center;
 }
 .carrossel-banner .slick-track{
-    height: 450px;
+    height: 300px;
 }
 .banner-item::before{
     background: rgba(0,0,0, 0.9);
@@ -742,6 +742,9 @@ footer .description{
     }
     .banner-item p{
         font-size: 18px;
+    }
+    .carrossel-banner .slick-track{
+        height: 500px;
     }
 }
 @media  screen and (min-width: 1140px){

@@ -15,7 +15,34 @@ include 'app/views/header.php';
         </div>
         <div class="container">
 
-            <form id="regProject">
+            <form id="regProject">                
+                <!-- Perfil da Empresa -->
+                <fieldset class="step">
+                    <h2>Perfil da Empresa</h2>
+                    <div class="form-group">
+                        <label>Selecione o perfil da empresa - momento da maturidade empresarial</label>
+                        <label for="eixo">                            
+                            <input type="radio" name="eixo" value="Ideação">
+                            <strong>Ideação</strong> – dando os primeiros passos na formação da empresa, ainda sem formalização, mas com MVP sendo testado.
+                        </label>
+                        <label for="eixo">                            
+                            <input type="radio" name="eixo" value="Operação">
+                            <strong>Operação</strong> – empresa já formalizada, com faturamento e modelo de negócios validados.
+                        </label>
+                        <label for="eixo">                            
+                            <input type="radio" name="eixo" value="Tração">
+                            <strong>Tração</strong> – empresa já formalizada, atuando no mercado há mais de um ano, com ou não entrada de investimento, e com escala de vendas em crescimento.
+                        </label>
+                    </div>
+                    <div class="flex-form">
+                        <div class="read-more">
+                            <a href="#" class="btn bg-gray">Voltar</a>
+                        </div>                            
+                        <div class="read-more">
+                            <a href="#" class="btn bg-gray">Próximo</a>
+                        </div>
+                    </div>                  
+                </fieldset>
                 <!-- dados do responsavel -->
                 <fieldset class="step">
                     <h2>Dados do Responsável</h2>
@@ -180,11 +207,7 @@ include 'app/views/header.php';
                         <label for="eixo">                            
                             <input type="radio" name="eixo" value="Eixo Temático - Biodiversidade, Bioeconomia, Tecnologias Verdes e Indústria Sustentável ">
                             Biodiversidade, Bioeconomia, Tecnologias Verdes e Indústria Sustentável 
-                        </label>                        
-                        <label for="eixo">                            
-                            <input type="radio" name="eixo" value="todos">
-                            todos
-                        </label>
+                        </label>   
                     </div>  
                     <div class="flex-form">
                         <div class="read-more">
