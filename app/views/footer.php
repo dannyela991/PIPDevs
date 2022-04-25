@@ -10,10 +10,10 @@
             </div>
             <div class="social-media-footer">
                 <h4>Siga-nos nas redes sociais</h4>
-                <ul>
-                    <li><a href="" title="Facebook"><i class="fab fa-facebook-f"></i></a></li>
-                    <li><a href="" title="Instagram"><i class="fab fa-instagram"></i></a></li>
-                    <li><a href="" title="Youtube"><i class="fab fa-youtube"></i></a></li>
+                <ul>                    
+                    <li><a href="https://www.instagram.com/premioimpactospositivos/" target="_blank" title="Instagram"><i class="fab fa-instagram"></i></a></li>
+                    <li><a href="https://www.facebook.com/premioimpactospositivos" target="_blank" title="Facebook"><i class="fab fa-facebook-f"></i></a></li>
+                    <li><a href="https://www.youtube.com/channel/UCYuEo4Gnyyqvk-J64PrmqzA" target="_blank" title="Youtube"><i class="fab fa-youtube"></i></a></li>
                 </ul>
             </div>
             <div class="contact-footer">                

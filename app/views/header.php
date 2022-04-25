@@ -34,17 +34,34 @@
                 </div>
                 <div class="menu">
                     <div class="topnav" id="myTopnav">
-                        <div class="nav">                            
-                            <a href="#">Sobre Nós</a>
-                            <a href="#">Edições Anteriores</a>
-                            <a href="#">Contato</a>
-                            <a href="projects.php">Vitrine 2022</a>
+                        <div class="nav">  
+                            <div class="dropdown">
+                                <button class="dropbtn"><a href="about-us.php">Sobre nós</a>
+                                    <i class="fa fa-caret-down"></i>
+                                </button>
+                                <div class="dropdown-content">
+                                    <a href="projects.php">Manifesto</a>
+                                    <a href="#">Na Mídia</a>
+                                    <a href="#">Edições Anteriores</a>
+                                </div>
+                            </div>
+                            <div class="dropdown">
+                                <button class="dropbtn"><a href="posts.php">Conteúdos</a>
+                                    <i class="fa fa-caret-down"></i>
+                                </button>
+                                <div class="dropdown-content">
+                                    <a href="trend-news.php">Notícias</a>
+                                    <a href="medias.php">Lives e Vídeos</a>
+                                    <a href="podcast.php">Podcast</a>
+                                </div>
+                            </div> 
                             <div class="dropdown">
                                 <button class="dropbtn">Prêmio 2022 
                                     <i class="fa fa-caret-down"></i>
                                 </button>
                                 <div class="dropdown-content">
-                                    <a href="#">Cronograma</a>
+                                    <a href="projects.php">Vitrine 2022</a>
+                                    <a href="cronograma.php">Cronograma</a>
                                     <a href="#">Como participar</a>
                                     <a href="#">Categorias</a>
                                     <a href="#">Política</a>

@@ -250,7 +250,7 @@ header{
         width: 160px;
         transition: 0.3s;
     }
-    #top-page.header-fixo .search-mobile, #top-page.header-fixo .link-language, #top-page.header-fixo .subscription-links{
+    #top-page.header-fixo .subscription-links{
         display: none;
         transition: 0.3s;
     }
@@ -279,18 +279,24 @@ header{
 }
 @media screen and (min-width: 1140px){
     .menu{
-        width: 70%;
+        width: 60%;
         top: 25px;
-        right: 0px;
+        right: 150px;
     }
     .menu .nav{
         display: flex;
-        justify-content: space-between;
+        justify-content: flex-end;
     }
 }
 .topnav {
     overflow: hidden;
     background-color: #fff;
+}
+button.dropbtn a{
+    padding: 0;
+}
+button.dropbtn a:hover{
+    border-bottom: none;
 }
 .topnav a {
     float: left;
@@ -358,9 +364,10 @@ header{
     .topnav a.icon {
         float: right;
         display: block;
-        background: #32a7df;
-        color: #fff;
+        background: #f8f8ff;
+        color: #595959;
         font-size: 20px;
+        border-radius: 4px;
     }
 }
 
@@ -372,6 +379,7 @@ header{
     
     .topnav.responsive .nav{
         margin-top: 60px;
+        padding-top: 30px;
     }
     .topnav.responsive .icon {
         position: absolute;
@@ -395,22 +403,22 @@ header{
 /* SEARCH */
 .search-mobile{
     position: absolute;
-    top: 15px;
+    top: 18px;
     right: 50px;
     display: block;
 }
 @media screen and (min-width: 1140px){
     .search-mobile{
-       top: 75px;
-       right: 120px;
+       top: 25px;
+       right: 105px;
     }
 }
 .openBtn {
     background: #595959;
     color: #fff;
     border: none;
-    padding: 8px;
-    font-size: 20px;
+    padding: 6px;
+    font-size: 16px;
     cursor: pointer;
     border-radius: 4px;
 }
@@ -475,14 +483,15 @@ header{
 .link-language{
     max-width: 150px;
     position: absolute;
-    top: 30px;
+    top: 25px;
     right: 100px;
 }
 .link-language ul li{
     display: inline-block;
     list-style: none;
     border-right: 1px solid #33cc99;
-    padding: 0 3px;
+    padding: 0 4px;
+    margin: 7px 0;
 }
 .link-language ul li:last-child{
     border: none;
@@ -495,7 +504,7 @@ header{
     .link-language{
         max-width: 100px;
         right: 0;
-        top: 85px;
+        top: 25px;
     }
 }
 /* subscription links */
@@ -507,7 +516,7 @@ header{
 }
 .subscription-links{
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     flex-direction: row;
 }
 .button-subscription{
@@ -517,9 +526,9 @@ header{
 }
 @media screen and (min-width: 768px){    
     .subscription-links{
-        width: 300px;
+        width: 55%;
         top: 15px;
-        right: 220px;
+        right: 90px;
     }
     .subscription-links{
         flex-direction: column;
@@ -533,18 +542,21 @@ header{
 }
 @media screen and (min-width: 1140px){    
     .subscription-links{
-        width: 500px;
+        width: 70%;
         top: 90px;
-        right: 250px;
+        right: 0;
+        justify-content: flex-end;
     }
     .subscription-links{
         flex-direction: row;
+    }
+    .button-subscription{        
+        margin-left: 30px;
     }
     .button-subscription:first-child{
         margin-bottom: 0;
     }
 }
-
 
 /* FOOTER */
 footer{
@@ -880,31 +892,45 @@ footer .description{
 .latest-news .read-more{
     text-align: center;
 }
-@media  screen and (min-width: 768px){
-    .col-archives{
-        width: 50%;
-    }
-    .col-archives.ads{
-        width: 100%;
+.news-posts{
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+}
+@media  screen and (min-width: 768px){    
+    .news-posts{
+        flex-direction: row;
     }
 }
 @media  screen and (min-width: 1140px){
     .col-archives{
-        width: 33%;
+        width: 30%;
         margin-bottom: 0;
     }
-    .col-archives.ads{
-        width: 30%;
+    .news-posts{
+        width: 70%;
+        flex-direction: row;
     }
 }
 /* col accent */
+.card-news{
+    padding: 5px;
+}
+.card-news.accent{
+    width: 100%;
+}
+@media  screen and (min-width: 768px){
+    .card-news.accent{
+        width: 33%;
+    }
+}
 .card-news.accent .title a{
     color: #595959;
     font-size: 26px;
     overflow: hidden;
     text-overflow: ellipsis;
     display: -webkit-box;
-    -webkit-line-clamp: 2;
+    -webkit-line-clamp: 3;
     -webkit-box-orient: vertical;
 }
 .card-img.news-accent{
@@ -915,12 +941,12 @@ footer .description{
     background-size: cover;
 }
 .card-img .category span{
-    background: #0D0D0D;
+    background: rgba(0, 0, 0, 0.8);
     position: absolute;
     bottom: 0;
     text-align: center;
     padding: 6px 0;
-    width: 50%;
+    width: 70%;
     border-radius: 0 10px 0 0;
     font-size: 18px;
     text-transform: uppercase;
@@ -2376,6 +2402,209 @@ fieldset.step h2::before{
     }
 }
 
+/* PAGINAS INTERNAS */
+.pages .page-header.about-us{
+    padding: 180px 0;
+    background: url(images/bg-pages.jpg) center no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.pages .page-header.gronograma{
+    padding: 180px 0;
+    background: url(images/bg-cronograma.jpg) center no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.pages .page-header .bg-overlay{
+    background-color: #000000;
+    opacity: 0.60;
+    mix-blend-mode: darken;
+    transition: background 0.3s, border-radius 0.3s, opacity 0.3s;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    position: absolute;
+}
+.pages .page-header{
+    color: #ffffff;
+}
+.pages .page-header h1{
+    width: 50%;
+    margin-bottom: 20px;
+    font-size: 42px;
+}
+.pages .page-header p{
+    width: 50%;
+    font-size: 24px;
+}
+.pages .content{
+    border: none;
+    margin-top: 50px;
+}
+.pages h2{
+    padding: 20px 0;
+}
+.pages .content p{
+    line-height: 1.5;
+}
+.pages .content span.destaque{
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.pages .posts-content{
+    margin-top: 100px;
+    border-top: 1px solid #ccc;
+}
+.pages .posts-content h2{
+    text-transform: uppercase;
+    height: 90px;
+}
+.pages .content-archives .card{
+    width: 100%;
+    margin-right: 0;
+}
+.pages .read-more{
+    margin-top: 20px;
+}
+.pages .center{
+    text-align: center;
+}
+.pages .content-archives{
+    justify-content: space-between;
+    margin-right: 0;
+}
+@media  screen and (min-width: 768px){    
+    .pages .content-archives .card{
+        width: 48%;
+        margin-right: 5px;
+    }
+}
+@media  screen and (min-width: 1140px){
+    .pages .content-archives .card{
+        width: 23%;
+    }
+}
 
+/* CRONOGRAMA */
+/* The actual timeline (the vertical ruler) */
+.timeline {
+    position: relative;
+    max-width: 1400px;
+    margin: 80px auto 0 auto;
+}
 
+/* The actual timeline (the vertical ruler) */
+.timeline::after {
+    content: '';
+    position: absolute;
+    width: 6px;
+    background-color: #ccc;
+    top: 0;
+    bottom: 0;
+    left: 50%;
+    margin-left: -3px;
+}
+/* Container around content */
+.container-timeline {
+    padding: 10px 40px;
+    position: relative;
+    background-color: inherit;
+    width: 50%;
+}
 
+/* The circles on the timeline */
+.container-timeline::after {
+    content: '';
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    right: -17px;
+    background-color: #f8f8ff;
+    border: 4px solid #ffcc00;
+    top: 15px;
+    border-radius: 50%;
+    z-index: 1;
+}
+/* Place the container to the left */
+.left {
+    left: 0;
+}
+
+/* Place the container to the right */
+.right {
+    left: 50%;
+}
+/* Add arrows to the left container (pointing right) */
+.left::before {
+    content: " ";
+    height: 0;
+    position: absolute;
+    top: 22px;
+    width: 0;
+    z-index: 1;
+    right: 30px;
+    border: medium solid #f8f8ff;
+    border-width: 10px 0 10px 10px;
+    border-color: transparent transparent transparent #f8f8ff;
+}
+/* Add arrows to the right container (pointing left) */
+    .right::before {
+    content: " ";
+    height: 0;
+    position: absolute;
+    top: 22px;
+    width: 0;
+    z-index: 1;
+    left: 30px;
+    border: medium solid #f8f8ff;
+    border-width: 10px 10px 10px 0;
+    border-color: transparent #f8f8ff transparent transparent;
+}
+/* Fix the circle for containers on the right side */
+.right::after {
+    left: -16px;
+}
+/* The actual content */
+.content-timeline {
+    padding: 15px 30px;
+    background-color: #f8f8ff;
+    position: relative;
+    border-radius: 6px;
+}
+.content-timeline p{
+    font-size: 14px;
+    line-height: 1.5;
+}
+.content-timeline h2{
+    padding: 0;
+    padding-bottom: 15px;
+}
+/* Media queries - Responsive timeline on screens less than 600px wide */
+@media screen and (max-width: 600px) {
+    /* Place the timelime to the left */
+    .timeline::after {
+        left: 31px;
+    }
+    /* Full-width containers */
+    .container-timeline {
+        width: 100%;
+        padding-left: 70px;
+        padding-right: 25px;
+    }
+    /* Make sure that all arrows are pointing leftwards */
+    .container-timeline::before {
+        left: 60px;
+        border: medium solid #f8f8ff;
+        border-width: 10px 10px 10px 0;
+        border-color: transparent #f8f8ff transparent transparent;
+    }
+    /* Make sure all circles are at the same spot */
+    .left::after, .right::after {
+        left: 15px;
+    }
+    /* Make all right containers behave like the left ones */
+    .right {
+        left: 0%;
+    }
+}  

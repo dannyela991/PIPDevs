@@ -86,15 +86,45 @@ include 'app/views/header.php';
         <div class="container">
             <div class="flex-container">
                 <!-- COL NEWS ACCENT -->
-                <div class="col-archives">
+                <div class="col-archives news-posts">
                     <div class="card-news accent">
                         <div class="card-img news-accent">
                             <div class="category">
-                                <a href="posts.php" title=""><span>Notícias</span></a>
+                                <a href="trend-news.php" title=""><span>Notícias</span></a>
                             </div>
                         </div>
                         <div class="title">
                             <h2><a href="post-single.php" title="">Semear educação financeira e colher realizações</a></h2>
+                        </div>
+                        <ul class="list-tags">
+                            <li><a href="#">Impacto</a></li>
+                            <li><a href="#">Economia</a></li>
+                            <li><a href="#">Ecosistema</a></li>
+                        </ul>
+                    </div>
+                    <div class="card-news accent">
+                        <div class="card-img news-accent">
+                            <div class="category">
+                                <a href="medias.php" title=""><span>Vídeo</span></a>
+                            </div>
+                        </div>
+                        <div class="title">
+                            <h2><a href="media-single.php" title="">Noruega e o luxo inusitado IV com Liliana Calisto e Maria Alarcon de V.O.S.</a></h2>
+                        </div>
+                        <ul class="list-tags">
+                            <li><a href="#">Impacto</a></li>
+                            <li><a href="#">Economia</a></li>
+                            <li><a href="#">Ecosistema</a></li>
+                        </ul>
+                    </div>
+                    <div class="card-news accent">
+                        <div class="card-img news-accent">
+                            <div class="category">
+                                <a href="podcast.php" title=""><span>Podcast</span></a>
+                            </div>
+                        </div>
+                        <div class="title">
+                            <h2><a href="podcast-single.php" title="">Lorem ipsum dolor sit amet consectetur adipisicing elit</a></h2>
                         </div>
                         <ul class="list-tags">
                             <li><a href="#">Impacto</a></li>
@@ -159,39 +189,10 @@ include 'app/views/header.php';
                             </ul>
                         </div>
                     </div>
-                </div>
-                <!-- COL NEWS ACCENT -->
-                <div class="col-archives">
-                    <div class="card-news accent">
-                        <div class="card-img news-accent">
-                            <div class="category">
-                                <a href="posts.php" title=""><span>Notícias</span></a>
-                            </div>
-                        </div>
-                        <div class="title">
-                            <h2><a href="post-single.php" title="">Semear educação financeira e colher realizações</a></h2>
-                        </div>
-                        <ul class="list-tags">
-                            <li><a href="#">Impacto</a></li>
-                            <li><a href="#">Economia</a></li>
-                            <li><a href="#">Ecosistema</a></li>
-                        </ul>
+                    <div class="read-more">
+                        <a href="posts.php" class="btn bg-gray">Ver todos</a>
                     </div>
                 </div>
-                <!-- COL NEWS ADS -->
-                <!-- <div class="col-archives ads">
-                    <div class="card-news">                    
-                        <div class="img-ads">
-                            <img src="app/assets/images/banner-latest01.png" alt="" />
-                        </div>
-                        <div class="img-ads">
-                            <img src="app/assets/images/banner-latest02.png" alt="" />
-                        </div>
-                    </div>
-                </div> -->
-            </div>
-            <div class="read-more">
-                <a href="#" class="btn bg-gray">Ver todos</a>
             </div>
         </div>
     </section>
@@ -1082,7 +1083,7 @@ include 'app/views/header.php';
             <div class="container flex-container">
                 <div class="col-title">
                     <div class="title">
-                        <h2>News Podcast</h2>
+                        <h2>Podcast</h2>
                     </div>
                     <div class="description">
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id ducimus possimus aliquid recusandae repellendus cupiditate nesciunt</p>
