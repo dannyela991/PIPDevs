@@ -36,20 +36,22 @@
                     <div class="topnav" id="myTopnav">
                         <div class="nav">  
                             <div class="dropdown">
-                                <button class="dropbtn"><a href="about-us.php">Sobre nós</a>
+                                <button class="dropbtn">Sobre nós
                                     <i class="fa fa-caret-down"></i>
                                 </button>
                                 <div class="dropdown-content">
+                                    <a href="about-us.php">Quem Somos</a>
                                     <a href="projects.php">Manifesto</a>
                                     <a href="#">Na Mídia</a>
                                     <a href="#">Edições Anteriores</a>
                                 </div>
                             </div>
                             <div class="dropdown">
-                                <button class="dropbtn"><a href="posts.php">Conteúdos</a>
+                                <button class="dropbtn">Conteúdos
                                     <i class="fa fa-caret-down"></i>
                                 </button>
                                 <div class="dropdown-content">
+                                    <a href="posts.php">Publicações</a>
                                     <a href="trend-news.php">Notícias</a>
                                     <a href="medias.php">Lives e Vídeos</a>
                                     <a href="podcast.php">Podcast</a>

@@ -370,7 +370,6 @@ button.dropbtn a:hover{
         border-radius: 4px;
     }
 }
-
 @media screen and (max-width: 1139px) {
     .topnav.responsive {
         position: relative;
@@ -1207,6 +1206,12 @@ footer .description{
 .col-impacts a:hover{
     color: #33cc99;
 }
+.honor .read-more{
+    text-align: center;
+}
+.honor .read-more a:hover{
+    color: #fff;
+}
 .list-impacts{
     text-align: left;
     height: 250px;
@@ -1296,53 +1301,34 @@ background-color: #ccc;    /* color of the scroll thumb */
     }
 }
 
-/* CERTIFICATIONS */
-.certification{
-    padding-top: 100px;
-    text-align: center;
+
+/* MATÉRIAS */
+.materias{
+    padding: 100px 0;
 }
-.certification .title h3{
+.materias .flex-container{
+    align-items: flex-start;
+}
+.col-materia{
+    width: 50%;
+    padding: 0 20px;
+}
+.img-materia{
+    margin-bottom: 20px;
+}
+.txt-content h2 a:hover{
+    color: #595959;
+    text-decoration: underline;
+}
+.txt-content h2{    
+    margin-bottom: 15px;
+    font-size: 20px;
     text-transform: uppercase;
-    font-size: 28px;
 }
-/* certifications */
-.col-certification{
-    width: 100%;
+.txt-content p{
+    font-size: 14px;
+    line-height: 1.5;
 }
-.img-certification{
-    width: 80%;
-    text-align: center;
-    margin: 30px auto;
-}
-@media  screen and (min-width: 768px){
-    .col-certification{
-        width: 50%;
-    }
-}
-@media  screen and (min-width: 1140px){    
-    .img-certification{
-        width: 250px;
-        text-align: center;
-        margin: 50px auto;
-    }
-    .img-certification img{
-        height: 250px;
-    }
-    .img-certification h4{
-        margin-top: 30px;
-    }
-}
-
-/* trophy */
-.col-trophy{
-    width: 100%;
-}
-@media  screen and (min-width: 768px){
-    .col-trophy{
-        width: 50%;
-    }
-}
-
 /* TRENDS */
 .trends .item{
     margin: 15px 5px;
@@ -1524,14 +1510,31 @@ ul.list-tags li:last-child{
     -o-transition: 0.3s;
     padding: 0;
 }
-.carrossel-midia .img-midia img{
-    border-radius: 10px;
-}
 .carrossel-midia .item.slick-center{
     transform: scale(1, 1);
 }
-.carrossel-midia .item.slick-center .img-midia img{
-    box-shadow: 3px 3px 10px #333;
+.txt-midia{
+    padding: 10px;
+}
+.txt-midia h3{
+    margin-bottom: 10px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+}
+.txt-midia h3 a:hover{
+    color: #595959;
+    text-decoration: underline;
+}
+.txt-midia p{    
+    font-size: 14px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
 }
 /* MODAL MODE */  
 .container-iframe{

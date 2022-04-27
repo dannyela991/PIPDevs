@@ -701,6 +701,9 @@ include 'app/views/header.php';
                                 <li><a href="#"><i class="fab fa-twitter"></i></a></li>
                             </ul>
                         </div>
+                        <div class="read-more">
+                            <a href="" class="btn bg-black">Ver todos</a>
+                        </div>
                     </div>
                 </div>
                 <div class="col-impacts">
@@ -806,6 +809,9 @@ include 'app/views/header.php';
                                 <li><a href="#"><i class="fab fa-youtube"></i></a></li>
                                 <li><a href="#"><i class="fab fa-twitter"></i></a></li>
                             </ul>
+                        </div>
+                        <div class="read-more">
+                            <a href="" class="btn bg-black">Ver todos</a>
                         </div>
                     </div>                            
                 </div>
@@ -913,6 +919,9 @@ include 'app/views/header.php';
                                 <li><a href="#"><i class="fab fa-twitter"></i></a></li>
                             </ul>
                         </div>
+                        <div class="read-more">
+                            <a href="" class="btn bg-black">Ver todos</a>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -920,27 +929,35 @@ include 'app/views/header.php';
         
     </section>
 
-    <section class="certification">
-        <div class="container flex-container">
-            <div class="col-certification">
-                <div class="title">
-                    <h3>Certificação Pacto Global</h3>
+    <section class="materias"> 
+        <div class="container">
+            <div class="flex-container">
+                <div class="col-materia ods">
+                    <div class="img-materia">
+                        <a href=""><img src="app/assets/images/bg-ods.png" alt=""/></a>
+                    </div>
+                    <div class="txt-content">
+                        <h2><a href="">Objetivos de Desenvolvimento Sustentável no Brasil</a></h2>
+                        <p>Os Objetivos de Desenvolvimento Sustentável, chamados de ODS, foram desenvolvidos em 2015 com a participação de 193 nações membros da Organização das Nações Unidas durante a Cúpula das Nações Unidas sobre o Desenvolvimento Sustentável.</p>
+                        <div class="read-more">
+                            <a href="#" class="btn bg-black">Saiba mais</a> 
+                        </div>
+                    </div>        
                 </div>
-                <div class="img-certification">
-                    <img src="app/assets/images/ods3.png" alt=""/>
-                    <h4>Certificado pela excelência na implemantação das ODSs</h4>
+                <div class="col-materia eco">
+                    <div class="img-materia">
+                        <a href=""><img src="app/assets/images/bg-eco.png" alt=""/></a>
+                    </div>
+                    <div class="txt-content">
+                        <h2><a href="">Ecossistemas de Impactos</a></h2>
+                        <p>Conheça mais sobre o ECOSSISTEMA DE IMPACTO e se engaje com iniciativas e projetos que impactam positivamente nosso país e nosso mundo.</p>
+                        <div class="read-more">
+                            <a href="#" class="btn bg-black">Saiba mais</a> 
+                        </div>
+                    </div>         
                 </div>
             </div>
-            <div class="col-trophy">
-                <div class="title">
-                    <h3>Troféu PIP 2022</h3>
-                </div>
-                <div class="img-certification">
-                    <img src="app/assets/images/trofeu.png" alt=""/>
-                    <h4>Lorem ipsum dolor sit amet consectetur adipisicing elit</h4>
-                </div>
-            </div>
-        </div>
+        </div>              
     </section>
 
     <section class="trends"> 
@@ -1008,32 +1025,56 @@ include 'app/views/header.php';
                             <div class="item midia">
                                 <div class="img-midia">
                                     <img src="app/assets/images/video-youtube.png" onclick="openModal();currentSlide(1)" class="hover-shadow" />
-                                </div>                    
+                                </div>
+                                <div class="txt-midia">
+                                    <h3><a href="media-single.php">Título do vídeo Lorem ipsum dolor sit amet consectetur adipisicing elit. Id ducimus possimus aliquid recusandae repellendus cupiditate nesciunt</a></h3>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id ducimus possimus aliquid recusandae repellendus cupiditate nesciunt</p>
+                                </div>                  
                             </div>
                             <div class="item midia">
                                 <div class="img-midia">
                                     <img src="app/assets/images/video-vimeo.png" onclick="openModal();currentSlide(2)" class="hover-shadow" />
                                 </div>
+                                <div class="txt-midia">
+                                    <h3><a href="media-single.php">Título do vídeo Lorem ipsum dolor sit amet consectetur adipisicing elit. Id ducimus possimus aliquid recusandae repellendus cupiditate nesciunt</a></h3>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id ducimus possimus aliquid recusandae repellendus cupiditate nesciunt</p>
+                                </div>   
                             </div>
                             <div class="item midia">
                                 <div class="img-midia">
                                     <img src="app/assets/images/video-youtube-02.png" onclick="openModal();currentSlide(3)" class="hover-shadow" />
                                 </div>
+                                <div class="txt-midia">
+                                    <h3><a href="media-single.php">Título do vídeo</a></h3>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id ducimus possimus aliquid recusandae repellendus cupiditate nesciunt</p>
+                                </div>   
                             </div>
                             <div class="item midia">
                                 <div class="img-midia">
                                     <img src="app/assets/images/video-youtube-02.png" onclick="openModal();currentSlide(3)" class="hover-shadow" />
                                 </div>
+                                <div class="txt-midia">
+                                    <h3><a href="media-single.php">Título do vídeo</a></h3>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id ducimus possimus aliquid recusandae repellendus cupiditate nesciunt</p>
+                                </div>   
                             </div>                                   
                             <div class="item midia">
                                 <div class="img-midia">
                                     <img src="app/assets/images/video-vimeo.png" onclick="openModal();currentSlide(4)" class="hover-shadow" />
                                 </div>
+                                <div class="txt-midia">
+                                    <h3><a href="media-single.php">Título do vídeo</a></h3>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id ducimus possimus aliquid recusandae repellendus cupiditate nesciunt</p>
+                                </div>   
                             </div>                        
                             <div class="item midia">
                                 <div class="img-midia">
                                     <img src="app/assets/images/video-youtube-02.png" onclick="openModal();currentSlide(5)" class="hover-shadow" />
                                 </div>
+                                <div class="txt-midia">
+                                    <h3><a href="media-single.php">Título do vídeo Lorem ipsum dolor sit amet consectetur adipisicing elit. Id ducimus possimus aliquid recusandae repellendus cupiditate nesciunt</a></h3>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id ducimus possimus aliquid recusandae repellendus cupiditate nesciunt</p>
+                                </div>   
                             </div>    
                         </div>
                         <div class="nav-midia">
