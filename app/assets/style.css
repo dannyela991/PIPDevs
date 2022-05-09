@@ -232,13 +232,12 @@ header{
     transition: 0.3s;
 }
 #top-page.header-fixo .subscription-links{
-    display: none;
     transition: 0.3s;
 }
 @media screen and (min-width: 768px){
     #top-page.header-fixo .subscription-links{
-        display:block;
         display: flex;
+        justify-content: flex-start;
     }
 }
 @media screen and (min-width: 1140px){
@@ -251,8 +250,13 @@ header{
         transition: 0.3s;
     }
     #top-page.header-fixo .subscription-links{
-        display: none;
-        transition: 0.3s;
+        top: 35px;
+        left: 190px;
+        transition: 0.5s;
+    }
+    #top-page.header-fixo .button-subscription{
+        font-size: 12px;
+
     }
 }
 
@@ -1254,6 +1258,7 @@ background-color: #ccc;    /* color of the scroll thumb */
     margin-top: 20px;
     font-weight: bold;
     font-size: 14px;
+    position: relative;
 }
 .nav-project ul{
     display: flex;
@@ -1278,6 +1283,43 @@ background-color: #ccc;    /* color of the scroll thumb */
 .nav-project li a:hover{
     color: #333;
     text-decoration: underline;
+}
+.tooltip {
+    position: relative;
+    display: inline-block;
+}
+.tooltip .tooltiptext {
+    visibility: hidden;
+    width: 300px;
+    background-color: #f8f8ff;
+    color: #595959;
+    text-align: center;
+    text-transform: none;
+    font-size: 13px;
+    font-weight: 400;
+    border-radius: 6px;
+    padding: 5px 0;
+    position: absolute;
+    z-index: 1;
+    bottom: 125%;
+    left: 15%;
+    opacity: 0;
+    transition: opacity 0.3s;
+    box-shadow: 3px 3px 5px #999;
+}
+.tooltip .tooltiptext::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #f8f8ff transparent transparent transparent;
+}
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+    opacity: 1;
 }
 @media  screen and (min-width: 768px){    
     .col-impacts{
@@ -2433,13 +2475,11 @@ fieldset.step h2::before{
     color: #ffffff;
 }
 .pages .page-header h1{
-    width: 50%;
     margin-bottom: 20px;
-    font-size: 42px;
+    font-size: 32px;
 }
 .pages .page-header p{
-    width: 50%;
-    font-size: 24px;
+    font-size: 18px;
 }
 .pages .content{
     border: none;
@@ -2481,6 +2521,15 @@ fieldset.step h2::before{
     .pages .content-archives .card{
         width: 48%;
         margin-right: 5px;
+    }
+    .pages .page-header h1{
+        width: 50%;
+        margin-bottom: 20px;
+        font-size: 42px;
+    }
+    .pages .page-header p{
+        width: 50%;
+        font-size: 24px;
     }
 }
 @media  screen and (min-width: 1140px){
@@ -2611,3 +2660,171 @@ fieldset.step h2::before{
         left: 0%;
     }
 }  
+
+.pages .page-header.lancamento{
+    position: relative;
+    padding: 180px 0;
+    background: url(images/bg-pages.jpg) center no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.midia-responsive, .chat-responsive{
+    width: 100%;
+}
+.content-lancamento{
+    margin: 100px auto;
+}
+.content-lancamento .title{
+    text-align: center;
+}
+.content-lancamento .title h2{
+    font-size: 35px;
+    font-weight: 400;
+}
+.content-lancamento .title h2::after{
+    content: "\020";
+    display: block;
+    height: 1px;
+    margin: 5px auto;
+    width: 50%;
+    background: #0080bb;
+}
+@media  screen and (min-width: 1140px){    
+    .midia-responsive{
+        width: 70%;
+    }
+    .chat-responsive{
+        width: 30%;
+    }
+}
+
+/* My Account */
+.pages .flex-container{
+    align-items: flex-start;
+}
+.page-header.my-account{
+    background: #f1f1f1;
+    color: #333;
+}
+.links-account li{
+    list-style: none;
+    line-height: 2;
+    margin-bottom: 15px;
+    background: #f8f8ff;    
+}
+.links-account li:hover{
+    background: #ccc;
+}
+.links-account li:last-child{
+    margin-bottom: 0;
+}
+.links-account li a{
+    display: block;
+}
+.pages .content-author{
+    border-top: none;
+    margin-top: 0;
+}
+
+
+/* Style the tab */
+.tab {
+    float: left;
+    background-color: #f8f8ff;
+    width: 25%;
+}
+
+/* Style the buttons inside the tab */
+.tablink {
+    display: block;
+    background-color: inherit;
+    color: #333;
+    padding: 22px 16px;
+    width: 100%;
+    border: none;
+    outline: none;
+    text-align: left;
+    cursor: pointer;
+    transition: 0.3s;
+    font-size: 17px;
+}  
+/* Change background color of buttons on hover */
+.tablink:hover {
+    background-color: #ddd;
+}   
+/* Style the tab content */
+.tabcontent {
+    float: left;
+    padding: 20px 12px;
+    width: 75%;
+    border-left: none;
+    display: none;
+}
+.tabcontent h3{
+    margin-bottom: 15px;
+}
+.tabcontent label{
+    font-size: 12px;
+    margin-bottom: 5px;
+}
+.tabcontent input{
+    line-height: 2;
+    display: block;
+    width: 100%;
+    margin: 8px 0;
+    border: 1px solid #ccc;
+    padding: 0 6px;
+}
+.tabcontent select{
+    padding: 6px 0;
+    display: block;
+    width: 100%;
+    margin: 8px 0;
+    border: 1px solid #ccc;
+}
+.tabcontent input[type="checkbox"], .tabcontent input[type="radio"]{
+    display: inline;
+    font-size: 22px;
+    width: 20px;
+    height: 20px;
+    vertical-align: middle;
+}
+.tabcontent textarea{
+    padding: 5px;
+}
+#project-images-container{
+    width: 100%;
+}
+#project-images-container .project-images li.image{
+    width: 80px;
+    float: left;
+    list-style: none;
+    margin: 9px 9px 0 0;
+    background: #f7f7f7;
+    border-radius: 2px;
+    position: relative;
+}
+#project-images-container ul li.image img{
+    width: 100%;
+    height: auto;
+    display: block;
+}
+#project-images-container ul ul.actions{
+    position: absolute;
+    top: -8px;
+    right: -8px;
+    padding: 2px;
+    display: none;
+}
+#project-images-container ul::after, #project-images-container ul::before{
+    content: " ";
+    display: table;
+}
+#project-images-container ul::after{
+    clear: both;
+}
+#project-images-container a.edit-images{
+    font-size: 12px;
+    color: red;
+    margin-top: 15px;
+}

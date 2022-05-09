@@ -212,12 +212,15 @@ include 'app/views/header.php';
                         </div>                        
                         <div class="nav-project">
                             <ul class="inline">
-                                <li><a href="#">Cidadania</a></li>
-                                <li><a href="#">Cidades</a></li>
-                                <li><a href="#">Educação</a></li>
-                                <li><a href="#">Saúde</a></li>
-                                <li><a href="#">Finanças</a></li>
-                                <li><a href="#">Tecnologia Verde</a></li>
+                                <li><a class="tooltip" href="#">Ideação
+                                    <span class="tooltiptext">Dando os primeiros passos na formação da empresa, ainda sem formalização, mas com MVP sendo testado.</span>
+                                </a></li>
+                                <li><a class="tooltip" href="#">Operação
+                                    <span class="tooltiptext">Empresa já formalizada, com faturamento e modelo de negócios validados.</span>
+                                </a></li>
+                                <li><a class="tooltip" href="#">Tração
+                                    <span class="tooltiptext">Empresa já formalizada, atuando no mercado há mais de uma ano, com ou não entrada de investimento, e com escala de vendas em crescimento.</span>
+                                </a></li>
                             </ul>
                         </div>
                         <div class="box-carrossel-bussiness">
@@ -392,11 +395,11 @@ include 'app/views/header.php';
                         </div>
                         <div class="nav-project">
                             <ul class="inline">
-                                <li><a href="#">Investimento</a></li>
-                                <li><a href="#">Setor Público</a></li>
-                                <li><a href="#">Dinamizadores</a></li>
-                                <li><a href="#">Comunidades</a></li>
-                                <li><a href="#">Grandes Empresas</a></li>
+                                <li><a class="tooltip" href="#">Investimento</a></li>
+                                <li><a class="tooltip" href="#">Setor Público</a></li>
+                                <li><a class="tooltip" href="#">Dinamizadores</a></li>
+                                <li><a class="tooltip" href="#">Comunidades</a></li>
+                                <li><a class="tooltip" href="#">Grandes Empresas</a></li>
                             </ul>
                         </div>
                         <div class="box-carrossel-ecosystem">
