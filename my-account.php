@@ -16,7 +16,7 @@ include 'app/views/header.php';
             <div class="flex-container">
                 <div class="content">                    
                     <div class="tab">
-                        <!-- dados pessoasis usuário comum -->
+                        <!-- dados pessoais usuário comum -->
                         <button class="tablink" onclick="openPage('personal-comum-data')" id="defaultOpen">Dados Pessoais</button>
                         <!-- dados pessoais para usuários projetos -->
                         <button class="tablink" onclick="openPage('personal-data')" id="defaultOpen">Dados Pessoais</button>
