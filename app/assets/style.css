@@ -879,7 +879,19 @@ footer .description{
     }
 }
 
-
+/* PARCEIRO ENIMPACTO */
+.enimpacto-parceiro{
+    padding: 60px 0;
+}
+.enimpacto-parceiro .col-title .title{
+    margin-bottom: 0;
+}
+.enimpacto-parceiro .col-title .title h2{
+    font-size: 44px;
+}
+.enimpacto-parceiro .col-title .title h2::after{
+    display: none;
+}
 /* LATEST NEWS */
 .latest-news{
     padding: 100px 0;

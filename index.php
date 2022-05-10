@@ -81,6 +81,21 @@ include 'app/views/header.php';
             </div>
         </div>
     </section>
+    
+    <section class="enimpacto-parceiro">
+        <div class="container flex-container">
+            <div class="col-title">
+                <div class="title">
+                    <h2>Parceiro Institucional</h2>
+                </div>
+            </div>
+            <div class="col-articles">
+                <div class="img-parceiro">
+                    <img src="app/assets/images/enimpacto.png" alt="Enimpacto"/>
+                </div>
+            </div>
+        </div>
+    </section>
 
     <section class="latest-news">
         <div class="container">
@@ -962,6 +977,8 @@ include 'app/views/header.php';
             </div>
         </div>              
     </section>
+
+   
 
     <section class="trends"> 
         <article class="trend-news">
