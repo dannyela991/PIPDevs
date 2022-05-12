@@ -2924,25 +2924,11 @@ fieldset.step h2::before{
 .content-project h2{
     margin: 15px 0;
 }
-.content-carrossel-project{
+.content-iframe-project{
     margin-top: 60px;
     position: relative;
     padding: 0 30px;
     text-align: center;
-}
-.content-carrossel-project h2{
-    text-transform: uppercase;
-    border-bottom: 1px solid #33cc99;
-}
-.item.project{
-    margin: 10px;
-}
-.nav-carrossel-project a{
-    font-size: 34px;
-    color: #33cc99;
-}
-.nav-carrossel-project a:hover{
-    color: #219770;
 }
 @media  screen and (min-width: 768px){
     .info-project .flex-container{

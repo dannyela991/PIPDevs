@@ -67,47 +67,9 @@ include 'app/views/header.php';
                         <p class="key-projeto">Lorem ipsum dolor sit amet consectetur adipisicing elit, Lorem ipsum dolor sit amet consectetur adipisicing elit, Lorem ipsum dolor sit amet consectetur adipisicing elit</p>
                     </div>
 
-                    <div class="content-carrossel-project">
-                        <h2>Confira nossas atividades</h2>
-                        <div class="carrossel-project">                        
-                            <div class="item project">
-                                <div class="img-project">
-                                    <img src="app/assets/images/video-youtube.png"/>
-                                </div>            
-                            </div>
-                            <div class="item project">
-                                <div class="img-project">
-                                    <img src="app/assets/images/video-vimeo.png"/>
-                                </div>
-                            </div>
-                            <div class="item project">
-                                <div class="img-project">
-                                    <img src="app/assets/images/video-youtube-02.png"/>
-                                </div>
-                            </div>
-                            <div class="item project">
-                                <div class="img-project">
-                                    <img src="app/assets/images/video-youtube-02.png"/>
-                                </div>
-                            </div>                                   
-                            <div class="item project">
-                                <div class="img-project">
-                                    <img src="app/assets/images/video-vimeo.png"/>
-                                </div>
-                            </div>                        
-                            <div class="item project">
-                                <div class="img-project">
-                                    <img src="app/assets/images/video-youtube-02.png"/>
-                                </div>
-                            </div>    
-                        </div>
-                        <div class="nav-carrossel-project">
-                            <a id="prev-project" class="icon arrow-left">
-                                <i class="fas fa-caret-left"></i>
-                            </a>
-                            <a id="next-project" class="icon arrow-right">
-                                <i class="fas fa-caret-right"></i>
-                            </a>
+                    <div class="content-iframe-project">
+                        <div class="container-iframe"> 
+                            <iframe class="responsive-iframe" src="https://www.youtube.com/embed/tgbNymZ7vqY"></iframe>
                         </div>
                     </div>
                 </div>
