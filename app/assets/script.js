@@ -257,7 +257,29 @@
           ]
     })
   })
+  // CARROSSEL projects
+  $(function () {
   
+    $('.carrossel-project').slick({
+        infinite: true,
+        slidesToShow: 2,
+        slidesToScroll: 1,    
+        autoplay: true,
+        autoplaySpeed: 3000,
+        prevArrow: $('#prev-project'),
+        nextArrow: $('#next-project'),
+  
+        responsive: [
+            {
+              breakpoint: 769,
+              settings: {
+                slidesToShow: 1,
+                slidesToScroll: 1,
+              }
+            }
+          ]
+    })
+  })
   
   // MODAL MIDIA
   function openModal() {
@@ -292,6 +314,7 @@
     dots[slideIndex-1].className += " active";
     captionText.innerHTML = dots[slideIndex-1].alt;
   }
+
 
   //REPONSIVE IFRAME
   $(".content-post iframe").wrap("<div class='container-iframe'></div>");

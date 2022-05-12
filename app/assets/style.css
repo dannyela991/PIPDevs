@@ -2851,3 +2851,104 @@ fieldset.step h2::before{
     color: red;
     margin-top: 15px;
 }
+
+/* PROJECT SINGLE */
+.page-projects{
+    padding-top: 60px;
+}
+.page-projects .container.flex-container{
+    align-items: flex-start;
+}
+.page-projects .page-header.flex-container{
+    justify-content: space-between;
+}
+.page-projects .page-header{
+    border-bottom: 1px solid #ccc;
+}
+.page-projects .page-header h1{
+    color: #33cc99;
+}
+.categoty-project{
+    font-size: 24px;
+    text-transform: uppercase;
+}
+.categoty-project .sub-category{
+    font-size: 18px;
+}
+.page-projects .content{
+    width: 100%;
+    border: none;
+}
+.info-project{
+    padding: 60px 0;
+    text-align: center;
+}
+.dados-instituicao, .votacao{
+    line-height: 2;
+}
+.name-inst{
+    font-weight: bold;
+    font-size: 18px;
+}
+.social-midia li{
+    padding: 7px 20px;
+    font-size: 20px;
+}
+.content-project{
+    margin: 30px 0;
+    line-height: 1.5;
+}
+.content-project h2{
+    margin: 15px 0;
+}
+.content-carrossel-project{
+    margin-top: 60px;
+    position: relative;
+    padding: 0 30px;
+    text-align: center;
+}
+.content-carrossel-project h2{
+    text-transform: uppercase;
+    border-bottom: 1px solid #33cc99;
+}
+.item.project{
+    margin: 10px;
+}
+.nav-carrossel-project a{
+    font-size: 34px;
+    color: #33cc99;
+}
+.nav-carrossel-project a:hover{
+    color: #219770;
+}
+@media  screen and (min-width: 768px){
+    .info-project .flex-container{
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+}
+@media  screen and (min-width: 1140px){
+    .page-projects .content{
+        width: 75%;
+        border-right: 1px solid #ccc;
+    }
+    .page-projects .sidebar{
+        width: 25%;
+        padding: 0;
+        padding-left: 40px;
+    }
+    .info-project .flex-container{
+        justify-content: space-between;
+        flex-wrap: nowrap;
+    }
+    .img-instituicao{
+        width: 25%;
+    }
+    .dados-instituicao{
+        width: 40%;
+    }
+    .votacao{
+        width: 35%;
+        text-align: center;
+    }
+}
