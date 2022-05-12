@@ -2886,6 +2886,13 @@ fieldset.step h2::before{
 .dados-instituicao, .votacao{
     line-height: 2;
 }
+.votos{    
+    color: #32a7df;
+}
+.votos .number-votos{
+    font-weight: bold;
+    font-size: 24px;
+}
 .name-inst{
     font-weight: bold;
     font-size: 18px;
