@@ -881,16 +881,23 @@ footer .description{
 
 /* PARCEIRO ENIMPACTO */
 .enimpacto-parceiro{
-    padding: 60px 0;
+    padding: 40px 0;
 }
 .enimpacto-parceiro .col-title .title{
     margin-bottom: 0;
+    text-align: center;
 }
 .enimpacto-parceiro .col-title .title h2{
-    font-size: 44px;
+    font-size: 38px;
 }
 .enimpacto-parceiro .col-title .title h2::after{
     display: none;
+}
+.img-parceiro{
+    text-align: center;
+}
+.img-parceiro img{
+    width: 70%;
 }
 /* LATEST NEWS */
 .latest-news{
@@ -1365,8 +1372,12 @@ background-color: #ccc;    /* color of the scroll thumb */
     align-items: flex-start;
 }
 .col-materia{
-    width: 50%;
+    min-height: 370px;
+    width: 25%;
     padding: 0 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 .img-materia{
     margin-bottom: 20px;
@@ -1377,12 +1388,17 @@ background-color: #ccc;    /* color of the scroll thumb */
 }
 .txt-content h2{    
     margin-bottom: 15px;
-    font-size: 20px;
+    font-size: 16px;
     text-transform: uppercase;
 }
 .txt-content p{
-    font-size: 14px;
+    font-size: 12px;
     line-height: 1.5;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical; 
 }
 /* TRENDS */
 .trends .item{
@@ -1824,12 +1840,12 @@ ul.list-inline li:last-child{
     list-style: circle;
 }
 .content-post a{
-    color: #262626;
+    color: #32a7df;
     font-weight: bold;
     font-style: italic;
 }
 .content-post a:hover{
-    color: #595959;
+    color: #0080bb;
     text-decoration: underline;
 }
 /* author */
@@ -2077,14 +2093,14 @@ ul.list-inline li:last-child{
 @media  screen and (min-width: 1140px){
     .card{
         width: 31%;
-        margin-right: 20px;
+        margin-right: 10px;
     }
 }
 .img-card{
     width: 100%;
     height: 150px;
     background: url(images/rodas-de-conversa-sero-sobre-educao-financeira-em-maro.png) center no-repeat;
-    background-size: cover;
+    background-size: cover!important;
 }
 .posts .img-card{
     position: relative;

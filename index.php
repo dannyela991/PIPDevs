@@ -950,29 +950,53 @@ include 'app/views/header.php';
     <section class="materias"> 
         <div class="container">
             <div class="flex-container">
-                <div class="col-materia ods">
+                <div class="col-materia">
                     <div class="img-materia">
                         <a href=""><img src="app/assets/images/bg-ods.png" alt=""/></a>
                     </div>
                     <div class="txt-content">
                         <h2><a href="">Objetivos de Desenvolvimento Sustentável no Brasil</a></h2>
                         <p>Os Objetivos de Desenvolvimento Sustentável, chamados de ODS, foram desenvolvidos em 2015 com a participação de 193 nações membros da Organização das Nações Unidas durante a Cúpula das Nações Unidas sobre o Desenvolvimento Sustentável.</p>
-                        <div class="read-more">
-                            <a href="#" class="btn bg-black">Saiba mais</a> 
-                        </div>
-                    </div>        
-                </div>
-                <div class="col-materia eco">
+                    </div>
+                    <div class="read-more">
+                        <a href="#" class="btn bg-black">Saiba mais</a> 
+                    </div>       
+                </div>        
+                <div class="col-materia">
+                    <div class="img-materia">
+                        <a href=""><img src="app/assets/images/materia-esg.png" alt=""/></a>
+                    </div>
+                    <div class="txt-content">
+                        <h2><a href="">Fique por dentro das ESG</a></h2>
+                        <p>Conheça mais sobre o ECOSSISTEMA DE IMPACTO e se engaje com iniciativas e projetos que impactam positivamente nosso país e nosso mundo.</p>
+                    </div>
+                    <div class="read-more">
+                        <a href="#" class="btn bg-black">Saiba mais</a> 
+                    </div>         
+                </div>   
+                <div class="col-materia">
                     <div class="img-materia">
                         <a href=""><img src="app/assets/images/bg-eco.png" alt=""/></a>
                     </div>
                     <div class="txt-content">
-                        <h2><a href="">Ecossistemas de Impactos</a></h2>
+                        <h2><a href="">Ecossistema de Impacto, o que é e como funciona?</a></h2>
                         <p>Conheça mais sobre o ECOSSISTEMA DE IMPACTO e se engaje com iniciativas e projetos que impactam positivamente nosso país e nosso mundo.</p>
-                        <div class="read-more">
-                            <a href="#" class="btn bg-black">Saiba mais</a> 
-                        </div>
-                    </div>         
+                    </div>   
+                    <div class="read-more">
+                        <a href="#" class="btn bg-black">Saiba mais</a> 
+                    </div>      
+                </div>                                 
+                <div class="col-materia">
+                    <div class="img-materia">
+                        <a href=""><img src="app/assets/images/materia-negocio-impacto.png" alt=""/></a>
+                    </div>
+                    <div class="txt-content">
+                        <h2><a href="">Negócios de Impacto – O que são?</a></h2>
+                        <p>Conheça mais sobre o ECOSSISTEMA DE IMPACTO e se engaje com iniciativas e projetos que impactam positivamente nosso país e nosso mundo.</p>
+                    </div>     
+                    <div class="read-more">
+                        <a href="#" class="btn bg-black">Saiba mais</a> 
+                    </div>    
                 </div>
             </div>
         </div>              

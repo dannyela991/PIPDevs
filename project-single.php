@@ -46,17 +46,25 @@ include 'app/views/header.php';
                     </div>
                 </div>
                 <div class="content-project">
-                    <div class="content-txt">
+                    <div class="content-txt buss">
                         <h2>Objetivos do projeto</h2>
                         <p class="descricao-projeto">Lorem ipsum dolor sit amet consectetur adipisicing elit, Lorem ipsum dolor sit amet consectetur adipisicing elit, Lorem ipsum dolor sit amet consectetur adipisicing elit</p>
                     </div>
-                    <div class="content-txt">
+                    <div class="content-txt buss">
                         <h2>Como estamos agindo para atingir nosso objetivo</h2>
                         <p class="pitch-projeto">Lorem ipsum dolor sit amet consectetur adipisicing elit, Lorem ipsum dolor sit amet consectetur adipisicing elit, Lorem ipsum dolor sit amet consectetur adipisicing elit</p>
                     </div>
-                    <div class="content-txt">
+                    <div class="content-txt buss">
                         <h2>Nossa visão para o futuro</h2>
-                        <p class="inivacao-projeto">Lorem ipsum dolor sit amet consectetur adipisicing elit, Lorem ipsum dolor sit amet consectetur adipisicing elit, Lorem ipsum dolor sit amet consectetur adipisicing elit</p>
+                        <p class="inovacao-projeto">Lorem ipsum dolor sit amet consectetur adipisicing elit, Lorem ipsum dolor sit amet consectetur adipisicing elit, Lorem ipsum dolor sit amet consectetur adipisicing elit</p>
+                    </div>
+                    <div class="content-txt eco">
+                        <h2>Descrição da Organização</h2>
+                        <p class="descricao-eco-projeto">Lorem ipsum dolor sit amet consectetur adipisicing elit, Lorem ipsum dolor sit amet consectetur adipisicing elit, Lorem ipsum dolor sit amet consectetur adipisicing elit</p>
+                    </div>
+                    <div class="content-txt eco">
+                        <h2>Palavras Chave</h2>
+                        <p class="key-projeto">Lorem ipsum dolor sit amet consectetur adipisicing elit, Lorem ipsum dolor sit amet consectetur adipisicing elit, Lorem ipsum dolor sit amet consectetur adipisicing elit</p>
                     </div>
 
                     <div class="content-carrossel-project">
