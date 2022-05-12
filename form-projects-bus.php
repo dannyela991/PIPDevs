@@ -1773,7 +1773,7 @@ include 'app/views/header.php';
                     <div class="form-group">                                          
                         <label for="">                            
                             <input type="checkbox" name="" value="concordo">
-                            Concordância com os Termo de Uso, Política de Privacidade de Dados e Termo de Uso de Imagem
+                            Concordância com os <a class="blue" href="regulamento.php" target="_blank">Termo de Uso, Política de Privacidade de Dados e Termo de Uso de Imagem</a>
                         </label>
                     </div>  
                     <div class="flex-form">

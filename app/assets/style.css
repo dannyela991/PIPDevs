@@ -2439,11 +2439,9 @@ fieldset.step h2::before{
 }
 .sub-ods{
     padding-left: 20px;
-    margin-top: 20px;
 }
 .step h3{
     margin-bottom: 15px;
-    margin-top: 20px;
 }
 .regForm label{
     margin-bottom: 15px;
@@ -2458,7 +2456,6 @@ fieldset.step h2::before{
 }
 .form-aceite a{
     font-style: italic;
-    color: #595959;
 }
 .form-aceite a:hover{
     text-decoration: underline;
@@ -2959,5 +2956,61 @@ fieldset.step h2::before{
     .votacao{
         width: 35%;
         text-align: center;
+    }
+}
+
+/* REGULAMENTO */
+.regulamento .page-header{
+    background-color: #f2f2f2;
+    color: #333;
+}
+.regulamento .page-header h1{
+    width: 100%;
+    font-size: 28px;
+}
+.regulamento .page-header span{
+    font-size: 40px;
+    line-height: 2;
+}
+.content-regulamento{
+    margin-top: 40px;
+    line-height: 1.5;
+}
+.content-regulamento p{
+    margin-bottom: 20px;
+}
+.content-regulamento ul, .content-regulamento ol{
+    margin: 20px 0;
+}
+p.red{
+    color: red;
+    font-weight: bold;
+}
+.table-lgpd{
+    overflow-x:auto;
+    margin: 20px 0;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 100%;
+    border: 1px solid #ddd;
+}
+
+th, td {
+    text-align: left;
+    padding: 8px;
+}
+tr:nth-child(even){
+    background-color: #f2f2f2
+}
+.mySlides .content-regulamento{
+    padding: 20px 40px;
+    font-size: 0.7em;
+}
+@media  screen and (min-width: 1140px){
+    .regulamento .page-header h1{
+        width: 60%;
+        padding-top: 20px;
     }
 }

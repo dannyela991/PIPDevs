@@ -38,15 +38,9 @@ include 'app/views/header.php';
                         <div class="form-group">                                          
                             <label for="">                            
                                 <input type="checkbox" name="" value="pol_Plataforma">
-                                Eu declaro estar ciente com a <a href="#">política da plataforma.</a>
+                                Eu declaro estar ciente com a <a class="blue" href="regulamento.php" target="_blank">Termo de Uso, Política de Privacidade de Dados.</a>
                             </label>
-                        </div>                                              
-                        <div class="form-group">                                          
-                            <label for="">                            
-                                <input type="checkbox" name="" value="pol_Premiacao">
-                                Eu declaro estar ciente com a  <a href="#">política da premiação.</a>
-                            </label>
-                        </div>                                                                    
+                        </div>                                                               
                         <div class="form-group">                                          
                             <label for="">                            
                                 <input type="checkbox" name="" value="newsletter">
