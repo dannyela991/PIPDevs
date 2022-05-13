@@ -233,6 +233,7 @@ header{
 }
 #top-page.header-fixo .subscription-links{
     transition: 0.3s;
+    display: none;
 }
 @media screen and (min-width: 768px){
     #top-page.header-fixo .subscription-links{
@@ -3013,4 +3014,23 @@ tr:nth-child(even){
         width: 60%;
         padding-top: 20px;
     }
+}
+
+/* STEP COMPLETED */
+.step-completed .content{
+    width: 100%;
+    text-align: center;
+    padding-top: 80px;
+}
+.step-completed h1{
+    font-size: 36px;
+    margin-bottom: 30px;
+}
+.step-completed h1::after{
+    background: #0080bb;
+    content: "\020";
+    display: block;
+    height: 2px;
+    margin: 5px auto;
+    width: 30%;
 }

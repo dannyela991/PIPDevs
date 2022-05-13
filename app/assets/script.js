@@ -257,29 +257,6 @@
           ]
     })
   })
-  // CARROSSEL projects
-  $(function () {
-  
-    $('.carrossel-project').slick({
-        infinite: true,
-        slidesToShow: 2,
-        slidesToScroll: 1,    
-        autoplay: true,
-        autoplaySpeed: 3000,
-        prevArrow: $('#prev-project'),
-        nextArrow: $('#next-project'),
-  
-        responsive: [
-            {
-              breakpoint: 769,
-              settings: {
-                slidesToShow: 1,
-                slidesToScroll: 1,
-              }
-            }
-          ]
-    })
-  })
   
   // MODAL MIDIA
   function openModal() {
@@ -327,8 +304,6 @@
 //MASK PHONE
 $("#tel-phone").mask("(00) 00000-0000");
 $("#tel-fixed").mask("(00) 0000-0000");
-
-
 
 // TAB MY ACCOUNT
 function openPage(pageName) {
