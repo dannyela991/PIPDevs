@@ -583,23 +583,29 @@ include 'app/views/header.php';
                 </div>
                 <div class="col-sponsors">
                     <div class="title">
-                        <h3>Patrocinadores</h3>
+                        <h3>Apoiadores</h3>
                     </div>    
                     <div class="logo-sponsors">
                         <div class="img-sponsors">
-                            <img src="app/assets/images/logo-further/assis-e-mendes.png" alt=""/>
+                            <img src="app/assets/images/logo-further/assis-mendes.png" alt=""/>
                         </div>
                         <div class="img-sponsors">
-                            <img src="app/assets/images/logo-further/cacadores-de-bons-exemplos.png" alt=""/>
+                            <img src="app/assets/images/logo-further/capitalismo-consciente.png" alt=""/>
                         </div>
                         <div class="img-sponsors">
-                            <img src="app/assets/images/logo-further/integracao-trade.png" alt=""/>
+                            <img src="app/assets/images/logo-further/comunidade-cuidadoria.png" alt=""/>
                         </div>
                         <div class="img-sponsors">
-                            <img src="app/assets/images/logo-further/dotsy.png" alt=""/>
+                            <img src="app/assets/images/logo-further/gonew.png" alt=""/>
                         </div>
                         <div class="img-sponsors">
-                            <img src="app/assets/images/logo-further/mulheres-do-turismo" alt=""/>
+                            <img src="app/assets/images/logo-further/humanizadas.png" alt=""/>
+                        </div>
+                        <div class="img-sponsors">
+                            <img src="app/assets/images/logo-further/innov8.png" alt=""/>
+                        </div>
+                        <div class="img-sponsors">
+                            <img src="app/assets/images/logo-further/instituto da transformaco digital.png" alt=""/>
                         </div>
                     </div>            
                 </div> 
@@ -1264,7 +1270,7 @@ include 'app/views/header.php';
         </article>        
     </section>
 
-    <section class="further">
+    <!-- <section class="further">
         <div class="container">
             <div class="col-further-content">
                 <div class="title">
@@ -1349,7 +1355,7 @@ include 'app/views/header.php';
                 </div>
             </div>
         </div>
-    </section>
+    </section> -->
 </main>
 
 <?php

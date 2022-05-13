@@ -14,7 +14,7 @@ include 'app/views/header.php';
         <div class="timeline">
             <div class="container-timeline left">
                 <div class="content-timeline">
-                <h2>4 de maio de 2022</h2>
+                <h2>13 de maio de 2022</h2>
                 <p>Abertura das inscrições para as categorias negócios e ecossistema de impacto!</p>
                 <p>Abertura das indicações para Homenageados</p>
                 <p>Abertura dos cadastros – A partir deste momento todos os interessados (sociedade brasileira) em conhecer mais e se engajar com o ecossistema de impactos, poderão se cadastrar para fazer sua indicação para homenageados como “Cidadão de Impacto”, “Instituição de Impacto” e “Comunicador de Impacto”. SOMENTE A PARTIR DE 5 de Setembro poderão votar nas categorias inscritas</p>
