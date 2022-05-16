@@ -5,7 +5,7 @@
                     <img src="app/assets/images/logotipo.svg" alt="Impactos Positivos" />
                 </div>
                 <div class="description">
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id ducimus possimus aliquid recusandae repellendus cupiditate nesciunt, harum quia</p>
+                    <p>Plataforma digital exclusiva para estimular entendimento, reconhecimento, valorização e fomento do ecossistema de impactos.</p>
                 </div>
             </div>
             <div class="social-media-footer">
@@ -14,6 +14,7 @@
                     <li><a href="https://www.instagram.com/premioimpactospositivos/" target="_blank" title="Instagram"><i class="fab fa-instagram"></i></a></li>
                     <li><a href="https://www.facebook.com/premioimpactospositivos" target="_blank" title="Facebook"><i class="fab fa-facebook-f"></i></a></li>
                     <li><a href="https://www.youtube.com/channel/UCYuEo4Gnyyqvk-J64PrmqzA" target="_blank" title="Youtube"><i class="fab fa-youtube"></i></a></li>
+                    <li><a href="https://www.linkedin.com/company/impactos-positivos/" target="_blank" title="Linkedin"><i class="fab fa-linkedin"></i></a></li>
                 </ul>
             </div>
             <div class="contact-footer">                
@@ -29,7 +30,6 @@
                 <ul>
                     <li><a href="">Sobre Nós</a> </li>
                     <li><a href="">Manifesto</a> </li>
-                    <li><a href="posts.php">Na mídia</a> </li>
                 </ul>
             </div>
             <div class="member-links-footer">
@@ -53,10 +53,10 @@
                 <h4>Premiação</h4>
                 <ul>
                     <li><a href="projects.php">Vitrine 2022</a></li>
-                    <li><a href="">Sobre o prêmio</a></li>
-                    <li><a href="">Categorias</a> </li>
-                    <li><a href="">Como Participar</a></li>
                     <li><a href="">Cronograma</a> </li>
+                    <li><a href="">Como Participar</a></li>
+                    <li><a href="">Política</a> </li>
+                    <li><a href="">Premiação</a></li>
                 </ul>
             </div>                      
         </div>

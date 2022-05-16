@@ -250,9 +250,10 @@ include 'app/views/header.php';
                     <div class="list-contents">
                         <h2>Conteúdos</h2>
                         <ul>
-                            <li><a href="trend-news.php">Notícias</a></li>
+                            <li><a href="trend-news.php">Matérias</a></li>
                             <li><a href="medias.php">Lives e Vídeos</a></li>
                             <li><a href="podcast.php">Podcast</a></li>
+                            <li><a href="#">Na Mídia</a></li>
                         </ul>
                     </div>
                     <div class="latest-post">

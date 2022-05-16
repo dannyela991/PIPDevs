@@ -962,7 +962,7 @@ footer .description{
     position: relative;
     height: 250px;
     background: url(images/img-news.png) center no-repeat;
-    background-size: cover;
+    background-size: cover!important;
 }
 .card-img .category span{
     background: rgba(0, 0, 0, 0.8);
@@ -1507,7 +1507,7 @@ background-color: #ccc;    /* color of the scroll thumb */
     height: 180px;
     width: 100%;
     background: url(images/img-news.png) center no-repeat;
-    background-size: cover;
+    background-size: cover!important;
 }
 .trend .title h3 a{
     margin-top: 10px;
@@ -1571,6 +1571,9 @@ ul.list-tags li:last-child{
 }
 .content-midia{    
     padding: 0px 20px;
+}
+.content-midia .read-more{
+    text-align: center;
 }
 .content-carrossel-midia{
     position: relative;

@@ -42,8 +42,7 @@
                                 <div class="dropdown-content">
                                     <a href="about-us.php">Quem Somos</a>
                                     <a href="projects.php">Manifesto</a>
-                                    <a href="#">Na Mídia</a>
-                                    <a href="#">Edições Anteriores</a>
+                                    <!-- <a href="#">Edições Anteriores</a> -->
                                 </div>
                             </div>
                             <div class="dropdown">
@@ -55,6 +54,7 @@
                                     <a href="trend-news.php">Notícias</a>
                                     <a href="medias.php">Lives e Vídeos</a>
                                     <a href="podcast.php">Podcast</a>
+                                    <a href="#">Na Mídia</a>
                                 </div>
                             </div> 
                             <div class="dropdown">
@@ -65,7 +65,6 @@
                                     <a href="projects.php">Vitrine 2022</a>
                                     <a href="cronograma.php">Cronograma</a>
                                     <a href="#">Como participar</a>
-                                    <a href="#">Categorias</a>
                                     <a href="#">Política</a>
                                     <a href="#">Premiação</a>
                                 </div>

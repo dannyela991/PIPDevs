@@ -216,7 +216,7 @@ include 'app/views/header.php';
         <div class="container">
             <div class="title">
                 <h2>Vitrine Prêmio Impactos Positivos 2022</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id ducimus possimus aliquid recusandae repellendus cupiditate nesciunt</p>
+                <p>Encontre empresas e organizações cadastradas no Prêmio Impactos Positivos 2022 que desenvolvem projetos, iniciativas e negócios inovadores que impactam positivamente nosso país</p>
             </div>
 
             <article class="showcase-flex">
@@ -1135,6 +1135,9 @@ include 'app/views/header.php';
                                 <i class="fas fa-chevron-right"></i>
                             </a>
                         </div>
+                    </div>
+                    <div class="read-more">
+                        <a class="btn bg-gray" href="">Ver Todos</a>
                     </div>
                 </div>
             </div>            

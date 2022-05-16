@@ -11,7 +11,7 @@ include 'app/views/header.php';
             <div class="flex-container">
                 <div class="col-content">
                     <div class="page-header">
-                        <h1>Escolha qual categoria se encaixa seu projeto</h1>
+                        <h1>Escolha sua Categoria</h1>
                     </div>
                     <div class="btn-project">
                         <div class="btn-img">
@@ -29,7 +29,7 @@ include 'app/views/header.php';
                         </div>
                         <div class="btn-txt">
                             <h3><a href="form-projects-eco.php">Ecossistema de Impacto</a></h3>
-                            <p>Regiões que estão desenvolvendo ecossistemas locais de impacto modelo</p>
+                            <p>Organizações do Ecossistema de Impacto do Brasil</p>
                             <p class="button"><a href="form-projects-eco.php" class="btn bg-gray">Inscrever agora</a></p>
                         </div>
                     </div>
