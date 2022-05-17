@@ -1764,7 +1764,11 @@ include 'app/views/header.php';
                             <label for="">Linkedin do Negócio</label>
                             <input type="text" name="" id="">
                         </div>
-                    </div>     
+                    </div>                             
+                    <div class="form-group">                    
+                        <label for="">Adicione pelo menos 5 fotos que ilustrem seu negócio</label>
+                        <input type="file" name="image[]" multiple="multiple" accept=".png, .jpg, .jpeg">
+                    </div> 
                     <div class="form-group">                    
                         <label for="">Vídeo de Apresentação: Se tiver um vídeo que explique seu negócio e sua solução aproveite para compartilhá-lo aqui!</label>
                         <input type="file" name="" id="" accept="video/*">

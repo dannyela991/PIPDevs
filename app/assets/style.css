@@ -2908,6 +2908,7 @@ fieldset.step h2::before{
 }
 .page-projects .page-header{
     border-bottom: 1px solid #ccc;
+    padding-right: 20px;
 }
 .page-projects .page-header h1{
     color: #33cc99;
@@ -2960,11 +2961,15 @@ fieldset.step h2::before{
 .page-projects ul.inline li{
     width: 40px;
 }
-.content-txt ul.inline{
+.content-txt ul{
     margin-top: 10px;
 }
-.content-txt ul.inline li{
-    width: 100px;
+.content-txt.ods ul.inline li{
+    width: 80px;
+}
+.content-txt.eixo ul li{
+    list-style-type: none;
+    line-height: 2;
 }
 .content-txt .read-more{
     margin-top: 6px;
@@ -2972,6 +2977,34 @@ fieldset.step h2::before{
 }
 .content-txt .read-more a{
     text-decoration: underline;
+}
+.page-projects .title{
+    margin-top: 50px;
+    text-align: center;
+    text-transform: uppercase;
+}
+.page-projects .title h2{
+    font-size: 36px;
+    color: #33cc99;
+    border-bottom: 2px solid #ccc;
+}
+.img-projetos{
+    position: relative;
+}
+.carrossel-projetos{
+    padding: 0 30px;
+}
+.nav-img-projetos i{
+    font-size: 36px;
+    color:#32a7df;
+}
+.img-projetos .img-logo{
+    text-align: center;
+}
+.img-projetos .img-logo img{
+    max-height: 250px;
+    width: auto;
+    margin: 0 auto;
 }
 @media  screen and (min-width: 768px){
     .info-project .flex-container{

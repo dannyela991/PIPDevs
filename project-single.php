@@ -8,7 +8,7 @@ include 'app/views/header.php';
         <div class="container flex-container">            
             <div class="content">
                 <div class="page-header flex-container">
-                    <h1>Título do projeto</h1>
+                    <h1>Nome Negócio / Empreendimento</h1>
                     <div class="categoty-project">
                         <p class="category">Categoria do Projeto</p>
                         <p class="sub-category">Subcategoria</p>
@@ -21,7 +21,7 @@ include 'app/views/header.php';
                         </div>
                         <div class="dados-instituicao">
                             <div class="instituicao">
-                                <span class="name-inst">Nome Instituição</span>
+                                <span class="name-inst">Nome Responsável</span>
                             </div>
                             <div class="localizacao">
                                 <span class="city">Cidade</span> | <span class="uf">Estado</span>
@@ -36,7 +36,9 @@ include 'app/views/header.php';
                             </div>
                         </div>
                         <div class="votacao">
-                            <div class="votos"><span class="number-votos">3521</span> voto(s)</div>      
+                            <div class="votos">Votação a partir de<br><span class="number-votos"> 01 de Setembro</span></div>
+                            <!-- mostrar quando abrir as votações -->
+                            <div class="votos"><span class="number-votos">3521</span> voto(s)</div>       
                             <div class="button">
                                 <a class="btn bg-green" href="">Votar</a>
                                 <!-- ocultar, mostar somente quando acabar a votação -->
@@ -45,23 +47,7 @@ include 'app/views/header.php';
                         </div>
                     </div>
                 </div>
-                <div class="content-project">
-                    <div class="content-txt ods">
-                        <h2>ODSs que meu negócio ajuda a atingir</h2>
-                        <ul class="inline">
-                            <li><img src="app/assets/images/img-ods/01.png"/></li>
-                            <li><img src="app/assets/images/img-ods/04.png"/></li>
-                            <li><img src="app/assets/images/img-ods/06.png"/></li>
-                            <li><img src="app/assets/images/img-ods/08.png"/></li>
-                            <li><img src="app/assets/images/img-ods/10.png"/></li>
-                            <li><img src="app/assets/images/img-ods/11.png"/></li>
-                            <li><img src="app/assets/images/img-ods/16.png"/></li>
-                            <li><img src="app/assets/images/img-ods/17.png"/></li>
-                        </ul>
-                        <div class="read-more">
-                            <a href="https://impactospositivos.com/post/conheca-mais-sobre-as-ods-da-onu-e-o-pacto-global">Saiba sobre as ODS's aqui!</a>
-                        </div>
-                    </div>
+                <div class="content-project">                  
                      
                     <div class="content-txt buss">
                         <h2>Objetivos do projeto</h2>
@@ -82,7 +68,84 @@ include 'app/views/header.php';
                     <div class="content-txt eco">
                         <h2>Palavras Chave</h2>
                         <p class="key-projeto">Lorem ipsum dolor sit amet consectetur adipisicing elit, Lorem ipsum dolor sit amet consectetur adipisicing elit, Lorem ipsum dolor sit amet consectetur adipisicing elit</p>
-                    </div>                   
+                    </div>                    
+                    <div class="content-txt eixo">
+                        <h2>Eixo Temático</h2>
+                        <!-- Aarecer a li de acordo com o projeto -->
+                        <ul>
+                            <li>Cidadania, Direitos Humanos e Sociedade</li>
+                            <li>Cidades, Mobilidade, Serviços e Infraestrutura Urbana</li>
+                            <li>Educação, cultura, economia criativa e tecnologia da informação</li>
+                            <li>Saúde</li>
+                            <li>Finanças</li>
+                            <li>Biodiversidade, Bioeconomia, Tecnologias Verdes e Indústria Sustentável</li>
+                        </ul>                        
+                    </div>
+                    <div class="content-txt ods">
+                        <h2>ODSs que meu negócio ajuda a atingir</h2>
+                        <ul class="inline">
+                            <li><img src="app/assets/images/img-ods/01.png"/></li>
+                            <li><img src="app/assets/images/img-ods/02.png"/></li>
+                            <li><img src="app/assets/images/img-ods/03.png"/></li>
+                            <li><img src="app/assets/images/img-ods/04.png"/></li>
+                            <li><img src="app/assets/images/img-ods/05.png"/></li>
+                            <li><img src="app/assets/images/img-ods/06.png"/></li>
+                            <li><img src="app/assets/images/img-ods/07.png"/></li>
+                            <li><img src="app/assets/images/img-ods/08.png"/></li>
+                            <li><img src="app/assets/images/img-ods/09.png"/></li>
+                            <li><img src="app/assets/images/img-ods/10.png"/></li>
+                            <li><img src="app/assets/images/img-ods/11.png"/></li>
+                            <li><img src="app/assets/images/img-ods/12.png"/></li>
+                            <li><img src="app/assets/images/img-ods/13.png"/></li>
+                            <li><img src="app/assets/images/img-ods/14.png"/></li>
+                            <li><img src="app/assets/images/img-ods/15.png"/></li>
+                            <li><img src="app/assets/images/img-ods/16.png"/></li>
+                            <li><img src="app/assets/images/img-ods/17.png"/></li>
+                        </ul>
+                        <div class="read-more">
+                            <a href="https://impactospositivos.com/post/conheca-mais-sobre-as-ods-da-onu-e-o-pacto-global">Saiba sobre as ODS's aqui!</a>
+                        </div>
+                    </div>
+                    <div class="title">
+                        <h2>Confira nossas Atividades</h2>
+                    </div>                  
+                    <div class="img-projetos">
+                        <div class="carrossel-projetos">
+                            <div class="logo-item">
+                                <div class="img-logo">
+                                    <img src="app/assets/images/video-vimeo.png" alt=""/>
+                                </div>
+                            </div>
+                            <div class="logo-item">
+                                <div class="img-logo">
+                                    <img src="app/assets/images/video-youtube.png" alt=""/>
+                                </div>
+                            </div>
+                            <div class="logo-item">
+                                <div class="img-logo">
+                                    <img src="app/assets/images/img-news.png" alt=""/>
+                                </div>
+                            </div>
+                            <div class="logo-item">
+                                <div class="img-logo">
+                                    <img src="app/assets/images/ads-post.png" alt=""/>
+                                </div>
+                            </div>
+                            <div class="logo-item">
+                                <div class="img-logo">
+                                    <img src="app/assets/images/capa-media.png" alt=""/>
+                                </div>
+                            </div>
+                        </div>                   
+                        <div class="nav-img-projetos">
+                            <a id="prev-link-projetos" class="icon arrow-left">
+                                <i class="fas fa-caret-left"></i>
+                            </a>
+                            <a id="next-projetos" class="icon arrow-right">
+                                <i class="fas fa-caret-right"></i>
+                            </a>
+                        </div>
+                    </div>
 
                     <div class="content-iframe-project">
                         <div class="container-iframe"> 

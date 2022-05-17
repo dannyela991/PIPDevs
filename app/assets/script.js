@@ -257,6 +257,30 @@
           ]
     })
   })
+
+  // CARROSSEL imagens projetos
+  $(function () {
+  
+    $('.carrossel-projetos').slick({
+        infinite: true,
+        slidesToShow: 2,
+        slidesToScroll: 1,    
+        autoplay: true,
+        autoplaySpeed: 2000,
+        prevArrow: $('#prev-projetos'),
+        nextArrow: $('#next-projetos'),
+  
+        responsive: [
+            {
+              breakpoint: 769,
+              settings: {
+                slidesToShow: 1,
+                slidesToScroll: 1,
+              }
+            }
+          ]
+    })
+  })
   
   // MODAL MIDIA
   function openModal() {
