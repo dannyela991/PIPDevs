@@ -2942,7 +2942,6 @@ fieldset.step h2::before{
     font-size: 18px;
 }
 .social-midia li{
-    padding: 7px 20px;
     font-size: 20px;
 }
 .content-project{
@@ -2957,6 +2956,22 @@ fieldset.step h2::before{
     position: relative;
     padding: 0 30px;
     text-align: center;
+}
+.page-projects ul.inline li{
+    width: 40px;
+}
+.content-txt ul.inline{
+    margin-top: 10px;
+}
+.content-txt ul.inline li{
+    width: 100px;
+}
+.content-txt .read-more{
+    margin-top: 6px;
+    text-align: center;
+}
+.content-txt .read-more a{
+    text-decoration: underline;
 }
 @media  screen and (min-width: 768px){
     .info-project .flex-container{

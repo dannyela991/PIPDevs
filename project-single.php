@@ -17,7 +17,7 @@ include 'app/views/header.php';
                 <div class="info-project">
                     <div class="flex-container">
                         <div class="img-instituicao">
-                            <img src="app/assets/images/logo-further/capitalismo-consciente.png" /> 
+                            <img src="app/assets/images/logo-further/capitalismo-consciente.png" />
                         </div>
                         <div class="dados-instituicao">
                             <div class="instituicao">
@@ -46,6 +46,23 @@ include 'app/views/header.php';
                     </div>
                 </div>
                 <div class="content-project">
+                    <div class="content-txt ods">
+                        <h2>ODSs que meu negócio ajuda a atingir</h2>
+                        <ul class="inline">
+                            <li><img src="app/assets/images/img-ods/01.png"/></li>
+                            <li><img src="app/assets/images/img-ods/04.png"/></li>
+                            <li><img src="app/assets/images/img-ods/06.png"/></li>
+                            <li><img src="app/assets/images/img-ods/08.png"/></li>
+                            <li><img src="app/assets/images/img-ods/10.png"/></li>
+                            <li><img src="app/assets/images/img-ods/11.png"/></li>
+                            <li><img src="app/assets/images/img-ods/16.png"/></li>
+                            <li><img src="app/assets/images/img-ods/17.png"/></li>
+                        </ul>
+                        <div class="read-more">
+                            <a href="https://impactospositivos.com/post/conheca-mais-sobre-as-ods-da-onu-e-o-pacto-global">Saiba sobre as ODS's aqui!</a>
+                        </div>
+                    </div>
+                     
                     <div class="content-txt buss">
                         <h2>Objetivos do projeto</h2>
                         <p class="descricao-projeto">Lorem ipsum dolor sit amet consectetur adipisicing elit, Lorem ipsum dolor sit amet consectetur adipisicing elit, Lorem ipsum dolor sit amet consectetur adipisicing elit</p>
@@ -65,7 +82,7 @@ include 'app/views/header.php';
                     <div class="content-txt eco">
                         <h2>Palavras Chave</h2>
                         <p class="key-projeto">Lorem ipsum dolor sit amet consectetur adipisicing elit, Lorem ipsum dolor sit amet consectetur adipisicing elit, Lorem ipsum dolor sit amet consectetur adipisicing elit</p>
-                    </div>
+                    </div>                   
 
                     <div class="content-iframe-project">
                         <div class="container-iframe"> 
