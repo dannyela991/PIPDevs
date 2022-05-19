@@ -1772,8 +1772,14 @@ include 'app/views/header.php';
                     <div class="form-group">                    
                         <label for="">Vídeo de Apresentação: Se tiver um vídeo que explique seu negócio e sua solução aproveite para compartilhá-lo aqui!</label>
                         <input type="file" name="" id="" accept="video/*">
-                        <input type="url" name="" id="" placeholder="ou cole o link do Youtube ou Vimeo">
-                    </div>                      
+                        <label for=""></label>
+                        <label class="link-video">
+                            <input type="url" name="" id="" placeholder="ou cole o link do Youtube ou Vimeo">
+                            <a class="tooltip" href="#"><i class="fas fa-exclamation-circle"></i>
+                                <span class="tooltiptext">Para que o video funcione, é aceito link no formato de embed. Ex: Youtube: https://www.youtube.com/embed/9tX2_69XGXE ou Vimeo https://player.vimeo.com/video/703751054</span>
+                            </a>
+                        </label>
+                    </div>                     
                     <div class="form-group">                                          
                         <label for="">                            
                             <input type="checkbox" name="" value="concordo">

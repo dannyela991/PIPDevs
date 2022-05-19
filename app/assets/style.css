@@ -74,10 +74,18 @@ a.bg-yellow:hover{
     color: #595959;
 }
 .bg-gray{
-    background-color: #595959;
-    color: #fff;
+    background-color: #ccc;
+    color: #333;
 }
 a.bg-gray:hover{
+    background-color: #262626;
+    color: #fff;
+}
+.bg-border{
+    border: 1px solid #333;
+    color: #333;
+}
+a.bg-border:hover{
     background-color: #262626;
     color: #fff;
 }
@@ -1105,7 +1113,8 @@ footer .description{
     min-height: 90px;
 }
 .title-project.flex-container{
-    flex-direction: row;
+    flex-direction: column;
+    align-items: flex-start;
 }
 .title-project .title h4{
     margin-bottom: 0;
@@ -1124,8 +1133,12 @@ footer .description{
     padding-top: 6px;
 }
 .logo-project{
-    width: 100px;
-    margin-right: 15px;
+    width: 100%;
+    margin-bottom: 8px;
+}
+.logo-project img{
+    width: auto;
+    height: 60px;
 }
 .description-project p{
     font-size: 12px;
@@ -1313,7 +1326,7 @@ background-color: #ccc;    /* color of the scroll thumb */
 }
 .tooltip .tooltiptext {
     visibility: hidden;
-    width: 300px;
+    width: 320px;
     background-color: #f8f8ff;
     color: #595959;
     text-align: center;
@@ -2423,6 +2436,14 @@ fieldset.step h2::before{
     font-weight: bold;
     padding: 10px 0;
 }
+.regForm label.link-video input, .tabcontent label.link-video input{
+    display: inline;
+    width: 90%;
+}
+.regForm label i, .tabcontent label i{
+    font-size: 22px;
+    color: red;
+}
 .regForm input{
     line-height: 3;
     display: block;
@@ -2793,20 +2814,21 @@ fieldset.step h2::before{
     margin-top: 0;
 }
 
-
 /* Style the tab */
 .tab {
     float: left;
     background-color: #f8f8ff;
     width: 25%;
 }
-
+.tab button.active {
+    background-color: #333;
+  }
 /* Style the buttons inside the tab */
 .tablink {
     display: block;
     background-color: inherit;
     color: #333;
-    padding: 22px 16px;
+    padding: 10px;
     width: 100%;
     border: none;
     outline: none;
@@ -2822,16 +2844,16 @@ fieldset.step h2::before{
 /* Style the tab content */
 .tabcontent {
     float: left;
-    padding: 20px 12px;
+    padding: 15px;
     width: 75%;
-    border-left: none;
+    border: 1px solid #ccc;
     display: none;
 }
 .tabcontent h3{
     margin-bottom: 15px;
 }
 .tabcontent label{
-    font-size: 12px;
+    font-size: 14px;
     margin-bottom: 5px;
 }
 .tabcontent input{
@@ -2852,13 +2874,31 @@ fieldset.step h2::before{
 .tabcontent input[type="checkbox"], .tabcontent input[type="radio"]{
     display: inline;
     font-size: 22px;
-    width: 20px;
-    height: 20px;
+    width: 15px;
+    height: 15px;
     vertical-align: middle;
 }
 .tabcontent textarea{
     padding: 5px;
 }
+.tabcontent fieldset{
+    box-shadow: none;
+    padding: 0;
+}
+.tabcontent fieldset.step h2{
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+.tabcontent fieldset.step h3{
+    font-size: 14px;
+}
+.tabcontent fieldset.step h2::before, .tabcontent fieldset.step h2::after{
+    display: none;
+}
+#projects-data .read-more a{
+    display: block;
+    text-align: center;
+} 
 #project-images-container{
     width: 100%;
 }
@@ -2894,6 +2934,11 @@ fieldset.step h2::before{
     font-size: 12px;
     color: red;
     margin-top: 15px;
+}
+@media  screen and (min-width: 1140px){
+    .pages .card-project{
+        width: 45%;
+    }
 }
 
 /* PROJECT SINGLE */

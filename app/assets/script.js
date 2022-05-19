@@ -317,13 +317,13 @@
   }
 
 
-  //REPONSIVE IFRAME
-  $(".content-post iframe").wrap("<div class='container-iframe'></div>");
-  $(".content-post iframe").addClass("responsive-iframe");
-  
-  //REPONSIVE IMG
-  $(".content-post img").wrap("<div class='container-img'></div>");
-  $(".content-post img").addClass("responsive-img");
+//REPONSIVE IFRAME
+$(".content-post iframe").wrap("<div class='container-iframe'></div>");
+$(".content-post iframe").addClass("responsive-iframe");
+
+//REPONSIVE IMG
+$(".content-post img").wrap("<div class='container-img'></div>");
+$(".content-post img").addClass("responsive-img");
 
 //MASK PHONE
 $("#tel-phone").mask("(00) 00000-0000");
@@ -335,10 +335,6 @@ function openPage(pageName) {
   tabcontent = document.getElementsByClassName("tabcontent");
   for (i = 0; i < tabcontent.length; i++) {
     tabcontent[i].style.display = "none";
-  }
-  tablinks = document.getElementsByClassName("tablink");
-  for (i = 0; i < tablinks.length; i++) {
-    tablinks[i].style.backgroundColor = "";
   }
   document.getElementById(pageName).style.display = "block";
 }

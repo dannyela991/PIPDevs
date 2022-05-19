@@ -19,9 +19,9 @@ include 'app/views/header.php';
                         <!-- dados pessoais usuário comum -->
                         <button class="tablink" onclick="openPage('personal-comum-data')" id="defaultOpen">Dados Pessoais</button>
                         <!-- dados pessoais para usuários projetos -->
-                        <button class="tablink" onclick="openPage('personal-data')" id="defaultOpen">Dados Pessoais</button>
-                        <button class="tablink" onclick="openPage('buss-data')">Dados do Negócio</button>
-                        <button class="tablink" onclick="openPage('project-data')">Descrição do Projeto</button>   
+                        <button class="tablink" onclick="openPage('personal-data')">Dados Pessoais</button>
+                        <button class="tablink" onclick="openPage('projects-data')">Projetos</button> 
+                        <button class="tablink" onclick="openPage('homenagens-data')">Homengens</button> 
                     </div>
                     
                     <!-- tab usuário comum -->
@@ -35,13 +35,13 @@ include 'app/views/header.php';
                             <label for="email">Email</label>
                             <input type="email" name="email" id="email" value="danisilva.frontend@gmail.com">
                         </div>
-                        <div class="flex-form">
-                            <div class="read-more">
-                                <a href="#" class="btn bg-green">Salvar</a>
-                            </div>                            
+                        <div class="flex-form">          
                             <div class="read-more">
                                 <a href="#" class="btn bg-gray">Cancelar</a>
                             </div>
+                            <div class="read-more">
+                                <a href="#" class="btn bg-green">Salvar</a>
+                            </div>                  
                         </div>                          
                     </div>
 
@@ -132,145 +132,76 @@ include 'app/views/header.php';
                                 <a href="#" class="edit-images">Alterar imagem</a>
                             </div>
                         </div>            
-                        <div class="flex-form">
-                            <div class="read-more">
-                                <a href="#" class="btn bg-green">Salvar</a>
-                            </div>                            
+                        <div class="flex-form">             
                             <div class="read-more">
                                 <a href="#" class="btn bg-gray">Cancelar</a>
                             </div>
+                            <div class="read-more">
+                                <a href="#" class="btn bg-green">Salvar</a>
+                            </div>               
                         </div>  
                         
+                    </div>    
+
+                    <div id="projects-data" class="tabcontent">
+                        <h3>Meus Projetos</h3>
+                        <div class="content-archives">
+                            <div class="card-project">
+                                <div class="title-project flex-container">
+                                    <div class="logo-project">
+                                        <a href="project-single.php"><img src="app/assets/images/gva.png" alt=""/></a>
+                                    </div>
+                                    <div class="title">                                        
+                                        <a href="project-single.php"><h4>Ecoponto de entrega voluntária</h4></a>
+                                    </div>
+                                </div>
+                                <div class="read-more">
+                                    <a href="edit-project.php" class="btn bg-border"><i class="far fa-edit"></i> Editar Projeto</a>
+                                </div>
+                            </div>
+                            <div class="card-project">
+                                <div class="title-project flex-container">
+                                    <div class="logo-project">
+                                        <a href="project-single.php"><img src="app/assets/images/denario.png" alt=""/></a>
+                                    </div>
+                                    <div class="title">                                        
+                                        <a href="project-single.php"><h4>ECOPONTO DE ENTREGA VOLUNTÁRIA</h4></a>
+                                    </div>
+                                </div>
+                                <div class="read-more">
+                                    <a href="edit-project.php" class="btn bg-border"><i class="far fa-edit"></i> Editar Projeto</a>
+                                </div>
+                            </div>
+                            <div class="card-project">
+                                <div class="title-project flex-container">
+                                    <div class="logo-project">
+                                        <a href="project-single.php"><img src="app/assets/images/denario.png" alt=""/></a>
+                                    </div>
+                                    <div class="title">                                        
+                                        <a href="project-single.php"><h4>ECOPONTO DE ENTREGA VOLUNTÁRIA</h4></a>
+                                    </div>
+                                </div>
+                                <div class="read-more">
+                                    <a href="edit-project.php" class="btn bg-border"><i class="far fa-edit"></i> Editar Projeto</a>
+                                </div>
+                            </div>                            
+                        </div>
                     </div>
 
-                    <div id="buss-data" class="tabcontent">
-                        <h3>Dados do meu negócio</h3>
-                        <div class="form-group">
-                            <label for="razao_Social">Razão Social</label>
-                            <input type="text" name="razao_Social" id="razao_Social" value="Razão social da empresa">
-                        </div>              
-                        <div class="flex-form">
-                            <div class="form-group">
-                                <label for="cnpj">CNPJ</label>  
-                                <input type="text" id="cnpj" name="cnpj" value="Meu CNPJ">
-                            </div>
-                            <div class="form-group">
-                                <label for="foundation_Date">Data de Fundação</label>
-                                <input type="date" name="foundation_Date" id="foundation_Date" value="Daniela Silva">
-                            </div>
-                            <div class="form-group">
-                                <label for="uf_Company">Estado</label>
-                                <select id="uf_Company" name="uf_Company">
-                                    <option value="SP" selected>São Paulo</option>
-                                    <option value="RJ">Rio de Janeiro</option>
-                                    <option value="MG">Minas Gerais</option>
-                                    <option value="PR">Parana</option>
-                                </select>
-                            </div>
-                            <div class="form-group">
-                                <label for="city_Company">Cidade</label>
-                                <select id="city_Company" name="city_Company">
-                                    <option value="SP" selected>São Paulo</option>
-                                    <option value="RJ">Vila São José</option>
-                                    <option value="MG">Barueri</option>
-                                    <option value="PR">Lapa</option>
-                                </select>
-                            </div>
-                        </div>                    
-                        <div class="form-group">
-                            <label for="address">Endereço</label>
-                            <input type="text" name="address" id="address" value="Endereço da empresa aqui">
-                        </div>                     
-                        <div class="flex-form">
-                            <div class="read-more">
-                                <a href="#" class="btn bg-green">Salvar</a>
-                            </div>                            
-                            <div class="read-more">
-                                <a href="#" class="btn bg-gray">Cancelar</a>
-                            </div>
-                        </div>  
-                    </div>
+                    <div id="homenagens-data" class="tabcontent">
 
-                    <div id="project-data" class="tabcontent">
-                        <h3>Descrição do Projeto</h3>
-                        <div class="form-group">                    
-                            <label for="">Descreva o problema social e/ou ambiental que seu negócio ou tecnologia resolve.</label>
-                            <textarea name="message" rows="3">Lorem ipsum dolor sit amet consectetur adipisicing elit Lorem ipsum dolor sit amet consectetur adipisicing elit</textarea>
-                        </div>
-                        <div class="form-group">                    
-                            <label for="">PITCH: Qual a solução (Produto/Serviço) que seu negócio ou tecnologia traz para esse problema? (50 palavras)</label>
-                            <textarea name="message" rows="2" cols="30">Lorem ipsum dolor sit amet consectetur adipisicing elit Lorem ipsum dolor sit amet consectetur adipisicing elit</textarea>
-                        </div>
-                        <div class="form-group">                    
-                            <label for="">Seu negócio incorpora uma inovação de produto, processo ou serviço?</label>                        
-                            <label for="">                            
-                                <input type="radio" name="" value="Objetivo 2">
-                                Não
-                            </label>
-                            <label for="">                            
-                                <input type="radio" name="" checked value="Objetivo 2">
-                                Sim  (Descreva-a. 25 palavras)
-                            </label>
-                            <textarea name="message" rows="3" cols="30">Lorem ipsum dolor sit amet consectetur adipisicing elit Lorem ipsum dolor sit amet consectetur adipisicing elit</textarea>
-                        </div>
-                        <div class="flex-form">
-                            <div class="form-group">                    
-                                <label for="">Site</label>
-                                <input type="text" name="" id="">
-                            </div>
-                            <div class="form-group">                    
-                                <label for="">Instagram do Negócio</label>
-                                <input type="text" name="" id="">
-                            </div>                        
-                            <div class="form-group">                    
-                                <label for="">Facebook do Negócio</label>
-                                <input type="text" name="" id="">
-                            </div>
-                            <div class="form-group">                    
-                                <label for="">Linkedin do Negócio</label>
-                                <input type="text" name="" id="">
-                            </div>
-                        </div>     
-                        <div class="form-group">                    
-                            <div id="project-images-container">
-                                <ul class="project-images">
-                                    <li class="image">
-                                        <a target="_blank"href="app/assets/images/ods3.png">
-                                            <img src="app/assets/images/ods3.png"/>
-                                        </a>                                      
-                                    </li>
-                                    <li class="image">
-                                        <a target="_blank"href="app/assets/images/ods3.png">
-                                            <img src="app/assets/images/ods3.png"/>
-                                        </a>                                   
-                                    </li>
-                                </ul>
-                                <a href="#" class="edit-images">Alterar imagens</a>
-                            </div>
-                        </div>                        
-                        <div class="flex-form">
-                            <div class="read-more">
-                                <a href="#" class="btn bg-green">Salvar</a>
-                            </div>                            
-                            <div class="read-more">
-                                <a href="#" class="btn bg-gray">Cancelar</a>
-                            </div>
-                        </div>  
                     </div>
 
                 </div>
                 <div class="sidebar">
                     <ul class="links-account">
                         <li><a href="#" class="btn">Indicar homenagiados</a></li> 
-                        <li><a href="#" class="btn">Votar em Projetos</a></li> 
+                        <li><a href="projects.php" class="btn">Votar em Projetos</a></li> 
                         <li><a href="#" class="btn">Alterar Senha</a></li> 
                     </ul>
                 </div>
-                </div>
             </div>
-        </div>       
-        
-
+        </div>    
     </section>
 </main>
     
