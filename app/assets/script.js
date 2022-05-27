@@ -1,3 +1,6 @@
+window.onload = function() {
+  document.getElementById("defaultOpen").click();
+};
 // EVENTO SCROLL HEADER
 (function () {
     var menu = document.getElementById('top-page');
@@ -282,39 +285,6 @@
     })
   })
   
-  // MODAL MIDIA
-  function openModal() {
-    document.getElementById("myModal").style.display = "block";
-  }
-  function closeModal() {
-    document.getElementById("myModal").style.display = "none";
-  }
-  var slideIndex = 1;
-  showSlides(slideIndex);
-  
-  function plusSlides(n) {
-    showSlides(slideIndex += n);
-  }
-  function currentSlide(n) {
-    showSlides(slideIndex = n);
-  }
-  function showSlides(n) {
-    var i;
-    var slides = document.getElementsByClassName("mySlides");
-    var dots = document.getElementsByClassName("demo");
-    var captionText = document.getElementById("caption");
-    if (n > slides.length) {slideIndex = 1}
-    if (n < 1) {slideIndex = slides.length}
-    for (i = 0; i < slides.length; i++) {
-        slides[i].style.display = "none";
-    }
-    for (i = 0; i < dots.length; i++) {
-        dots[i].className = dots[i].className.replace(" active", "");
-    }
-    slides[slideIndex-1].style.display = "block";
-    dots[slideIndex-1].className += " active";
-    captionText.innerHTML = dots[slideIndex-1].alt;
-  }
 
 
 //REPONSIVE IFRAME
@@ -326,8 +296,8 @@ $(".content-post img").wrap("<div class='container-img'></div>");
 $(".content-post img").addClass("responsive-img");
 
 //MASK PHONE
-$("#tel-phone").mask("(00) 00000-0000");
-$("#tel-fixed").mask("(00) 0000-0000");
+// $("#tel-phone").mask("(00) 00000-0000");
+// $("#tel-fixed").mask("(00) 0000-0000");
 
 // TAB MY ACCOUNT
 function openPage(pageName) {
@@ -336,9 +306,46 @@ function openPage(pageName) {
   for (i = 0; i < tabcontent.length; i++) {
     tabcontent[i].style.display = "none";
   }
+  tablinks = document.getElementsByClassName("tablink");
+  for (i = 0; i < tablinks.length; i++) {
+    tablinks[i].style.backgroundColor = "";
+  }
   document.getElementById(pageName).style.display = "block";
 }
-// Get the element with id="defaultOpen" and click on it
-document.getElementById("defaultOpen").click();
 // END TAB MY ACCOUNT
 
+
+
+// MODAL MIDIA
+function openModal() {
+  document.getElementById("myModal").style.display = "block";
+}
+function closeModal() {
+  document.getElementById("myModal").style.display = "none";
+}
+var slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("demo");
+  var captionText = document.getElementById("caption");
+  if (n > slides.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " active";
+  captionText.innerHTML = dots[slideIndex-1].alt;
+}

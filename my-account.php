@@ -19,7 +19,7 @@ include 'app/views/header.php';
                         <!-- dados pessoais usuário comum -->
                         <button class="tablink" onclick="openPage('personal-comum-data')" id="defaultOpen">Dados Pessoais</button>
                         <!-- dados pessoais para usuários projetos -->
-                        <button class="tablink" onclick="openPage('personal-data')">Dados Pessoais</button>
+                        <button class="tablink" onclick="openPage('personal-data')" id="defaultOpen">Dados Pessoais</button>
                         <button class="tablink" onclick="openPage('projects-data')">Projetos</button> 
                         <button class="tablink" onclick="openPage('homenagens-data')">Homengens</button> 
                     </div>
@@ -63,7 +63,7 @@ include 'app/views/header.php';
                             </div>
                             <div class="form-group">
                                 <label for="birth-date">Data de Nascimento</label>
-                                <input type="date" name="birth-date" id="birth-date" value="06052022">
+                                <input type="date" name="birth-date" id="birth-date">
                             </div>
                             <div class="form-group">
                                 <label for="gender">Gênero</label>
@@ -189,13 +189,51 @@ include 'app/views/header.php';
                     </div>
 
                     <div id="homenagens-data" class="tabcontent">
-
+                        <h3>Minhas Indicações</h3>
+                        <div class="list-impacts">
+                            <div class="list-item flex-container">
+                                <div class="dados">
+                                    <p class="name">Nome Cidadão de Impacto</p>
+                                    <p class="indicacao">Indicado por: <span>Liderança Ambiental</span></p> 
+                                    <ul class="list-social">
+                                        <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                                        <li><a href="#"><i class="fab fa-facebook"></i></a></li>
+                                        <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+                                        <li><a href="#"><i class="fab fa-youtube"></i></a></li>
+                                    </ul>
+                                </div>                          
+                            </div>
+                            <div class="list-item flex-container">
+                                <div class="dados">
+                                    <p class="name">Nome Cidadão de Impacto</p>
+                                    <p class="indicacao">Indicado por: <span>Liderança Ambiental</span></p>
+                                    <ul class="list-social">
+                                        <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                                        <li><a href="#"><i class="fab fa-facebook"></i></a></li>
+                                        <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+                                        <li><a href="#"><i class="fab fa-youtube"></i></a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="list-item flex-container">
+                                <div class="dados">
+                                    <p class="name">Nome Cidadão de Impacto</p>
+                                    <p class="indicacao">Indicado por: <span>Liderança Ambiental</span><span>Ação Econômica</span></p>
+                                    <ul class="list-social">
+                                        <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                                        <li><a href="#"><i class="fab fa-facebook"></i></a></li>
+                                        <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+                                        <li><a href="#"><i class="fab fa-youtube"></i></a></li>
+                                    </ul>   
+                                </div>
+                            </div>
+                        </div>
                     </div>
 
                 </div>
                 <div class="sidebar">
                     <ul class="links-account">
-                        <li><a href="#" class="btn">Indicar homenagiados</a></li> 
+                        <li><a href="form-honor.php" class="btn">Indicar homenagiados</a></li> 
                         <li><a href="projects.php" class="btn">Votar em Projetos</a></li> 
                         <li><a href="#" class="btn">Alterar Senha</a></li> 
                     </ul>

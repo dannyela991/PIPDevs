@@ -1725,13 +1725,11 @@ include 'app/views/header.php';
                     <h2>Descrição do Projeto</h2>
                     <div class="form-group">                    
                         <label for="">Descreva o problema social e/ou ambiental que seu negócio ou tecnologia resolve. (Atenção, problema é diferente de solução) (50 palavras)</label>
-                        <textarea name="message" rows="3" cols="30">                        
-                        </textarea>
+                        <textarea name="message" rows="3" cols="30"></textarea>
                     </div>
                     <div class="form-group">                    
                         <label for="">PITCH: Qual a solução (Produto/Serviço) que seu negócio ou tecnologia traz para esse problema? (50 palavras)</label>
-                        <textarea name="message" rows="2" cols="30">                        
-                        </textarea>
+                        <textarea name="message" rows="2" cols="30"></textarea>
                     </div>
                     <div class="form-group">                    
                         <label for="">Seu negócio incorpora uma inovação de produto, processo ou serviço?</label>                        

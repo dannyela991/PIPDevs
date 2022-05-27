@@ -19,7 +19,7 @@ include 'app/views/header.php';
                         <!-- Empresa Negócios de impacto -->
                         <button class="tablink" onclick="openPage('buss-data')" id="defaultOpen">Dados do Negócio</button>
                         <!-- Perfil Ecossistema de impacto -->
-                        <button class="tablink" onclick="openPage('perfil-data')">Perfil do Negócio</button>
+                        <button class="tablink" onclick="openPage('perfil-data')" id="defaultOpen">Perfil do Negócio</button>
                         <!-- Empresa Ecossistema de impacto -->
                         <button class="tablink" onclick="openPage('eco-data')">Dados do Negócio</button>
                         <button class="tablink" onclick="openPage('project-data')">Descrição do Projeto</button>   
