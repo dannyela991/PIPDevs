@@ -725,9 +725,9 @@ include 'app/views/header.php';
                                 <li><a href="#"><i class="fab fa-twitter"></i></a></li>
                             </ul>
                         </div>
-                        <div class="read-more">
-                            <a href="" class="btn bg-black">Ver todos</a>
-                        </div>
+                    </div>                    
+                    <div class="read-more">
+                        <a href="" class="btn bg-black">Ver todos</a>
                     </div>
                 </div>
                 <div class="col-impacts">
@@ -834,10 +834,10 @@ include 'app/views/header.php';
                                 <li><a href="#"><i class="fab fa-twitter"></i></a></li>
                             </ul>
                         </div>
-                        <div class="read-more">
-                            <a href="" class="btn bg-black">Ver todos</a>
-                        </div>
-                    </div>                            
+                    </div>                      
+                    <div class="read-more">
+                        <a href="" class="btn bg-black">Ver todos</a>
+                    </div>                          
                 </div>
                 <div class="col-impacts">                            
                     <img src="app/assets/images/impact-communicator.svg" alt=""/>
@@ -943,9 +943,9 @@ include 'app/views/header.php';
                                 <li><a href="#"><i class="fab fa-twitter"></i></a></li>
                             </ul>
                         </div>
-                        <div class="read-more">
-                            <a href="" class="btn bg-black">Ver todos</a>
-                        </div>
+                    </div>                    
+                    <div class="read-more">
+                        <a href="" class="btn bg-black">Ver todos</a>
                     </div>
                 </div>
             </div>

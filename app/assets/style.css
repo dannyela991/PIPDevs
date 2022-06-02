@@ -73,6 +73,9 @@ a.bg-yellow:hover{
 .gray{
     color: #595959;
 }
+a.gray:hover{
+    color: #262626;
+}
 .bg-gray{
     background-color: #ccc;
     color: #333;
@@ -1257,6 +1260,7 @@ footer .description{
     height: 250px;
     overflow-y: scroll;
     padding: 15px;
+    margin-top: 30px;
 }
 .list-impacts::-webkit-scrollbar {
 width: 6px;               /* width of the entire scrollbar */
@@ -1271,7 +1275,7 @@ background-color: #ccc;    /* color of the scroll thumb */
     margin-bottom: 15px;
     border-bottom: 1px solid #ccc;
     padding-bottom: 7px;
-    font-size: 14px;
+    font-size: 16px;
 }
 .list-item:last-child{
     margin-bottom: 0;
@@ -1282,9 +1286,10 @@ background-color: #ccc;    /* color of the scroll thumb */
     margin-top: 6px;
 }
 .list-item ul li{
+    font-size: 18px;
     list-style: none;
     display: inline;
-    margin-right: 10px;
+    margin-right: 20px;
 }
 .list-item ul li:last-child{
     margin-right: 0;
@@ -3176,25 +3181,42 @@ tr:nth-child(even){
     background: #f8f8ff;
     color: #333;
 }
+.homenagens .page-header .container.flex-container{
+    align-items: center;
+}
 .homenagens .page-header h1{
     width: 100%;
     text-align: center;
 }
-.homenagens .page-header .read-more{
+.homenagens .page-header .btn-indicacao{
     text-align: center;
     width: 100%;
+}
+.btn-indicacao a.btn{
+    display: block;
+    text-align: center;
+    font-size: 24px;
+}
+.homenagens .page-header img{
+    height: 180px;
 }
 .homenagens .content{
     width: 100%;
 }
 .homenagens .list-item{
-    text-align: center;
     box-shadow: 0 0 8px #ccc;
     border: none;
-    padding: 10px;
+    padding: 20px 10px;
+}
+.homenagens .dados, .homenagens .btn-voto{
+    text-align: center;
 }
 .homenagens p.name, .homenagens span{
     font-weight: bold;
+    font-size: 18px;
+}
+.homenagens p{
+    font-size: 18px;
 }
 .homenagens .list-impacts p{
     font-size: 16px;
@@ -3202,6 +3224,9 @@ tr:nth-child(even){
 }
 .homenagens .list-impacts i{
     font-size: 20px;
+}
+.homenagens .votos .number-votos{
+    font-size: 32px;
 }
 p.indicacao span::after{
     content: ", ";
@@ -3211,6 +3236,7 @@ p.indicacao span:last-child::after{
 }
 .search-homenagens{
     width: 100%;
+    margin: 50px auto;
 }
 form.form-homenagens input[type=text] {
     padding: 10px;
@@ -3250,6 +3276,10 @@ form.form-homenagens::after {
 .homenagens .dados{
     width: 100%;
 }
+.homenagens .votos{
+    width: 100%;
+    margin-bottom: 15px;
+}
 .homenagens .btn-voto{
     width: 100%;
     margin-top: 20px;
@@ -3263,25 +3293,37 @@ button.btn{
     background: none;
     text-align: center;
     cursor: pointer;
+    font-weight: bold;
+    font-size: 22px;
 }
 button.btn i{
-    font-size: 24px!important;
+    font-size: 26px!important;
+    color: #33cc99;
 }
 button.btn:hover{
-    color: #32a7df;
+    color: #219770;
+}
+.list-item .votos{
+    text-align: center;
+}
+.list-item .flex-container{
+    align-items: center;
+}
+.homenagens .btn-voto button{
+    margin-bottom: 10px;
+}
+.homenagens .list-item ul li{
+    font-size: 24px;
 }
 @media  screen and (min-width: 768px){
     .homenagens .list-item.flex-container{
         flex-direction: column;
     }
-    .homenagens .col-impacts{
-        width: 33%;
-    }
 }
 @media  screen and (min-width: 1140px){     
-    .homenagens .page-header .read-more{
+    .homenagens .page-header .btn-indicacao{
         text-align: right;
-        width: 50%;
+        width: 30%;
     }    
     .homenagens .page-header h1{
         width: 50%;
@@ -3301,12 +3343,30 @@ button.btn:hover{
     .homenagens .list-item.flex-container{
         flex-direction: row;
     }
+    .homenagens .votos{
+        width:10%;
+    }
     .homenagens .btn-voto{
-        width: 15%;
+        width: 20%;
         margin-top: 0;
     }
     .homenagens .dados{
-        width: 85%;
+        width: 70%;
         padding-right: 5px;
+    }    
+}
+/* resultado busca homenagiado */
+.txt-resultado{
+    line-height: 2;
+    text-align: center;
+}
+.homenagens .page-header.resultado h1{
+    width: 100%;
+    text-align: center;
+}
+@media  screen and (min-width: 1140px){
+    .content.result{
+        width: 70%;
+        margin: 50px auto;
     }
 }
