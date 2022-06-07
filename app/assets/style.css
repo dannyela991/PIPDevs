@@ -3285,7 +3285,7 @@ form.form-homenagens::after {
     margin-top: 20px;
     display: block;
 }
-button.btn{
+button.bg-none{
     display: block;
     padding: 0;
     border: none;
@@ -3296,11 +3296,11 @@ button.btn{
     font-weight: bold;
     font-size: 22px;
 }
-button.btn i{
+button.bg-none i{
     font-size: 26px!important;
     color: #33cc99;
 }
-button.btn:hover{
+button.bg-none:hover{
     color: #219770;
 }
 .list-item .votos{

@@ -44,7 +44,7 @@ include 'app/views/header.php';
                                     </ul>
                                 </div>
                                 <div class="btn-voto">
-                                    <button type="button" class="btn"><i class="far fa-thumbs-up"></i> Indicar</button>   
+                                    <button type="button" class="bg-none"><i class="far fa-thumbs-up"></i> Indicar</button>   
                                     <a href="#" class="gray">Quero indicar para outra categoria</a>                         
                                 </div>
                             </div>                                                      
@@ -67,7 +67,7 @@ include 'app/views/header.php';
                                     </ul>
                                 </div>
                                 <div class="btn-voto">
-                                    <button type="button" class="btn"><i class="far fa-thumbs-up"></i> Indicar</button>   
+                                    <button type="button" class="bg-none"><i class="far fa-thumbs-up"></i> Indicar</button>   
                                     <a href="#" class="gray">Quero indicar para outra categoria</a>                         
                                 </div>
                             </div>                                                      
@@ -90,7 +90,7 @@ include 'app/views/header.php';
                                     </ul>
                                 </div>
                                 <div class="btn-voto">
-                                    <button type="button" class="btn"><i class="far fa-thumbs-up"></i> Indicar</button>   
+                                    <button type="button" class="bg-none"><i class="far fa-thumbs-up"></i> Indicar</button>   
                                     <a href="#" class="gray">Quero indicar para outra categoria</a>                         
                                 </div>
                             </div>                                                      
@@ -113,7 +113,7 @@ include 'app/views/header.php';
                                     </ul>
                                 </div>
                                 <div class="btn-voto">
-                                    <button type="button" class="btn"><i class="far fa-thumbs-up"></i> Indicar</button>   
+                                    <button type="button" class="bg-none"><i class="far fa-thumbs-up"></i> Indicar</button>   
                                     <a href="#" class="gray">Quero indicar para outra categoria</a>                         
                                 </div>
                             </div>                                                      
@@ -136,7 +136,7 @@ include 'app/views/header.php';
                                     </ul>
                                 </div>
                                 <div class="btn-voto">
-                                    <button type="button" class="btn"><i class="far fa-thumbs-up"></i> Indicar</button>   
+                                    <button type="button" class="bg-none"><i class="far fa-thumbs-up"></i> Indicar</button>   
                                     <a href="#" class="gray">Quero indicar para outra categoria</a>                         
                                 </div>
                             </div>                                                      
