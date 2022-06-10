@@ -7,6 +7,11 @@
     
     <title>Impactos Positivos</title>
     <link rel="icon" type="image/x-icon" href="app/favicon.ico">
+    <meta property="og:title" content="Impactos Positivos" />
+    <meta property="og:description" content="Somos uma grande vitrine de iniciativas que impactam positivamente nosso país e o mundo.">
+    <meta property="og:url" content="https://impactospositivos.com/" />
+    <meta property="og:image" content="https://impactospositivos.com/assets/images/logo.jpeg" />
+    <meta property="og:type" content="website" />
 
     <script src="https://kit.fontawesome.com/4c0e9dac04.js" crossorigin="anonymous"></script>
     
