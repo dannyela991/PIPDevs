@@ -583,33 +583,72 @@ include 'app/views/header.php';
                 </div>
                 <div class="col-sponsors">
                     <div class="title">
-                        <h3>Apoiadores</h3>
+                        <h3>Patrocinador</h3>
                     </div>    
                     <div class="logo-sponsors">
                         <div class="img-sponsors">
-                            <img src="app/assets/images/logo-further/assis-mendes.png" alt=""/>
-                        </div>
-                        <div class="img-sponsors">
-                            <img src="app/assets/images/logo-further/capitalismo-consciente.png" alt=""/>
-                        </div>
-                        <div class="img-sponsors">
-                            <img src="app/assets/images/logo-further/comunidade-cuidadoria.png" alt=""/>
-                        </div>
-                        <div class="img-sponsors">
-                            <img src="app/assets/images/logo-further/gonew.png" alt=""/>
-                        </div>
-                        <div class="img-sponsors">
-                            <img src="app/assets/images/logo-further/humanizadas.png" alt=""/>
-                        </div>
-                        <div class="img-sponsors">
-                            <img src="app/assets/images/logo-further/innov8.png" alt=""/>
-                        </div>
-                        <div class="img-sponsors">
-                            <img src="app/assets/images/logo-further/instituto da transformaco digital.png" alt=""/>
+                            <img src="app/assets/images/sebrae.png" alt=""/>
                         </div>
                     </div>            
                 </div> 
             </article>
+        </div>
+    </section>
+
+    <section class="further apoiadores">
+        <div class="container">
+            <div class="col-further-content">
+                <div class="title">
+                    <h2>Apoiadores</h2>
+                </div>
+            </div>
+            <div class="link-logos">
+                <div class="carrossel-further">
+                    <div class="logo-item">
+                        <div class="img-logo">
+                            <a href=""><img src="app/assets/images/logo-further/innov8.png" alt=""/></a>
+                        </div>
+                    </div>
+                    <div class="logo-item">
+                        <div class="img-logo">
+                            <a href=""><img src="app/assets/images/logo-further/assis-mendes.png" alt=""/></a>
+                        </div>
+                    </div>
+                    <div class="logo-item">
+                        <div class="img-logo">
+                            <a href=""><img src="app/assets/images/logo-further/humanizadas.png" alt=""/></a>
+                        </div>
+                    </div>
+                    <div class="logo-item">
+                        <div class="img-logo">
+                            <a href=""><img src="app/assets/images/logo-further/instituto da transformaco digital.png" alt=""/></a>
+                        </div>
+                    </div>
+                    <div class="logo-item">
+                        <div class="img-logo">
+                            <a href=""><img src="app/assets/images/logo-further/capitalismo-consciente.png" alt=""/></a>
+                        </div>
+                    </div>
+                    <div class="logo-item">
+                        <div class="img-logo">
+                            <a href=""><img src="app/assets/images/logo-further/comunidade-cuidadoria.png" alt=""/></a>
+                        </div>
+                    </div>
+                    <div class="logo-item">
+                        <div class="img-logo">
+                            <a href=""><img src="app/assets/images/logo-further/gonew.png" alt=""/></a>
+                        </div>
+                    </div>
+                </div>                   
+                <div class="nav-further">
+                    <a id="prev-further" class="icon arrow-left">
+                        <i class="fas fa-chevron-left"></i>
+                    </a>
+                    <a id="next-further" class="icon arrow-right">
+                        <i class="fas fa-chevron-right"></i>
+                    </a>
+                </div>
+            </div>
         </div>
     </section>
 
@@ -1062,7 +1101,64 @@ include 'app/views/header.php';
                     </div>
                 </div>
             </div>
-        </article>    
+        </article>  
+        
+        <section class="further">
+            <div class="container">
+                <div class="col-further-content">
+                    <div class="title">
+                        <h2>Corrente do bem</h2>
+                    </div>
+                </div>
+                <div class="link-logos">
+                    <div class="carrossel-logos">
+                        <div class="logo-item">
+                            <div class="img-logo">
+                                <a href=""><img src="app/assets/images/logo-further/innov8.png" alt=""/></a>
+                            </div>
+                        </div>
+                        <div class="logo-item">
+                            <div class="img-logo">
+                                <a href=""><img src="app/assets/images/logo-further/assis-mendes.png" alt=""/></a>
+                            </div>
+                        </div>
+                        <div class="logo-item">
+                            <div class="img-logo">
+                                <a href=""><img src="app/assets/images/logo-further/humanizadas.png" alt=""/></a>
+                            </div>
+                        </div>
+                        <div class="logo-item">
+                            <div class="img-logo">
+                                <a href=""><img src="app/assets/images/logo-further/instituto da transformaco digital.png" alt=""/></a>
+                            </div>
+                        </div>
+                        <div class="logo-item">
+                            <div class="img-logo">
+                                <a href=""><img src="app/assets/images/logo-further/capitalismo-consciente.png" alt=""/></a>
+                            </div>
+                        </div>
+                        <div class="logo-item">
+                            <div class="img-logo">
+                                <a href=""><img src="app/assets/images/logo-further/comunidade-cuidadoria.png" alt=""/></a>
+                            </div>
+                        </div>
+                        <div class="logo-item">
+                            <div class="img-logo">
+                                <a href=""><img src="app/assets/images/logo-further/gonew.png" alt=""/></a>
+                            </div>
+                        </div>
+                    </div>                   
+                    <div class="nav-further">
+                        <a id="prev-link-logos" class="icon arrow-left">
+                            <i class="fas fa-chevron-left"></i>
+                        </a>
+                        <a id="next-link-logos" class="icon arrow-right">
+                            <i class="fas fa-chevron-right"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
 
         <article class="midias">
             <div class="container">                
@@ -1273,92 +1369,6 @@ include 'app/views/header.php';
         </article>        
     </section>
 
-    <!-- <section class="further">
-        <div class="container">
-            <div class="col-further-content">
-                <div class="title">
-                    <h2>Apoiadores</h2>
-                </div>
-            </div>
-            <div class="link-logos">
-                <div class="carrossel-further">
-                    <div class="logo-item">
-                        <div class="img-logo">
-                            <a href=""><img src="app/assets/images/logo-further/alma-pelo-mundo.png" alt=""/></a>
-                        </div>
-                    </div>
-                    <div class="logo-item">
-                        <div class="img-logo">
-                            <a href=""><img src="app/assets/images/logo-further/assis-e-mendes.png" alt=""/></a>
-                        </div>
-                    </div>
-                    <div class="logo-item">
-                        <div class="img-logo">
-                            <a href=""><img src="app/assets/images/logo-further/banco-perola.png" alt=""/></a>
-                        </div>
-                    </div>
-                    <div class="logo-item">
-                        <div class="img-logo">
-                            <a href=""><img src="app/assets/images/logo-further/cacadores-de-bons-exemplos.png" alt=""/></a>
-                        </div>
-                    </div>
-                    <div class="logo-item">
-                        <div class="img-logo">
-                            <a href=""><img src="app/assets/images/logo-further/capitalismo-consciente.png" alt=""/></a>
-                        </div>
-                    </div>
-                    <div class="logo-item">
-                        <div class="img-logo">
-                            <a href=""><img src="app/assets/images/logo-further/denario.png" alt=""/></a>
-                        </div>
-                    </div>
-                    <div class="logo-item">
-                        <div class="img-logo">
-                            <a href=""><img src="app/assets/images/logo-further/dotsy.png" alt=""/></a>
-                        </div>
-                    </div>
-                    <div class="logo-item">
-                        <div class="img-logo">
-                            <a href=""><img src="app/assets/images/logo-further/gva.png" alt=""/></a>
-                        </div>
-                    </div>
-                    <div class="logo-item">
-                        <div class="img-logo">
-                            <a href=""><img src="app/assets/images/logo-further/integracao-trade.png" alt=""/></a>
-                        </div>
-                    </div>
-                    <div class="logo-item">
-                        <div class="img-logo">
-                            <a href=""><img src="app/assets/images/logo-further/lidiane.png" alt=""/></a>
-                        </div>
-                    </div>
-                    <div class="logo-item">
-                        <div class="img-logo">
-                            <a href=""><img src="app/assets/images/logo-further/mama-filo.png" alt=""/></a>
-                        </div>
-                    </div>
-                    <div class="logo-item">
-                        <div class="img-logo">
-                            <a href=""><img src="app/assets/images/logo-further/marta-poggi.png" alt=""/></a>
-                        </div>
-                    </div>
-                    <div class="logo-item">
-                        <div class="img-logo">
-                            <a href=""><img src="app/assets/images/logo-further/mulheres-do-turismo.png" alt=""/></a>
-                        </div>
-                    </div>
-                </div>                   
-                <div class="nav-further">
-                    <a id="prev-link-logos" class="icon arrow-left">
-                        <i class="fas fa-chevron-left"></i>
-                    </a>
-                    <a id="next-further" class="icon arrow-right">
-                        <i class="fas fa-chevron-right"></i>
-                    </a>
-                </div>
-            </div>
-        </div>
-    </section> -->
 </main>
 
 <?php

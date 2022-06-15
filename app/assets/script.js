@@ -155,7 +155,7 @@ window.onload = function() {
   
     $('.carrossel-logos').slick({
         infinite: true,
-        slidesToShow: 3,
+        slidesToShow: 5,
         slidesToScroll: 1,    
         autoplay: true,
         autoplaySpeed: 2000,
@@ -242,7 +242,7 @@ window.onload = function() {
   
     $('.carrossel-further').slick({
         infinite: true,
-        slidesToShow: 5,
+        slidesToShow: 7,
         slidesToScroll: 1,    
         autoplay: true,
         autoplaySpeed: 2000,
