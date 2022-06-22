@@ -288,16 +288,16 @@ window.onload = function() {
 
 
 //REPONSIVE IFRAME
+$(".podcast iframe").nowrap("<div class='container-iframe'></div>");
 $(".content-post iframe").wrap("<div class='container-iframe'></div>");
 $(".content-post iframe").addClass("responsive-iframe");
+$(".podcast iframe").removeClass("responsive-iframe");
 
 //REPONSIVE IMG
 $(".content-post img").wrap("<div class='container-img'></div>");
 $(".content-post img").addClass("responsive-img");
 
-//MASK PHONE
-// $("#tel-phone").mask("(00) 00000-0000");
-// $("#tel-fixed").mask("(00) 0000-0000");
+
 
 // TAB MY ACCOUNT
 function openPage(pageName) {

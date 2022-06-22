@@ -195,9 +195,13 @@ ul.inline li{
     max-width: 1400px;
     margin: 0 auto;
     position: relative;
-    padding: 0 30px;
+    padding: 0 10px;
 }
-
+@media screen and (min-width: 768px){
+    .container{
+        padding: 0 30px;
+    }
+}
 /* FLEXBOX */
 .flex-container{
     display: flex;
@@ -218,6 +222,10 @@ header{
     z-index: 999;
     top: 0;
 }
+header .container{
+    max-width: 385px;
+    padding: 0 5px;
+}
 .header-nav{
     width: 100%;
     position: relative;
@@ -227,6 +235,10 @@ header{
 @media screen and (min-width: 768px){
     .header-nav{
         height: 80px;
+    }
+    header .container{
+        max-width: 1400px;
+        padding: 0 30px;
     }
 }
 @media screen and (min-width: 1140px){
@@ -290,7 +302,7 @@ header{
 .menu{
     width: 100%;
     position: absolute;
-    top: 14px;
+    top: 8px;
     right: 5px;
 }
 @media screen and (min-width: 1140px){
@@ -319,7 +331,7 @@ button.dropbtn a:hover{
     display: block;
     color: #333;
     text-align: right;
-    padding: 7px 9px;
+    padding: 3px 8px;
     text-decoration: none;
     font-size: 17px;
     text-transform: uppercase;
@@ -418,7 +430,7 @@ button.dropbtn a:hover{
 /* SEARCH */
 .search-mobile{
     position: absolute;
-    top: 18px;
+    top: 8px;
     right: 50px;
     display: block;
 }
@@ -498,8 +510,8 @@ button.dropbtn a:hover{
 .link-language{
     max-width: 150px;
     position: absolute;
-    top: 25px;
-    right: 100px;
+    top: 45px;
+    right: 0;
 }
 .link-language ul li{
     display: inline-block;
@@ -539,6 +551,9 @@ button.dropbtn a:hover{
     font-weight: bold;
     text-transform: uppercase;
 }
+.button-subscription .btn{
+    padding: 5px;
+}
 @media screen and (min-width: 768px){    
     .subscription-links{
         width: 55%;
@@ -576,7 +591,7 @@ button.dropbtn a:hover{
 /* FOOTER */
 footer{
     background: #f2f2f2;
-    padding: 30px;
+    padding: 30px 0;
 
 }
 .about-footer{
@@ -781,14 +796,14 @@ footer .description{
     }
 }
 .nav-fullbanner .icon{
-    font-size: 40px;
+    font-size: 30px;
     color: #ccc;
 }
 
 /* WELCOME */
 .welcome{
     background-color: #f2f2f2;
-    padding: 100px 0;
+    padding: 50px 0;
     text-align: center;
 }
 .text-welcome{
@@ -812,8 +827,9 @@ footer .description{
     margin-top: 40px;
 }
 .counter-welcome.flex-container{
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
+    flex-wrap: wrap;
 }
 .counter-item{
     width: 100%;
@@ -909,11 +925,11 @@ footer .description{
     text-align: center;
 }
 .img-parceiro img{
-    width: 70%;
+    width: 100%;
 }
 /* LATEST NEWS */
 .latest-news{
-    padding: 100px 0;
+    padding: 50px 0;
 }
 .latest-news .flex-container{
     align-items: flex-start;
@@ -936,6 +952,9 @@ footer .description{
     .news-posts{
         flex-direction: row;
     }
+    .img-parceiro img{
+        width: 70%;
+    }
 }
 @media  screen and (min-width: 1140px){
     .col-archives{
@@ -945,6 +964,9 @@ footer .description{
     .news-posts{
         width: 70%;
         flex-direction: row;
+    }
+    .latest-news{
+        padding: 70px 0;
     }
 }
 /* col accent */
@@ -961,7 +983,7 @@ footer .description{
 }
 .card-news.accent .title a{
     color: #595959;
-    font-size: 26px;
+    font-size: 22px;
     overflow: hidden;
     text-overflow: ellipsis;
     display: -webkit-box;
@@ -1028,6 +1050,8 @@ footer .description{
     .card-news .img-ads{
         width: 50%;
         float: left;
+    }.card-news.accent .title a{
+        font-size: 26px;
     }
 }
 @media  screen and (min-width: 1140px){
@@ -1047,7 +1071,7 @@ footer .description{
 
 /* SHOWCASES */
 .showcases{
-    padding: 100px 0;
+    padding: 50px 0;
     text-align: center;
 }
 .showcases .title{
@@ -1056,7 +1080,7 @@ footer .description{
 .showcases h2{
     font-family: Gothan, sans-serif;
     font-weight: bold;
-    font-size: 38px;
+    font-size: 28px;
     text-transform:uppercase;
     margin-bottom: 20px;
 }
@@ -1068,6 +1092,13 @@ footer .description{
 @media  screen and (min-width: 1140px){
     .showcase-flex{
         flex-direction: row;
+    }
+    .showcases{
+        padding: 70px 0;
+        text-align: center;
+    }
+    .showcases h2{
+        font-size: 38px;
     }
 }
 .line .title{
@@ -1097,7 +1128,7 @@ footer .description{
 /* carrossel bussines */
 .box-carrossel-bussiness, .box-carrossel-ecosystem{
     position: relative;
-    padding: 10px 50px;
+    padding: 10px;
 }
 .card-project{
     text-align: left;
@@ -1189,6 +1220,10 @@ footer .description{
     .col-sponsors{
         width: 100%;
     }
+    .box-carrossel-bussiness, .box-carrossel-ecosystem{
+        position: relative;
+        padding: 10px 50px;
+    }
 }
 @media  screen and (min-width: 1140px){
     .col-sponsors{
@@ -1219,7 +1254,7 @@ footer .description{
 }
 /* HONORS */
 .honor{
-    padding: 100px 0;
+    padding: 50px 0;
     background: #f1f1f1;
 }
 .honor .title{
@@ -1227,7 +1262,7 @@ footer .description{
     text-align: center;
 }
 .honor h3{
-    font-size: 38px;
+    font-size: 28px;
     text-transform: uppercase;
 }
 .honor .flex-container{
@@ -1374,6 +1409,9 @@ background-color: #ccc;    /* color of the scroll thumb */
         border-right: 1px solid #ccc;
         width: 100%;
     }
+    .honor h3{        
+        font-size: 38px;
+    }
 }
 @media  screen and (min-width: 1140px){
     .honor .flex-container{
@@ -1387,7 +1425,7 @@ background-color: #ccc;    /* color of the scroll thumb */
 
 /* MATÉRIAS */
 .materias{
-    padding: 100px 0;
+    padding: 50px 0;
 }
 .materias .flex-container{
     align-items: flex-start;
@@ -1433,7 +1471,10 @@ background-color: #ccc;    /* color of the scroll thumb */
         justify-content: space-between;
     }
 }
-@media  screen and (min-width: 1140px){    
+@media  screen and (min-width: 1140px){   
+    .materias{
+        padding: 70px 0;
+    } 
     .materias .flex-container{
         flex-wrap: nowrap;
     }
@@ -1529,7 +1570,7 @@ background-color: #ccc;    /* color of the scroll thumb */
 }
 /* trend news */
 .trend-news{
-    padding: 100px 0;
+    padding: 50px 0;
 }
 .col-articles .flex-container{
     flex-wrap: wrap;
@@ -1590,7 +1631,7 @@ ul.list-tags li:last-child{
 }
 /* lives e videos */
 .midias{
-    padding: 100px 0;
+    padding: 50px 0;
     background-color: #f2f2f2;
 }
 .content-midia .title{
@@ -1602,6 +1643,9 @@ ul.list-tags li:last-child{
 @media  screen and (min-width: 1140px){
     .content-midia .title{
         font-size: 32px;
+    }
+    .trend-news{
+        padding: 70px 0;
     }
 }
 .content-midia .title h2::after{
@@ -1746,6 +1790,12 @@ audio::-webkit-media-controls-panel {
 source{
     border-radius: 0;
 }
+.content-post.podcast{
+    padding: 0;
+}
+.content-post.podcast iframe{
+    margin: 30px 0;
+}
 @media  screen and (min-width: 768px){
     .podcast .container.flex-container{
         flex-direction: column;
@@ -1761,7 +1811,7 @@ source{
 }
 /* further */
 .further{
-    padding: 100px 0;
+    padding: 50px 0;
     text-align: center;
     background: #fff;
 }
@@ -1775,7 +1825,7 @@ source{
 }
 .link-logos{
     position: relative;
-    padding: 0 100px;
+    padding: 0 10px;
 }
 .carrossel-logos{
     margin: 80px auto 0 auto;
@@ -1786,6 +1836,14 @@ source{
 }
 .further.apoiadores .link-logos{
     padding: 0;
+}
+@media  screen and (min-width: 1140px){
+    .further{
+        padding: 70px 0;
+    }
+    .link-logos{
+        padding: 0 100px;
+    }
 }
 /* END HOME PAGE */
 
@@ -2120,7 +2178,8 @@ ul.list-inline li:last-child{
     padding-top: 30px;
 }
 .archives .page-header h1{
-    font-size: 48px;
+    font-size: 30px;
+    text-align: center;
 }
 .content-archives{
     display: flex;
@@ -2141,6 +2200,10 @@ ul.list-inline li:last-child{
     .card{
         width: 47%;
         margin-right: 10px;
+    }    
+    .archives .page-header h1{
+        font-size: 48px;
+        text-align: left;
     }
 }
 @media  screen and (min-width: 1140px){
@@ -2549,7 +2612,7 @@ fieldset.step h2::before{
 .pages .page-header.about-us{
     padding: 180px 0;
     background: url(images/bg-pages.jpg) center no-repeat;
-    background-size: cover;
+    background-size: cover!important;
     position: relative;
 }
 .pages .page-header.gronograma{

@@ -25,11 +25,16 @@ include 'app/views/header.php';
                             </ul>
                         </div>
                     </div>
-                    <div class="content-post">
+                    <div class="content-post podcast">
                         <audio controls>
                             <source src="app/assets/audio/kiss-i-was-made-for-lovin-you.mp3" type="audio/mpeg">
                             Seu navegador não suporta o elemento de áudio.
                         </audio>
+
+                        <iframe style="border-radius:12px" src="https://open.spotify.com/embed/episode/4rnpecHz8UXkAj7g9VHJk7?utm_source=generator" width="100%" height="232" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
+
+                        <iframe title="Libsyn Player" style="border: none" src="//html5-player.libsyn.com/embed/episode/id/19606226/height/90/theme/custom/thumbnail/yes/direction/forward/render-playlist/no/custom-color/005b5a/" height="90" width="100%" scrolling="no"  allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>
+
                         <p>Antonella Braillard convida a equipe de V.O.S (DMC) para falar sobre os serviços que eles oferecem para os passageiros mais exigentes. Venha descobrir uma variedade de atividades que pode-se incluir ao considerar a Escandinávia como destino.</p>
                         <p>A GVA E-Learning tem como propósito oferecer conteúdo instigante e criativo para inspirar e aprimorar a compreensão sobre os destinos que representamos. Inscreva-se em nosso canal para ficar por dentro de nossas webinars semanais. </p>
 

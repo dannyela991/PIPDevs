@@ -1291,11 +1291,8 @@ include 'app/views/header.php';
                             <div class="description">
                                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
                             </div>
-                            <div class="podcast-audio">
-                                <audio controls>
-                                    <source src="app/assets/audio/kiss-i-was-made-for-lovin-you.mp3" type="audio/mpeg">
-                                    Seu navegador não suporta o elemento de áudio.
-                                </audio>
+                            <div class="read-more">
+                                <a class="btn"><i class="fas fa-podcast"></i> Ouvir agora</a>
                             </div>
                         </div>
                         <div class="item podcast">
@@ -1305,11 +1302,8 @@ include 'app/views/header.php';
                             <div class="description">
                                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id ducimus possimus aliquid recusandae repellendus cupiditate nesciunt</p>
                             </div>
-                            <div class="podcast-audio">
-                                <audio controls>
-                                    <source src="app/assets/audio/kiss-i-was-made-for-lovin-you.mp3" type="audio/mpeg">
-                                    Seu navegador não suporta o elemento de áudio.
-                                </audio>
+                            <div class="read-more">
+                                <a class="btn"><i class="fas fa-podcast"></i> Ouvir agora</a>
                             </div>
                         </div>
                         <div class="item podcast">
@@ -1319,11 +1313,8 @@ include 'app/views/header.php';
                             <div class="description">
                                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id ducimus possimus aliquid recusandae repellendus cupiditate nesciunt</p>
                             </div>
-                            <div class="podcast-audio">
-                                <audio controls>
-                                    <source src="app/assets/audio/kiss-i-was-made-for-lovin-you.mp3" type="audio/mpeg">
-                                    Seu navegador não suporta o elemento de áudio.
-                                </audio>
+                            <div class="read-more">
+                                <a class="btn"><i class="fas fa-podcast"></i> Ouvir agora</a>
                             </div>
                         </div>
                         <div class="item podcast">
@@ -1333,11 +1324,8 @@ include 'app/views/header.php';
                             <div class="description">
                                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id ducimus possimus aliquid recusandae repellendus cupiditate nesciunt</p>
                             </div>
-                            <div class="podcast-audio">
-                                <audio controls>
-                                    <source src="app/assets/audio/kiss-i-was-made-for-lovin-you.mp3" type="audio/mpeg">
-                                    Seu navegador não suporta o elemento de áudio.
-                                </audio>
+                            <div class="read-more">
+                                <a class="btn"><i class="fas fa-podcast"></i> Ouvir agora</a>
                             </div>
                         </div>
                         <div class="item podcast">
@@ -1347,11 +1335,8 @@ include 'app/views/header.php';
                             <div class="description">
                                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id ducimus possimus aliquid recusandae repellendus cupiditate nesciunt</p>
                             </div>
-                            <div class="podcast-audio">
-                                <audio controls>
-                                    <source src="app/assets/audio/kiss-i-was-made-for-lovin-you.mp3" type="audio/mpeg">
-                                    Seu navegador não suporta o elemento de áudio.
-                                </audio>
+                            <div class="read-more">
+                                <a class="btn"><i class="fas fa-podcast"></i> Ouvir agora</a>
                             </div>
                         </div>
                     </div>
