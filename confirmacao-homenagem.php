@@ -7,8 +7,8 @@ include 'app/views/header.php';
     <section class="pages step-completed">
         <div class="container">
             <div class="content">
-                <h1>Seu cadastro foi efetuado com sucesso!</h1>
-                <p>Seja bem vindo(a) a plataforma!</p>              
+                <h1>Sua Homenagem foi efetuada com sucesso!</h1>
+                <p>Obrigado por aceitar compartilhar sua homenagem em nosso site.</p>                
             </div>
             <div class="posts-content">                
                 <h2>Confira nossos conteúdos</h2>
