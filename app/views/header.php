@@ -68,6 +68,7 @@
                                 </button>
                                 <div class="dropdown-content">
                                     <a href="projects.php">Vitrine 2022</a>
+                                    <a href="form-honor.php">Homenagens</a>
                                     <a href="cronograma.php">Cronograma</a>
                                     <a href="#">Como participar</a>
                                     <a href="#">Política</a>

@@ -2586,6 +2586,9 @@ fieldset.step h2::before{
     text-decoration: underline;
     color: #333;
 }
+.content-honor{
+    width: 100%
+}
 @media  screen and (min-width: 768px){
     .flex-form .form-group{
         width: 47%;
@@ -2593,7 +2596,6 @@ fieldset.step h2::before{
 }
 @media  screen and (min-width: 1140px){
     .regForm form{
-        width: 70%;
         margin: 80px auto;
     }
 }
@@ -2607,7 +2609,43 @@ fieldset.step h2::before{
         margin: auto;
     }
 }
-
+/* FORM HONOR */
+@media  screen and (min-width: 768px){
+    .regForm.honor-form .flex-container {
+        align-items: flex-start;
+        flex-direction: column;
+    }
+    .honor-form form{
+        width: 90%;
+    }
+    .content-honor{
+        width: 90%;
+        margin: 80px auto;
+        padding-right: 40px;
+    }
+}
+@media  screen and (min-width: 1140px){
+    .regForm.honor-form .flex-container {
+        align-items: flex-start;
+        flex-direction: row;
+    }
+    .honor-form form{
+        margin: 80px auto;
+    }
+    .honor-form form{
+        width: 50%;
+    }
+    .content-honor{
+        width: 50%;
+        margin: 80px auto;
+        padding-right: 40px;
+    }
+    .content-honor p{
+        line-height: 1.5;
+        font-size: 16px;
+        padding-bottom: 7px;;
+    }
+}
 /* PAGINAS INTERNAS */
 .pages .page-header.about-us{
     padding: 180px 0;
