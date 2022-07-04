@@ -953,16 +953,16 @@ footer .description{
         flex-direction: row;
     }
     .img-parceiro img{
-        width: 70%;
+        width: 50%;
     }
 }
 @media  screen and (min-width: 1140px){
     .col-archives{
-        width: 30%;
+        width: 25%;
         margin-bottom: 0;
     }
     .news-posts{
-        width: 70%;
+        width: 75%;
         flex-direction: row;
     }
     .latest-news{
@@ -2377,6 +2377,41 @@ ul.list-inline li:last-child{
 .fa-caret-down {
     padding-left: 8px;
 }  
+.list-projects .votos{
+    margin: 8px 0;
+} 
+.fases .flex-container{
+    flex-direction: column;
+}
+@media  screen and (min-width: 768px){    
+    .fases .card-project{
+        flex-direction: row;
+        width: 100%;
+    }
+    .fases .title-project{
+        width: 30%;
+        border: none;
+    }
+    .fases .logo-project{
+        height: auto;
+        text-align: left;
+    }
+    .fases .description-project{
+        width: 60%;
+        padding: 0 15px;
+    }
+    .fases .votos{
+        width: 10%;
+    }
+    .fases .logo-project img{
+        height: 80px;
+    }
+}@media  screen and (min-width: 1140px){ 
+    .fases .flex-container{
+        flex-direction: row;
+    }
+
+}
 /* Some media queries for responsiveness */
 @media screen and (max-height: 450px) {
     .sidenav {padding-top: 15px;}
@@ -2589,6 +2624,12 @@ fieldset.step h2::before{
 .content-honor{
     width: 100%
 }
+.content-honor .read-more{
+    margin: 40px 0;
+}
+.regForm .honor{
+    background: none;
+}
 @media  screen and (min-width: 768px){
     .flex-form .form-group{
         width: 47%;
@@ -2610,6 +2651,9 @@ fieldset.step h2::before{
     }
 }
 /* FORM HONOR */
+.homenagens .flex-container{
+    justify-content: space-between;
+}
 @media  screen and (min-width: 768px){
     .regForm.honor-form .flex-container {
         align-items: flex-start;
@@ -2636,7 +2680,7 @@ fieldset.step h2::before{
         width: 50%;
     }
     .content-honor{
-        width: 50%;
+        width: 100%;
         margin: 80px auto;
         padding-right: 40px;
     }

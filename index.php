@@ -86,12 +86,15 @@ include 'app/views/header.php';
         <div class="container flex-container">
             <div class="col-title">
                 <div class="title">
-                    <h2>Parceiro Institucional</h2>
+                    <h2>Parceiros Institucionais</h2>
                 </div>
             </div>
-            <div class="col-articles">
+            <div class="col-articles flex-container">
                 <div class="img-parceiro">
-                    <img src="app/assets/images/enimpacto.png" alt="Enimpacto"/>
+                    <img src="app/assets/images/enimpactos.png" alt="Enimpacto"/>
+                </div>
+                <div class="img-parceiro">
+                    <img src="app/assets/images/logo-pnud.png" alt="pnud"/>
                 </div>
             </div>
         </div>
@@ -656,7 +659,7 @@ include 'app/views/header.php';
         <div class="container">
             <div class="title">
                 <h3>Homenagens</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                <p>Confira abaixo a lista de homenageados na edição 2022 do Prêmio Impactos Positivos</p>
             </div>
 
             <div class="flex-container">

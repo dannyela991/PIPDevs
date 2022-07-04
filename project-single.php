@@ -153,6 +153,15 @@ include 'app/views/header.php';
                         </div>
                     </div>
                 </div>
+                
+                <div class="flex-form">
+                    <div class="read-more">
+                        <a href="#" class="btn bg-gray">Anterior</a>
+                    </div>                            
+                    <div class="read-more">
+                        <a href="#" class="btn bg-gray">Próximo</a>
+                    </div>
+                </div>    
             </div>
             <!-- sidebar -->
             <div class="sidebar">
