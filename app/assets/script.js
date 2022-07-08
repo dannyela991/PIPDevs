@@ -315,7 +315,6 @@ function openPage(pageName) {
 // END TAB MY ACCOUNT
 
 
-
 // MODAL MIDIA
 function openModal() {
   document.getElementById("myModal").style.display = "block";

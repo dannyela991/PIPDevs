@@ -1,0 +1,152 @@
+@page {
+    size: a4 landscape;
+    margin: 0;
+ }
+ @font-face {
+    font-family: Gothan;
+    src: url(fonts/GothamBold.ttf);
+  }
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+}
+.content{
+    position: relative;
+    clear: both;
+    border: none!important;
+}
+.sidebar{
+    position: relative;
+    clear: both;
+}
+#certificado{
+    width: 100%;
+    min-height: 620px;
+    margin: 0 auto;
+    position: relative;
+    text-align: center;
+    border: 1px solid #ccc;
+    margin-top: 40px;
+    box-shadow: 3px 3px 5px #ccc;
+}
+.image-certificado{
+    width: 100%;
+    position: absolute;
+    z-index: -1;
+}
+img{
+    width: 100%;
+}
+.content-certificado{
+    width: 100%;
+    padding: 0 10%;
+    text-align: center;
+    position: absolute;
+    top: 200px;
+}
+h2{
+    font-size: 1.5rem;
+    text-transform: uppercase;
+}
+h1{
+    font-size: 2.2rem;
+    text-transform: uppercase;
+    color: #32a7df;
+}
+p.citacao{
+    line-height: 2;
+    font-size: 1.5rem;
+    border-bottom: 1px solid #000;
+    width: 70%;
+    margin: 0 auto 15px auto;
+}
+h3.sub-certificado{
+    font-size: 1.5rem;
+    margin-top: 15px;
+}
+.txt-certificado{
+    width: 90%;
+    margin: 20px auto 0 auto;
+}
+.btn-print{
+    clear: both;
+    position: relative;
+}
+.btn-print input[type="button"]{
+    border: none;
+    text-transform: uppercase;
+}
+@media screen and (max-width: 750px){
+    #certificado{
+        margin-top: 20px;
+        width: 500px;
+        min-height: 352px;
+        border: 1px solid #ccc;
+    }
+    .content-certificado{
+        top: 110px;
+    }
+    h2{
+        font-size: 0.8rem;
+        text-transform: uppercase;
+    }
+    h1{
+        font-size: 1rem;
+        text-transform: uppercase;
+        color: #32a7df;
+    }
+    p{
+        font-size: 9px;
+    }
+    p.citacao{
+        line-height: 2;
+        font-size: 0.8rem;
+        border-bottom: 1px solid #000;
+        width: 70%;
+        margin: 0 auto 15px auto;
+        font-style: italic;
+    }
+    h3.sub-certificado{
+        font-size: 0.8rem;
+        margin-top: 5px;
+    }
+    .txt-certificado{
+        margin: 0 auto;
+    }
+}
+@media print{    
+    @page{
+        size: a4 landscape;
+    }
+    #certificado{
+        width: 100%;
+        margin: auto;
+    }
+    .image-certificado{
+        width: 100%;
+        margin: auto;
+    }.content-certificado{
+        top: 250px;
+    }
+     img{
+        size: a4 landscape;
+        margin: 0 auto;
+        width: 100%;
+        height: 100%;
+     }
+     h1{
+        font-size: 2.5rem;
+        text-transform: uppercase;
+        color: #45d1ff;
+    }
+    p{
+        font-size: 1.3rem;
+    }
+    p.citacao{
+        font-size: 1.7rem;
+        font-style: italic;
+    }
+}

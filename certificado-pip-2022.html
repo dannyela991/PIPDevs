@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Certificado Homenagem - Impactos Positivos 2022</title>
+    <link rel="stylesheet"  href="app/assets/certificado.css">
+    <link rel="stylesheet"  href="app/assets/style.css">
+    <!-- GOOGLE FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;0,300;0,400;0,500;0,600;1,200;1,300;1,400;1,500;1,600&display=swap" rel="stylesheet">
+
+    <!-- Script to print the content of a div -->
+    <script>  
+        function printDiv(divName) {
+            var printContents = document.getElementById(divName).innerHTML;
+            var originalContents = document.body.innerHTML;
+            document.body.innerHTML = printContents;
+            window.print();
+            document.body.innerHTML = originalContents;
+        }
+    </script>
+</head>
+<body>
+    <section class="certificados">
+        <div class="container">
+            <div class="flex-container">
+                <div class="content">
+                    <div id="certificado">
+                        <div class="image-certificado">
+                            <img src="app/assets/images/certificado.png" />
+                        </div>
+                        <div class="content-certificado">
+                            <h2>Certificado de Homenagem</h2>
+                            <h1>Categoria da Homenagem</h1>
+                            <div class="txt-certificado">
+                                <p>É com muita honra e satisfação que nós da <strong>Impactos Positivos 2022</strong> conferimos o presente certificado de homenagem a</p>
+                                <p class="citacao">Fulano de Tal</p>
+                                <p>pela indicação em nossa plataforma por <span><strong>Ciclano de tal</strong></span> por sua</p>
+                                <h3 class="sub-certificado">Subcategoria</h3>
+                            </div>                    
+                        </div>
+                    </div>       
+                </div>
+                <div class="sidebar">
+                    <div class="btn-print">
+                        <input type="button" class="btn bg-blue" onclick="printDiv('certificado')" value="Fazer Download" />
+                    </div>       
+                </div>   
+            </div>   
+        </div>              
+    </section>
+</body>
+</html>
