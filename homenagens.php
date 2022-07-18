@@ -22,7 +22,7 @@ include 'app/views/header.php';
                 <p>Poderão ser indicados de acordo com as categorias abaixo:</p>
                 <p><strong>Cidadão de Impacto</strong> nas subcategorias: Líderes que geram impacto positivo em nossa sociedade/comunidade</p>
                 <p><strong>Liderança no âmbito Ambiental, Cultural, Econômico ou Social.</strong></p>
-                <p><strong>Instituições de Impacto</strong> nas subcategorias: Instituições sem fins lucrativos que agem em frentes que impactam positivamente nossa sociedade/comunidade</p>
+                <p><strong>Instituição de Impacto</strong> nas subcategorias: Instituições sem fins lucrativos que agem em frentes que impactam positivamente nossa sociedade/comunidade</p>
                 <p><strong>Ação no âmbito Ambiental, Cultural, Econômico ou Social.</strong></p>
                 <p><strong>Comunicador de Impacto</strong> nas subcategorias: Comunicadores e meios de comunicação que ativamente educam e informam de forma positiva nossa sociedade/comunidade</p>
                 <p><strong>Engajamento no âmbito Ambiental, Cultural, Econômico ou Social.</strong></p>
