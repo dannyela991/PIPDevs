@@ -287,18 +287,6 @@ window.onload = function() {
   
 
 
-//REPONSIVE IFRAME
-$(".podcast iframe").nowrap("<div class='container-iframe'></div>");
-$(".content-post iframe").wrap("<div class='container-iframe'></div>");
-$(".content-post iframe").addClass("responsive-iframe");
-$(".podcast iframe").removeClass("responsive-iframe");
-
-//REPONSIVE IMG
-$(".content-post img").wrap("<div class='container-img'></div>");
-$(".content-post img").addClass("responsive-img");
-
-
-
 // TAB MY ACCOUNT
 function openPage(pageName) {
   var i, tabcontent, tablinks;
