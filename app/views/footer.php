@@ -18,9 +18,9 @@
                 </ul>
             </div>
             <div class="contact-footer">                
-                <h4><a href="#" title="Termos de uso">Termos de uso e Política de Privacidade</a></h4>
+                <h4><a href="/page/politica" title="Termos de uso">Termos de uso e Política de Privacidade</a></h4>
                 <div class="read-more">
-                    <a href="#" class="btn bg-green"><i class="fas fa-phone-alt"></i> Fale Conosco</a>
+                    <a href="https://api.whatsapp.com/send?phone=551123673160" target="_blank" class="btn bg-green"><i class="fab fa-whatsapp"></i> Fale Conosco</a>
                 </div>
             </div>
         </div>
@@ -53,6 +53,7 @@
                 <h4>Premiação</h4>
                 <ul>
                     <li><a href="projects.php">Vitrine 2022</a></li>
+                    <li><a href="homenagens.php">Homenagens</a></li>
                     <li><a href="">Cronograma</a> </li>
                     <li><a href="">Como Participar</a></li>
                     <li><a href="">Política</a> </li>
