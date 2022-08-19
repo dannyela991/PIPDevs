@@ -353,8 +353,8 @@ include 'app/views/header.php';
                     <div class="list-category">
                         <h2>Ecossistema de Impactos</h2>
                         <ul>
-                            <li><a href="trend-news.php">Investimento</a></li>
-                            <li><a href="medias.php">Setor Público</a></li>
+                            <!-- <li><a href="trend-news.php">Investimento</a></li> -->
+                            <!-- <li><a href="medias.php">Setor Público</a></li> -->
                             <li><a href="podcast.php">Dinamizadores</a></li>
                             <li><a href="podcast.php">Comunidades</a></li>
                             <li><a href="podcast.php">Grandes Empresas</a></li>

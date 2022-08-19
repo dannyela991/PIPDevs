@@ -413,8 +413,8 @@ include 'app/views/header.php';
                         </div>
                         <div class="nav-project">
                             <ul class="inline">
-                                <li><a class="tooltip" href="#">Investimento</a></li>
-                                <li><a class="tooltip" href="#">Setor Público</a></li>
+                                <!-- <li><a class="tooltip" href="#">Investimento</a></li> -->
+                                <!-- <li><a class="tooltip" href="#">Setor Público</a></li> -->
                                 <li><a class="tooltip" href="#">Dinamizadores</a></li>
                                 <li><a class="tooltip" href="#">Comunidades</a></li>
                                 <li><a class="tooltip" href="#">Grandes Empresas</a></li>

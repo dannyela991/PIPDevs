@@ -406,8 +406,8 @@ include 'app/views/header.php';
                                 <i class="fa fa-caret-down"></i>
                             </button>
                             <div class="dropdown-container">
-                                <a href="#">Investimento</a>
-                                <a href="#">Setor Público</a>
+                                <!-- <a href="#">Investimento</a> -->
+                                <!-- <a href="#">Setor Público</a> -->
                                 <a href="#">Dinamizadores</a>
                                 <a href="#">Comunidades</a>
                                 <a href="#">Grandes Empresas</a>

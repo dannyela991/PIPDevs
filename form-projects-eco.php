@@ -22,14 +22,14 @@ include 'app/views/header.php';
                     <h2>Subcategoria</h2>
                     <div class="form-group">
                         <label>Em qual Ecossistema de Impacto se enquadra seu projeto</label>
-                        <label for="">                            
+                        <!-- <label for="">                            
                             <input type="radio" name="" value="Investidores">
                             Investidores
                         </label> 
                         <label for="">                            
                             <input type="radio" name="" value="Setor Público">
                             Setor Público
-                        </label>  
+                        </label>   -->
                         <label for="">                            
                             <input type="radio" name="" value="Dinamizadores">
                             Dinamizadores
