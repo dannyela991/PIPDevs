@@ -1219,6 +1219,11 @@ footer .description{
 .col-sponsors .title{
     color: #333;
 }
+.col-sponsors .img-ads{
+    margin: 60px auto 20px auto;
+    width: 90%;
+
+}
 @media  screen and (min-width: 768px){
     .col-sponsors{
         width: 100%;
