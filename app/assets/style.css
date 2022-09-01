@@ -278,11 +278,11 @@ header .container{
     }
     #top-page.header-fixo .subscription-links{
         top: 35px;
-        left: 190px;
+        left: 320px;
         transition: 0.5s;
     }
     #top-page.header-fixo .button-subscription{
-        font-size: 12px;
+        font-size: 16px;
 
     }
 }
@@ -3225,6 +3225,9 @@ fieldset.step h2::before{
     max-height: 250px;
     width: auto;
     margin: 0 auto;
+}
+button.btn{
+    border: none;
 }
 @media  screen and (min-width: 768px){
     .info-project .flex-container{

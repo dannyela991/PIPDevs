@@ -105,9 +105,9 @@
 
                 <!-- subscription links -->
                 <div class="subscription-links">
-                    <div class="button-subscription">
+                    <!-- <div class="button-subscription">
                         <a href="select-project.php" class="btn bg-yellow">Inscreva seu Projeto</a>
-                    </div>
+                    </div> -->
                     <div class="button-subscription">
                         <a href="form-user.php" class="btn bg-green">Cadastre-se para Votar</a>
                     </div>

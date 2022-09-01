@@ -138,7 +138,7 @@ include 'app/views/header.php';
                             </div>
                         </div>                   
                         <div class="nav-img-projetos">
-                            <a id="prev-link-projetos" class="icon arrow-left">
+                            <a id="prev-projetos" class="icon arrow-left">
                                 <i class="fas fa-caret-left"></i>
                             </a>
                             <a id="next-projetos" class="icon arrow-right">
