@@ -3530,3 +3530,27 @@ button.bg-none:hover{
         margin: 50px auto;
     }
 }
+ .page-header.resultado{
+    background: #f8f8ff;
+    color: #333;
+    border-bottom: none;
+}
+/* resultado busca projetos */
+.list-projects .content.result{
+    border-right: none;
+    padding-right: 0;
+}
+.list-projects .txt-resultado span{
+    font-weight: bold;
+    font-size: 18px;
+}
+
+/* resultado busca noticias */
+.list-projects .content.result{
+    border-right: none;
+    padding-right: 0;
+}
+.list-projects .txt-resultado span{
+    font-weight: bold;
+    font-size: 18px;
+}
