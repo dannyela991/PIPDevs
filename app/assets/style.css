@@ -278,11 +278,11 @@ header .container{
     }
     #top-page.header-fixo .subscription-links{
         top: 35px;
-        left: 320px;
+        left: 190px;
         transition: 0.5s;
     }
     #top-page.header-fixo .button-subscription{
-        font-size: 16px;
+        font-size: 12px;
 
     }
 }
@@ -3553,4 +3553,10 @@ button.bg-none:hover{
 .list-projects .txt-resultado span{
     font-weight: bold;
     font-size: 18px;
+}
+
+.page-resultados h3{
+    margin: 40px 0;
+    text-transform: uppercase;
+    border-bottom: 1px solid #ccc;
 }
