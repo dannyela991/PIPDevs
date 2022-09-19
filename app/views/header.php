@@ -105,11 +105,13 @@
 
                 <!-- subscription links -->
                 <div class="subscription-links">
-                    <!-- <div class="button-subscription">
-                        <a href="select-project.php" class="btn bg-yellow">Inscreva seu Projeto</a>
-                    </div> -->
                     <div class="button-subscription">
-                        <a href="form-user.php" class="btn bg-green">Cadastre-se para Votar</a>
+                        <!-- Página de cadastro / Ir para Vitrine -->
+                        <a href="form-user.php" class="btn bg-green">Votar Agora!</a>
+                    </div>
+                    <div class="button-subscription">
+                        <!-- Página de Login-Cadastro / Minha Conta -->
+                        <a href="my-account.php" class="btn bg-yellow">Acessar Minha conta</a>
                     </div>
                 </div>
             </div>     

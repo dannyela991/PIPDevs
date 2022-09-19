@@ -81,140 +81,6 @@ include 'app/views/header.php';
             </div>
         </div>
     </section>
-    
-    <section class="enimpacto-parceiro">
-        <div class="container flex-container">
-            <div class="col-title">
-                <div class="title">
-                    <h2>Parceiros Institucionais</h2>
-                </div>
-            </div>
-            <div class="col-articles flex-container">
-                <div class="img-parceiro">
-                    <img src="app/assets/images/enimpactos.png" alt="Enimpacto"/>
-                </div>
-                <div class="img-parceiro">
-                    <img src="app/assets/images/logo-pnud.png" alt="pnud"/>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section class="latest-news">
-        <div class="container">
-            <div class="flex-container">
-                <!-- COL NEWS ACCENT -->
-                <div class="col-archives news-posts">
-                    <div class="card-news accent">
-                        <div class="card-img news-accent">
-                            <div class="category">
-                                <a href="trend-news.php" title=""><span>Notícias</span></a>
-                            </div>
-                        </div>
-                        <div class="title">
-                            <h2><a href="post-single.php" title="">Semear educação financeira e colher realizações</a></h2>
-                        </div>
-                        <ul class="list-tags">
-                            <li><a href="#">Impacto</a></li>
-                            <li><a href="#">Economia</a></li>
-                            <li><a href="#">Ecosistema</a></li>
-                        </ul>
-                    </div>
-                    <div class="card-news accent">
-                        <div class="card-img news-accent">
-                            <div class="category">
-                                <a href="medias.php" title=""><span>Vídeo</span></a>
-                            </div>
-                        </div>
-                        <div class="title">
-                            <h2><a href="media-single.php" title="">Noruega e o luxo inusitado IV com Liliana Calisto e Maria Alarcon de V.O.S.</a></h2>
-                        </div>
-                        <ul class="list-tags">
-                            <li><a href="#">Impacto</a></li>
-                            <li><a href="#">Economia</a></li>
-                            <li><a href="#">Ecosistema</a></li>
-                        </ul>
-                    </div>
-                    <div class="card-news accent">
-                        <div class="card-img news-accent">
-                            <div class="category">
-                                <a href="podcast.php" title=""><span>Podcast</span></a>
-                            </div>
-                        </div>
-                        <div class="title">
-                            <h2><a href="podcast-single.php" title="">Lorem ipsum dolor sit amet consectetur adipisicing elit</a></h2>
-                        </div>
-                        <ul class="list-tags">
-                            <li><a href="#">Impacto</a></li>
-                            <li><a href="#">Economia</a></li>
-                            <li><a href="#">Ecosistema</a></li>
-                        </ul>
-                    </div>
-                </div>
-                <!-- COL NEWS -->
-                <div class="col-archives">
-                    <div class="card-news">
-                        <div class="list-news">
-                            <div class="category">
-                                <a href="medias.php" title=""><span>Video</span></a>
-                            </div>
-                            <div class="title">
-                                <a href="media-single.php" title=""><h2>Noruega e o luxo inusitado IV com Liliana Calisto e Maria Alarcon de V.O.S.</h2></a>
-                            </div>
-                            <ul class="list-tags">
-                                <li><a href="#">Impacto</a></li>
-                                <li><a href="#">Economia</a></li>
-                                <li><a href="#">Ecosistema</a></li>
-                            </ul>
-                        </div>
-                        <div class="list-news">
-                            <div class="category">
-                                <a href="podcast.php" title=""><span>Podcast</span></a>
-                            </div>
-                            <div class="title">
-                                <a href="podcast-single.php" title=""><h2>Lorem ipsum dolor sit amet consectetur adipisicing elit</h2></a>
-                            </div>
-                            <ul class="list-tags">
-                                <li><a href="#">Impacto</a></li>
-                                <li><a href="#">Economia</a></li>
-                                <li><a href="#">Ecosistema</a></li>
-                            </ul>
-                        </div>
-                        <div class="list-news">
-                            <div class="category">
-                                <a href="" title=""><span>Categoria</span></a>
-                            </div>
-                            <div class="title">
-                                <a href="" title=""><h2>Lorem ipsum dolor sit amet consectetur adipisicing elit</h2></a>
-                            </div>
-                            <ul class="list-tags">
-                                <li><a href="#">Impacto</a></li>
-                                <li><a href="#">Economia</a></li>
-                                <li><a href="#">Ecosistema</a></li>
-                            </ul>
-                        </div>
-                        <div class="list-news">
-                            <div class="category">
-                                <a href="" title=""><span>Categoria</span></a>
-                            </div>
-                            <div class="title">
-                                <a href="" title=""><h2>Lorem ipsum dolor sit amet consectetur adipisicing elit</h2></a>
-                            </div>
-                            <ul class="list-tags">
-                                <li><a href="#">Impacto</a></li>
-                                <li><a href="#">Economia</a></li>
-                                <li><a href="#">Ecosistema</a></li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="read-more">
-                        <a href="posts.php" class="btn bg-gray">Ver todos</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
     <section class="showcases">
         <div class="container">
             <div class="title">
@@ -400,7 +266,7 @@ include 'app/views/header.php';
                                 </div>
                             </div>                             
                             <div class="read-more">
-                                <a href="#" class="bg-gray btn">Ver todos</a>
+                                <a href="#" class="bg-gray btn">Acessar todos os Negócios de Impacto</a>
                             </div>    
                         </div>
                     </div>
@@ -579,7 +445,7 @@ include 'app/views/header.php';
                                 </div>
                             </div>   
                             <div class="read-more">
-                                <a href="#" class="bg-gray btn">Ver todos</a>
+                                <a href="#" class="bg-gray btn">Acessar todos os Ecossistemas de Impacto</a>
                             </div>                         
                         </div>
                     </div>
@@ -601,6 +467,141 @@ include 'app/views/header.php';
             </article>
         </div>
     </section>
+    
+    <section class="enimpacto-parceiro">
+        <div class="container flex-container">
+            <div class="col-title">
+                <div class="title">
+                    <h2>Parceiros Institucionais</h2>
+                </div>
+            </div>
+            <div class="col-articles flex-container">
+                <div class="img-parceiro">
+                    <img src="app/assets/images/enimpactos.png" alt="Enimpacto"/>
+                </div>
+                <div class="img-parceiro">
+                    <img src="app/assets/images/logo-pnud.png" alt="pnud"/>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="latest-news">
+        <div class="container">
+            <div class="flex-container">
+                <!-- COL NEWS ACCENT -->
+                <div class="col-archives news-posts">
+                    <div class="card-news accent">
+                        <div class="card-img news-accent">
+                            <div class="category">
+                                <a href="trend-news.php" title=""><span>Notícias</span></a>
+                            </div>
+                        </div>
+                        <div class="title">
+                            <h2><a href="post-single.php" title="">Semear educação financeira e colher realizações</a></h2>
+                        </div>
+                        <ul class="list-tags">
+                            <li><a href="#">Impacto</a></li>
+                            <li><a href="#">Economia</a></li>
+                            <li><a href="#">Ecosistema</a></li>
+                        </ul>
+                    </div>
+                    <div class="card-news accent">
+                        <div class="card-img news-accent">
+                            <div class="category">
+                                <a href="medias.php" title=""><span>Vídeo</span></a>
+                            </div>
+                        </div>
+                        <div class="title">
+                            <h2><a href="media-single.php" title="">Noruega e o luxo inusitado IV com Liliana Calisto e Maria Alarcon de V.O.S.</a></h2>
+                        </div>
+                        <ul class="list-tags">
+                            <li><a href="#">Impacto</a></li>
+                            <li><a href="#">Economia</a></li>
+                            <li><a href="#">Ecosistema</a></li>
+                        </ul>
+                    </div>
+                    <div class="card-news accent">
+                        <div class="card-img news-accent">
+                            <div class="category">
+                                <a href="podcast.php" title=""><span>Podcast</span></a>
+                            </div>
+                        </div>
+                        <div class="title">
+                            <h2><a href="podcast-single.php" title="">Lorem ipsum dolor sit amet consectetur adipisicing elit</a></h2>
+                        </div>
+                        <ul class="list-tags">
+                            <li><a href="#">Impacto</a></li>
+                            <li><a href="#">Economia</a></li>
+                            <li><a href="#">Ecosistema</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <!-- COL NEWS -->
+                <div class="col-archives">
+                    <div class="card-news">
+                        <div class="list-news">
+                            <div class="category">
+                                <a href="medias.php" title=""><span>Video</span></a>
+                            </div>
+                            <div class="title">
+                                <a href="media-single.php" title=""><h2>Noruega e o luxo inusitado IV com Liliana Calisto e Maria Alarcon de V.O.S.</h2></a>
+                            </div>
+                            <ul class="list-tags">
+                                <li><a href="#">Impacto</a></li>
+                                <li><a href="#">Economia</a></li>
+                                <li><a href="#">Ecosistema</a></li>
+                            </ul>
+                        </div>
+                        <div class="list-news">
+                            <div class="category">
+                                <a href="podcast.php" title=""><span>Podcast</span></a>
+                            </div>
+                            <div class="title">
+                                <a href="podcast-single.php" title=""><h2>Lorem ipsum dolor sit amet consectetur adipisicing elit</h2></a>
+                            </div>
+                            <ul class="list-tags">
+                                <li><a href="#">Impacto</a></li>
+                                <li><a href="#">Economia</a></li>
+                                <li><a href="#">Ecosistema</a></li>
+                            </ul>
+                        </div>
+                        <div class="list-news">
+                            <div class="category">
+                                <a href="" title=""><span>Categoria</span></a>
+                            </div>
+                            <div class="title">
+                                <a href="" title=""><h2>Lorem ipsum dolor sit amet consectetur adipisicing elit</h2></a>
+                            </div>
+                            <ul class="list-tags">
+                                <li><a href="#">Impacto</a></li>
+                                <li><a href="#">Economia</a></li>
+                                <li><a href="#">Ecosistema</a></li>
+                            </ul>
+                        </div>
+                        <div class="list-news">
+                            <div class="category">
+                                <a href="" title=""><span>Categoria</span></a>
+                            </div>
+                            <div class="title">
+                                <a href="" title=""><h2>Lorem ipsum dolor sit amet consectetur adipisicing elit</h2></a>
+                            </div>
+                            <ul class="list-tags">
+                                <li><a href="#">Impacto</a></li>
+                                <li><a href="#">Economia</a></li>
+                                <li><a href="#">Ecosistema</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="read-more">
+                        <a href="posts.php" class="btn bg-gray">Ver todos</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    
 
     <section class="further apoiadores">
         <div class="container">
@@ -658,6 +659,64 @@ include 'app/views/header.php';
             </div>
         </div>
     </section>
+
+    
+
+    <section class="materias"> 
+        <div class="container">
+            <div class="flex-container">
+                <div class="col-materia">
+                    <div class="img-materia">
+                        <a href=""><img src="app/assets/images/bg-ods.png" alt=""/></a>
+                    </div>
+                    <div class="txt-content">
+                        <h2><a href="">Objetivos de Desenvolvimento Sustentável no Brasil</a></h2>
+                        <p>Os Objetivos de Desenvolvimento Sustentável, chamados de ODS, foram desenvolvidos em 2015 com a participação de 193 nações membros da Organização das Nações Unidas durante a Cúpula das Nações Unidas sobre o Desenvolvimento Sustentável.</p>
+                    </div>
+                    <div class="read-more">
+                        <a href="#" class="btn bg-black">Saiba mais</a> 
+                    </div>       
+                </div>        
+                <div class="col-materia">
+                    <div class="img-materia">
+                        <a href=""><img src="app/assets/images/materia-esg.png" alt=""/></a>
+                    </div>
+                    <div class="txt-content">
+                        <h2><a href="">Fique por dentro das ESG</a></h2>
+                        <p>Conheça mais sobre o ECOSSISTEMA DE IMPACTO e se engaje com iniciativas e projetos que impactam positivamente nosso país e nosso mundo.</p>
+                    </div>
+                    <div class="read-more">
+                        <a href="#" class="btn bg-black">Saiba mais</a> 
+                    </div>         
+                </div>   
+                <div class="col-materia">
+                    <div class="img-materia">
+                        <a href=""><img src="app/assets/images/bg-eco.png" alt=""/></a>
+                    </div>
+                    <div class="txt-content">
+                        <h2><a href="">Ecossistema de Impacto, o que é e como funciona?</a></h2>
+                        <p>Conheça mais sobre o ECOSSISTEMA DE IMPACTO e se engaje com iniciativas e projetos que impactam positivamente nosso país e nosso mundo.</p>
+                    </div>   
+                    <div class="read-more">
+                        <a href="#" class="btn bg-black">Saiba mais</a> 
+                    </div>      
+                </div>                                 
+                <div class="col-materia">
+                    <div class="img-materia">
+                        <a href=""><img src="app/assets/images/materia-negocio-impacto.png" alt=""/></a>
+                    </div>
+                    <div class="txt-content">
+                        <h2><a href="">Negócios de Impacto – O que são?</a></h2>
+                        <p>Conheça mais sobre o ECOSSISTEMA DE IMPACTO e se engaje com iniciativas e projetos que impactam positivamente nosso país e nosso mundo.</p>
+                    </div>     
+                    <div class="read-more">
+                        <a href="#" class="btn bg-black">Saiba mais</a> 
+                    </div>    
+                </div>
+            </div>
+        </div>              
+    </section>   
+
 
     <section class="honor">
         <div class="container">
@@ -998,63 +1057,6 @@ include 'app/views/header.php';
         </div>
         
     </section>
-
-    <section class="materias"> 
-        <div class="container">
-            <div class="flex-container">
-                <div class="col-materia">
-                    <div class="img-materia">
-                        <a href=""><img src="app/assets/images/bg-ods.png" alt=""/></a>
-                    </div>
-                    <div class="txt-content">
-                        <h2><a href="">Objetivos de Desenvolvimento Sustentável no Brasil</a></h2>
-                        <p>Os Objetivos de Desenvolvimento Sustentável, chamados de ODS, foram desenvolvidos em 2015 com a participação de 193 nações membros da Organização das Nações Unidas durante a Cúpula das Nações Unidas sobre o Desenvolvimento Sustentável.</p>
-                    </div>
-                    <div class="read-more">
-                        <a href="#" class="btn bg-black">Saiba mais</a> 
-                    </div>       
-                </div>        
-                <div class="col-materia">
-                    <div class="img-materia">
-                        <a href=""><img src="app/assets/images/materia-esg.png" alt=""/></a>
-                    </div>
-                    <div class="txt-content">
-                        <h2><a href="">Fique por dentro das ESG</a></h2>
-                        <p>Conheça mais sobre o ECOSSISTEMA DE IMPACTO e se engaje com iniciativas e projetos que impactam positivamente nosso país e nosso mundo.</p>
-                    </div>
-                    <div class="read-more">
-                        <a href="#" class="btn bg-black">Saiba mais</a> 
-                    </div>         
-                </div>   
-                <div class="col-materia">
-                    <div class="img-materia">
-                        <a href=""><img src="app/assets/images/bg-eco.png" alt=""/></a>
-                    </div>
-                    <div class="txt-content">
-                        <h2><a href="">Ecossistema de Impacto, o que é e como funciona?</a></h2>
-                        <p>Conheça mais sobre o ECOSSISTEMA DE IMPACTO e se engaje com iniciativas e projetos que impactam positivamente nosso país e nosso mundo.</p>
-                    </div>   
-                    <div class="read-more">
-                        <a href="#" class="btn bg-black">Saiba mais</a> 
-                    </div>      
-                </div>                                 
-                <div class="col-materia">
-                    <div class="img-materia">
-                        <a href=""><img src="app/assets/images/materia-negocio-impacto.png" alt=""/></a>
-                    </div>
-                    <div class="txt-content">
-                        <h2><a href="">Negócios de Impacto – O que são?</a></h2>
-                        <p>Conheça mais sobre o ECOSSISTEMA DE IMPACTO e se engaje com iniciativas e projetos que impactam positivamente nosso país e nosso mundo.</p>
-                    </div>     
-                    <div class="read-more">
-                        <a href="#" class="btn bg-black">Saiba mais</a> 
-                    </div>    
-                </div>
-            </div>
-        </div>              
-    </section>
-
-   
 
     <section class="trends"> 
         <article class="trend-news">

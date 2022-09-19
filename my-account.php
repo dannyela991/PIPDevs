@@ -233,8 +233,9 @@ include 'app/views/header.php';
                 </div>
                 <div class="sidebar">
                     <ul class="links-account">
+                        <li><a href="projects.php" class="btn bg-green">Vote nos Negócios de Impacto</a></li> 
+                        <li><a href="projects.php" class="btn bg-green">Vote nos Ecossistemas de Impacto</a></li> 
                         <li><a href="form-honor.php" class="btn">Indicar homenagiados</a></li> 
-                        <li><a href="projects.php" class="btn">Votar em Projetos</a></li> 
                         <li><a href="#" class="btn">Alterar Senha</a></li> 
                     </ul>
                 </div>
