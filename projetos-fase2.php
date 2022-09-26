@@ -57,10 +57,13 @@ include 'app/views/header.php';
                             </div>
                             
                             <div class="votos">
-                                <span class="number-votos">3521</span> voto(s)                                                           
-                                <div class="buttons-projetos">
-                                    <a href="#" class="btn bg-blue">Ver Projeto</a>
-                                    <button type="button" class="btn bg-green">Votar Agora</button>
+                                <span class="number-votos">3521</span> voto(s)   <br>                
+                                    <a href="#" class="btn bg-blue">Ver Projeto</a>                                               
+                                <div class="buttons-projetos">                          
+                                    <form method="POST" action="https://impactospositivos.com/projeto/voto"  >
+                                        <input type="hidden" name="_token" value="EI5x7HpGLM2tM8jWPjB2qxTcTJgTfLA3Nx6HC9f3">                                                <input type="hidden" name="projeto_id" value ="175" >
+                                        <button type="button" class="btn bg-green">Votar Agora</button>
+                                    </form>
                                 </div>
                             </div>
                         </div>

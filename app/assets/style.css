@@ -2321,7 +2321,6 @@ ul.list-inline li:last-child{
     margin: 0 5px 50px 5px;
     background: #f8f8ff;
 }
-
 .buttons-projetos{
     margin-top: 15px;
     display: flex;
@@ -2341,8 +2340,13 @@ ul.list-inline li:last-child{
     padding: 5px 8px;
 }
 .buttons-projetos button.bg-green{
-    width: 50%;
-    font-size: 14px;
+    width: 100%;
+    font-size: 16px;
+}
+.votos a{
+    display: block;
+    text-align: center;
+    margin-top: 15px;
 }
 .list-projects .page-header p{
     padding-top: 20px;
@@ -2365,9 +2369,6 @@ ul.list-inline li:last-child{
         width: 80%;
         margin-bottom: 15px;  
         margin-right: 0;    
-    }
-    .buttons-projetos button.bg-green{
-        width: 80%;
     }
 }
 @media  screen and (min-width: 1140px){
