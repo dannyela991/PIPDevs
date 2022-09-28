@@ -68,6 +68,7 @@
                                 </button>
                                 <div class="dropdown-content">
                                     <a href="projects.php">Vitrine 2022</a>
+                                    <a href="projetos-fases.php">Ranking</a>
                                     <a href="homenagens.php">Homenagens</a>
                                     <a href="cronograma.php">Cronograma</a>
                                     <a href="#">Como participar</a>
