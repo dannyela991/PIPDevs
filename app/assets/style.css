@@ -3629,12 +3629,12 @@ button.bg-none:hover{
     color: #333;
 }
 .workshop .video{
-    width: 70%;
+    width: 100%;
 }
 .workshop .chat{
-    padding: 20px;
+    padding: 5px;
     margin-top: 15px;
-    width: 30%;
+    width: 100%;
     height: 450px;
 }
 .workshop .text-evento{
@@ -3643,4 +3643,13 @@ button.bg-none:hover{
     line-height: 2;
     font-size: 18px;
     text-align: center;
+}
+@media  screen and (min-width: 768px){
+    .workshop .video{
+        width: 70%;
+    }
+    .workshop .chat{
+        width: 30%;
+        padding: 20px;
+    }
 }
