@@ -452,11 +452,14 @@ include 'app/views/header.php';
                 </div>
                 <div class="col-sponsors">
                     <div class="title">
-                        <h3>Patrocinador</h3>
+                        <h3>Patrocinadores</h3>
                     </div>    
                     <div class="logo-sponsors">
                         <div class="img-sponsors">
                             <img src="app/assets/images/sebrae.png" alt=""/>
+                        </div>
+                        <div class="img-sponsors">
+                            <img src="app/assets/images/cubo-esg.jpg" alt=""/>
                         </div>
                     </div>  
                     

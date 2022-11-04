@@ -7,7 +7,7 @@ include 'app/views/header.php';
     <section class="pages workshop eventos">
         <div class="page-header">
             <div class="container">
-                <h1>EM BREVE<br> Impactos Positivos Day</h1>
+                <h1>EM BREVE<br> Encontro Impactos Positivos</h1>
                 <p> Save The Date: <strong>30 de novembro!</strong></p>
             </div>
         </div>
@@ -17,6 +17,14 @@ include 'app/views/header.php';
                 <p>No dia <strong>30 de novembro de 2022</strong>, às <strong>08:30(am)</strong>, começa a transmissão do evento final do <strong>Prêmio Impactos Positivos 2022</strong>, onde serão divulgados os vencedores de cada categoria desta edição.</p>
                 <p>Durante o evento, também teremos palestras e conversas com incríveis e importantes profissionais que atuam em nosso <strong>Ecossistema de Impacto</strong>, para dividir experiências, tendências e informações necessárias para o fomento do setor.</p>
                 <h2>Em breve mais novidades por aqui!</h2>
+
+                <p>Caso tenha interesse e disponibilidade para participar presencialmente do evento (gratuito), basta clicar no botão abaixo e selecionar a opção: Ingresso Único para evento Presencial.</p>
+                <p>E para garantir sua presença no evento virtual, basta você selecionar a opção: Ingresso para assistir Online.</p>
+                <div class="read-more">
+                    <a href="https://www.sympla.com.br/encontro-impactos-positivos-2022__1779831" class="bg-blue btn" target="_blank">Faça seu cadastro aqui</a>
+                </div>
+                <p><span>*O Prêmio Impactos Positivos NÃO disponibilizará transporte/diária, sendo assim, de total responsabilidade do participante.</span></p>
+                
             </div>
             <!-- <div class="flex-container">
                 <div class="video">
@@ -35,7 +43,7 @@ include 'app/views/header.php';
         <div class="container flex-container">
             <div class="col-sponsors">
                 <div class="title">
-                    <h3>Patrocinador</h3>
+                    <h3>Patrocinadores</h3>
                 </div>    
                 <div class="logo-sponsors">
                     <div class="img-sponsors">

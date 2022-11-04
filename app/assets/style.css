@@ -1253,11 +1253,12 @@ footer .description{
 }
 .img-sponsors{
     width: 80%;
+    margin: 15px auto;
 }
 @media  screen and (min-width: 1140px){
     .img-sponsors{
         width: 100%;
-        margin: 0 auto;
+        margin: 15px auto;
     }
 }
 /* HONORS */
@@ -3687,6 +3688,12 @@ button.bg-none:hover{
 }
 .eventos .title{
     font-size: 28px;
+}
+.text-evento span{
+    font-size: 12px;
+}
+.eventos .flex-container{
+    align-items: flex-start;
 }
 @media  screen and (min-width: 768px){
     .eventos .page-header h1{
