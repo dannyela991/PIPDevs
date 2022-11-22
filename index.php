@@ -4,7 +4,7 @@ include 'app/views/header.php';
 ?>
 <!--  content -->
 <main>
-    <section class="fullbanner">
+    <section class="fullbanner"> 
         <div class="carrossel-banner">
             <div class="banner-item item-01">
                 <div class="container center">
@@ -34,6 +34,7 @@ include 'app/views/header.php';
                 </div>
             </div>
         </div>       
+        
         <div class="nav-fullbanner">
             <a id="prev-fullbanner" class="icon arrow-left">
                 <i class="fas fa-chevron-left"></i>

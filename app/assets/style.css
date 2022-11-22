@@ -312,7 +312,7 @@ header .container{
     .menu{
         width: 60%;
         top: 25px;
-        right: 150px;
+        right: 40px;
     }
     .menu .nav{
         display: flex;
@@ -440,7 +440,7 @@ button.dropbtn a:hover{
 @media screen and (min-width: 1140px){
     .search-mobile{
        top: 25px;
-       right: 105px;
+       right: 0;
     }
 }
 .openBtn {
@@ -3656,26 +3656,13 @@ button.bg-none:hover{
 }
 
 /* EVENTOS */
-.box-cortina{
-    background: url(images/cortina2.png) top center no-repeat;
-    background-size: 100%;
-    z-index: 9;
-    position: absolute;
-    width: 100%;
-    height: 850px;
+.eventos .video-evento{
+    background: url(images/fundo-video-mobile.jpg) center no-repeat;
+    background-size: cover;
+    padding: 40px 0;
 }
 .box-video{
-    margin-top: 50px;
-    padding: 0 100px;
-    clear: both;
-}
-.box-palco{
-    width: 100%;
-    height: 250px;
-    background: url(images/adobe-palco2.png) top center no-repeat;
-    background-size: 80%;
-    z-index: 9;
-    margin-top: 130px;
+    padding: 40px 0;
 }
 .eventos .col-sponsors{
     width: 100%;
@@ -3695,12 +3682,40 @@ button.bg-none:hover{
 .eventos .flex-container{
     align-items: flex-start;
 }
+.eventos ul li{
+    list-style: none;
+    line-height:1.2;
+    padding: 5px;
+    font-size: 14px;
+}
+.eventos ul li span{
+    font-size: 16px;
+    font-weight: bold;
+}
+.eventos span.hora{
+    color: #32a7df;
+}
+.eventos span.tema{
+    text-transform: uppercase;
+}
 @media  screen and (min-width: 768px){
     .eventos .page-header h1{
         width: 80%;
     }
 }
 @media  screen and (min-width: 1140px){
+    .eventos .text-evento{
+        max-width: 80%;
+        padding: 40px 0;
+    }
+    .eventos .video-evento{
+        background: url(images/fundo-video.jpg) center no-repeat;
+        background-size: cover;
+        padding: 60px 0;
+    }
+    .eventos .text-evento{
+        margin: 0 auto;
+    }
     .eventos .col-sponsors{
         width: 100%;
     }

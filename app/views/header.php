@@ -96,20 +96,20 @@
                 </div>
 
                 <!-- language -->
-                <div class="link-language">
+                <!-- <div class="link-language">
                     <ul>
                         <li><a href="#english" title="Language English">EN</a></li>
                         <li><a href="#spanish" title="Language Spanish">ES</a></li>
                         <li><a href="#portuguese" title="Language Portuguese">PT</a></li>
                     </ul>
-                </div>
+                </div> -->
 
                 <!-- subscription links -->
                 <div class="subscription-links">
-                    <div class="button-subscription">
-                        <!-- Página de cadastro / Ir para Vitrine -->
+                    <!-- <div class="button-subscription">
+                        Página de cadastro / Ir para Vitrine
                         <a href="form-user.php" class="btn bg-green">Votar Agora!</a>
-                    </div>
+                    </div> -->
                     <div class="button-subscription">
                         <!-- Página de Login-Cadastro / Minha Conta -->
                         <a href="my-account.php" class="btn bg-yellow">Acessar Minha conta</a>
