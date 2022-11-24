@@ -106,10 +106,10 @@
 
                 <!-- subscription links -->
                 <div class="subscription-links">
-                    <!-- <div class="button-subscription">
-                        Página de cadastro / Ir para Vitrine
-                        <a href="form-user.php" class="btn bg-green">Votar Agora!</a>
-                    </div> -->
+                    <div class="button-subscription">
+                        <!-- link para inscrição do evento -->
+                        <a href="https://www.sympla.com.br/encontro-impactos-positivos-2022__1779831" target="_blank" class="btn bg-green">Inscrição para evento</a>
+                    </div>
                     <div class="button-subscription">
                         <!-- Página de Login-Cadastro / Minha Conta -->
                         <a href="my-account.php" class="btn bg-yellow">Acessar Minha conta</a>
