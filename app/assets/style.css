@@ -928,7 +928,7 @@ footer .description{
     text-align: center;
 }
 .img-parceiro img{
-    width: 100%;
+    width: 80%;
 }
 /* LATEST NEWS */
 .latest-news{
@@ -1843,7 +1843,7 @@ source{
     width: 100%;
     padding: 10px;
 }
-.further.apoiadores .link-logos{
+.further .apoiadores .link-logos{
     padding: 0;
 }
 @media  screen and (min-width: 1140px){
@@ -3656,13 +3656,25 @@ button.bg-none:hover{
 }
 
 /* EVENTOS */
-.eventos .video-evento{
-    background: url(images/fundo-video-mobile.jpg) center no-repeat;
-    background-size: cover;
+.eventos .apresentacao{
     padding: 40px 0;
 }
-.box-video{
+.eventos .apresentacao h1{
+    font-size: 28px;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.video-evento{
     padding: 40px 0;
+    background: url(images/fundo-video-mobile.jpg) center no-repeat;
+    background-size: cover;
+}
+.eventos .video-evento p{
+    text-align: center;
+    font-weight: bold;
+    width: 100%;
+    margin: auto;
 }
 .eventos .col-sponsors{
     width: 100%;
@@ -3671,7 +3683,7 @@ button.bg-none:hover{
     text-align: center;
 }
 .eventos .img-sponsors{
-    padding: 0 40px;
+    padding: 0 20px;
 }
 .eventos .title{
     font-size: 28px;
@@ -3682,11 +3694,14 @@ button.bg-none:hover{
 .eventos .flex-container{
     align-items: flex-start;
 }
+.eventos ul{
+    margin-top: 20px;
+}
 .eventos ul li{
     list-style: none;
     line-height:1.2;
-    padding: 5px;
-    font-size: 14px;
+    padding: 5px 0;
+    font-size: 16px;
 }
 .eventos ul li span{
     font-size: 16px;
@@ -3698,20 +3713,111 @@ button.bg-none:hover{
 .eventos span.tema{
     text-transform: uppercase;
 }
+.eventos .agenda-evento h2{
+    font-size: 18px;
+    text-transform: uppercase;
+    padding: 0;
+}
+.col-palestrantes{
+    max-width: 740px;
+    margin: 0 auto 40px auto;
+    text-align: center;
+}
+.col-palestrantes .title{
+    margin-bottom: 40px;
+    font-size: 26px;
+}
+.item-palestrante{
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding: 20px;
+}
+.img-palestrante{
+    width: 100%;
+    padding: 15px;
+}
+.item-palestrante span.empresa{
+    font-size: 12px;
+    font-weight: normal;
+}
+.eventos .img-parceiro img{
+    width: 100%;
+    padding: 0 20px;
+}    
+.eventos .col-sponsors .col-articles.flex-container{
+    flex-direction: row;
+    align-items: center;
+}
+.eventos .img-parceiro{
+    width: 45%;
+}
+.artistas{
+    padding: 80px 0;
+    background: url(images/fundo-video-mobile.jpg) center no-repeat;
+    background-size: cover;
+}
+.artistas h2{
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.eventos .col-sponsors .title h3{
+    margin-top: 0
+}
+.trofeu{
+    padding: 20px 0;
+}
 @media  screen and (min-width: 768px){
-    .eventos .page-header h1{
-        width: 80%;
+    .eventos .page-header{
+        background-color: #f1f1f1;
+    }
+    .eventos .apresentacao h1{
+        text-align: center;
+        margin-bottom: 0;
+        font-size: 38px;
+    }
+    .eventos .img-parceiro img{
+        width: 70%;
+        padding: 0;
+    }
+    .img-trofeu{
+        width: 50%;        
+    }
+    .txt-trofeu{
+        width: 50%;
+        padding: 0 20px;
+    }
+    .artistas{
+        padding: 40px 0;
+        background: url(images/fundo-video.jpg) center no-repeat;
+        background-size: cover;
+    }
+    
+    .eventos .video-evento p{
+        width: 70%;
     }
 }
 @media  screen and (min-width: 1140px){
+    .eventos .box-video{
+        height: 500px;
+    }
     .eventos .text-evento{
-        max-width: 80%;
-        padding: 40px 0;
+        max-width: 40%;
+        padding: 40px 10px;
+        font-size: 14px;
+        text-align: left;
+    }
+    .eventos .agenda-evento{
+        max-width: 60%;
+        padding: 40px 10px;
+    }
+    .eventos .apresentacao{
+        padding: 0;
     }
     .eventos .video-evento{
         background: url(images/fundo-video.jpg) center no-repeat;
         background-size: cover;
-        padding: 60px 0;
+        padding: 100px 0;
     }
     .eventos .text-evento{
         margin: 0 auto;

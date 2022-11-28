@@ -242,7 +242,7 @@ window.onload = function() {
   
     $('.carrossel-further').slick({
         infinite: true,
-        slidesToShow: 7,
+        slidesToShow: 6,
         slidesToScroll: 1,    
         autoplay: true,
         autoplaySpeed: 2000,
@@ -285,7 +285,29 @@ window.onload = function() {
     })
   })
   
+// CARROSSEL further
+$(function () {
+  
+  $('.carrossel-palestrantes').slick({
+      infinite: true,
+      slidesToShow: 6,
+      slidesToScroll: 1,    
+      autoplay: true,
+      autoplaySpeed: 2000,
+      prevArrow: $('#prev-palestrante'),
+      nextArrow: $('#next-palestrante'),
 
+      responsive: [
+          {
+            breakpoint: 769,
+            settings: {
+              slidesToShow: 1,
+              slidesToScroll: 1,
+            }
+          }
+        ]
+  })
+})
 
 // TAB MY ACCOUNT
 function openPage(pageName) {
