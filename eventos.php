@@ -17,7 +17,7 @@ include 'app/views/header.php';
                                 </div>
                             </div>
                             <div class="chat">
-                                <iframe width="100%" height="500" src="https://www.youtube.com/live_chat?v=VM3u8j4tb7E&embed_domain=pip.dscriacaoweb.com.br" title="YouTube video player" frameborder="0" allowfullscreen></iframe>
+                                <iframe width="100%" height="500" src="https://www.youtube.com/live_chat?v=VM3u8j4tb7E&embed_domain=impactospositivos.com" title="YouTube video player" frameborder="0" allowfullscreen></iframe>
                             </div>
                         </div>
                     </div>
