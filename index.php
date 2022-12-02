@@ -82,6 +82,24 @@ include 'app/views/header.php';
             </div>
         </div>
     </section>
+
+    <section class="premiacao">
+        <div class="container flex-container">
+            <div class="col-title">
+                <div class="title">
+                    <h2>Premiação</h2>
+                </div>
+            </div>
+            <div class="col-articles">
+                <div class="video-premiacao">
+                    <div class="container-iframe">
+                        <iframe  class="responsive-iframe" src="https://www.youtube.com/embed/pZUhcbI27hY?autoplay=1&color=white" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
     <section class="showcases">
         <div class="container">
             <div class="title">

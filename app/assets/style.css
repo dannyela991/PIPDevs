@@ -3648,6 +3648,7 @@ button.bg-none:hover{
 @media  screen and (min-width: 768px){
     .workshop .video{
         width: 70%;
+        margin: auto;
     }
     .workshop .chat{
         width: 30%;
@@ -3833,4 +3834,13 @@ button.bg-none:hover{
     .eventos .col-articles{
         width: 100%!important;
     }
+}
+
+/* PREMIAÇAO HOME */
+.premiacao{
+    padding: 60px 0;
+}
+.video-premiacao{
+    width: 100%;
+    margin: auto;
 }

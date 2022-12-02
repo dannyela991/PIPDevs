@@ -10,15 +10,15 @@ include 'app/views/header.php';
                 <div class="container">                    
                     <h1>Encontro Impactos Positivos</h1>
                     <p>Acompanhe a transmissão do Encontro Impactos Positivos 2022 ao vivo, direto do Cubo ESG, em São Paulo. O cronograma do evento completo e seus palestrantes se encontram um pouco mais a baixo na página.</p>
-                    <div class="flex-container box-video">
+                    <div class="box-video">
                         <div class="video">                            
                             <div class="container-iframe"> 
                                 <iframe class="responsive-iframe" width="100%" height="500" src="https://www.youtube.com/embed/VM3u8j4tb7E" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                                 </div>
                             </div>
-                            <div class="chat">
+                            <!-- <div class="chat">
                                 <iframe width="100%" height="500" src="https://www.youtube.com/live_chat?v=VM3u8j4tb7E&embed_domain=impactospositivos.com" title="YouTube video player" frameborder="0" allowfullscreen></iframe>
-                            </div>
+                            </div> -->
                         </div>
                     </div>
                 </div>
