@@ -108,7 +108,7 @@
                 <div class="subscription-links">
                     <div class="button-subscription">
                         <!-- link para inscrição do evento -->
-                        <a href="https://www.sympla.com.br/encontro-impactos-positivos-2022__1779831" target="_blank" class="btn bg-green">Inscrição para evento</a>
+                        <a href="eventos.php" class="btn bg-green">Assistir a Premiação</a>
                     </div>
                     <div class="button-subscription">
                         <!-- Página de Login-Cadastro / Minha Conta -->
