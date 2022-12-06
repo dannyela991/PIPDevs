@@ -100,6 +100,250 @@ include 'app/views/header.php';
         </div>
     </section>
 
+    <!-- <section class="vencedores">
+        <div class="container">
+            <div class="title">
+                <h2>Vencedores Prêmio Impactos Positivos 2022</h2>
+            </div>
+            <div class="flex-container cards-vencedores">
+                <div class="card-categoria">
+                    <div class="categoria">
+                        <h3>Negócios de Impactos</h3>
+                    </div>
+                    <div class="flex-container itens-vencedores">
+                        <div class="item-vencedor">
+                            <div class="titulo-subcategoria">
+                                <h3>Ideação</h3>
+                            </div>
+                            <div class="content-projeto">
+                                <div class="logo-project">
+                                    <a href="https://impactospositivos.com/project/mocambo-avicultura-naturalizada2022"><img src="https://impactospositivos.com/storage/projeto/zEsjJE4niDAULfr3oTZ2L0jQbaiAgJ7oaPA4PSMo.png" alt=""/></a>
+                                </div>
+                                <h3>Mocambo Avicultura Naturalizada</h3>
+                                <div class="objetivo-projeto">
+                                    <p>Insegurança alimentar nas comunidades quilombolas da Paraíba, desigualdade de gênero, desemprego e precarização para as mulheres que são as responsáveis pelo sustento familiar, êxodo rural de jovens por falta de emprego no território, ausência ou insuficiente.</p>
+                                <div>                                              
+                                <p><a href="https://impactospositivos.com/project/mocambo-avicultura-naturalizada2022" class="btn bg-blue">Ver Projeto</a></p>  
+                            </div>
+                        </div>
+                        <div class="item-vencedor">
+                            <div class="titulo-subcategoria">
+                                <h3>Operação</h3>
+                            </div>
+                            <div class="content-projeto">
+                                <div class="logo-project">
+                                    <a href="https://impactospositivos.com/project/acmella-beauty2022"><img src="https://impactospositivos.com/storage/projeto/rC0cyrQ3VI14bwnfJ85gAGKWbyCH33QjyMYEAPMd.png" alt=""/></a>
+                                </div>
+                                <h3>Acmella Beauty</h3>
+                                <div class="objetivo-projeto">
+                                    <p>Você sabia que de 15 mil cosméticos convencionais de personal care, 22% tem compostos tóxicos na formulação somando até 97% da sua composição.</p>
+                                <div>                                              
+                                <p><a href="https://impactospositivos.com/project/acmella-beauty2022" class="btn bg-blue">Ver Projeto</a></p>  
+                            </div>
+                        </div>
+                        <div class="item-vencedor">
+                            <div class="titulo-subcategoria">
+                                <h3>Tração</h3>
+                            </div>
+                            <div class="content-projeto">
+                                <div class="logo-project">
+                                    <a href="https://impactospositivos.com/project/central-da-visao2022"><img src="https://impactospositivos.com/storage/projeto/BYSF0CedKqz4s9aiEY1ZfeiXn8Bf5PZmZspc0sii.jpg" alt=""/></a>
+                                </div>
+                                <h3>Central da Visão</h3>
+                                <div class="objetivo-projeto">
+                                    <p>Resolvemos o problema da fila de cirurgias oftalmológicas no SUS. A catarata é a maior fila do SUS com mais de 500 mil pessoas aguardando.</p>
+                                <div>                                              
+                                <p><a href="https://impactospositivos.com/project/central-da-visao2022" class="btn bg-blue">Ver Projeto</a></p>  
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section> -->
+
+    <section class="vencedores">
+        <div class="container">
+            <div class="title">
+                <h2>Vencedores Prêmio Impactos Positivos 2022</h2>
+            </div>
+            <div class=" categorias">
+                <div class="col-categoria">
+                    <h3 class="blue">Negócios de Impacto</h3>
+                    <div class="flex-container projetos">
+                        <div class="item-projeto">
+                            <div class="titulo-subcategoria">
+                                <h3>Ideação</h3>
+                            </div>
+                            <div class="logo-project">
+                            <a href="https://impactospositivos.com/project/mocambo-avicultura-naturalizada2022"><img src="https://impactospositivos.com/storage/projeto/zEsjJE4niDAULfr3oTZ2L0jQbaiAgJ7oaPA4PSMo.png" alt=""/></a>
+                            </div>
+                            <h4>Mocambo Avicultura Naturalizada</h4>
+                            <p><span>João Pessoa | Paraíba</span></p>
+                            <p>A criação tradicional da galinha caipira para a produção de ovos e biofertilizantes, utiliza novas práticas de melhoria e aproveitamento dos recursos naturais e tecnológicos.</p>   
+                            <p><span>Biodiversidade, Bioeconomia, Tecnologias Verdes e Indústria Sustentável</span></p>  
+                            <div class="img-ods">
+                                <ul>
+                                    <li><img src="https://impactospositivos.com/storage/ods/01.png" alt=""/></li>
+                                    <li><img src="https://impactospositivos.com/storage/ods/02.png" alt=""/></li>
+                                    <li><img src="https://impactospositivos.com/storage/ods/05.png" alt=""/></li>
+                                    <li><img src="https://impactospositivos.com/storage/ods/07.png" alt=""/></li>
+                                    <li><img src="https://impactospositivos.com/storage/ods/08.png" alt=""/></li>
+                                    <li><img src="https://impactospositivos.com/storage/ods/09.png" alt=""/></li>
+                                    <li><img src="https://impactospositivos.com/storage/ods/10.png" alt=""/></li>
+                                    <li><img src="https://impactospositivos.com/storage/ods/11.png" alt=""/></li>
+                                    <li><img src="https://impactospositivos.com/storage/ods/12.png" alt=""/></li>
+                                    <li><img src="https://impactospositivos.com/storage/ods/16.png" alt=""/></li>
+                                    <li><img src="https://impactospositivos.com/storage/ods/17.png" alt=""/></li>
+                                </ul>
+                            </div>                                                             
+                            <div class="read-more">
+                                <p><a href="https://impactospositivos.com/project/mocambo-avicultura-naturalizada2022" class="btn bg-blue">Ver Projeto</a></p> 
+                            </div>                          
+                             
+                        </div>
+                        
+                        <div class="item-projeto">
+                            <div class="titulo-subcategoria">
+                                <h3>Operação</h3>
+                            </div>
+                            <div class="logo-project">
+                                
+                            <a href="https://impactospositivos.com/project/acmella-beauty2022"><img src="https://impactospositivos.com/storage/projeto/rC0cyrQ3VI14bwnfJ85gAGKWbyCH33QjyMYEAPMd.png" alt=""/></a>
+                            </div>
+                            <h4>Acmella Beauty</h4>
+                            <p><span>Macapá | Amapá</span></p>
+                            <p>Você sabia que de 15 mil cosméticos convencionais de personal care, 22% tem compostos tóxicos na formulação somando até 97% da sua composição.</p> 
+                            <p><span>Saúde</span></p> 
+                            <div class="img-ods">
+                                <ul>
+                                    <li><img src="https://impactospositivos.com/storage/ods/03.png" alt=""/></li>
+                                    <li><img src="https://impactospositivos.com/storage/ods/12.png" alt=""/></li>
+                                    <li><img src="https://impactospositivos.com/storage/ods/14.png" alt=""/></li>
+                                    <li><img src="https://impactospositivos.com/storage/ods/15.png" alt=""/></li>
+                                </ul>
+                            </div>                                                
+                            <div class="read-more">                        
+                                <p><a href="https://impactospositivos.com/project/acmella-beauty2022" class="btn bg-blue">Ver Projeto</a></p> 
+                            </div>
+                        </div>
+
+                        <div class="item-projeto">
+                            <div class="titulo-subcategoria">
+                                <h3>Tração</h3>
+                            </div>
+                            <div class="logo-project">
+                            <a href="https://impactospositivos.com/project/central-da-visao2022"><img src="https://impactospositivos.com/storage/projeto/BYSF0CedKqz4s9aiEY1ZfeiXn8Bf5PZmZspc0sii.jpg" alt=""/></a>
+                            </div>
+                            <h4>Central da Visão</h4>
+                            <p><span>São Paulo | São Paulo</span></p>
+                            <p>Resolvemos o problema da fila de cirurgias oftalmológicas no SUS. A catarata é a maior fila do SUS com mais de 500 mil pessoas aguardando.</p>      
+                            <p><span>Saúde</span></p> 
+                            <div class="img-ods">
+                                <ul>
+                                    <li><img src="https://impactospositivos.com/storage/ods/03.png" alt=""/></li>
+                                    <li><img src="https://impactospositivos.com/storage/ods/08.png" alt=""/></li>
+                                    <li><img src="https://impactospositivos.com/storage/ods/10.png" alt=""/></li>
+                                </ul>
+                            </div>                                                                                        
+                            <div class="read-more">                                                  
+                                <p><a href="https://impactospositivos.com/project/central-da-visao2022" class="btn bg-blue">Ver Projeto</a></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-categoria">
+                    <h3 class="blue">Ecossistemas de Impacto</h3>
+                    <div class="flex-container projetos">
+                        <div class="item-projeto">
+                            <div class="titulo-subcategoria">
+                                <h3>Dinamizadores</h3>
+                            </div>
+                            <div class="logo-project">
+                                <a href="https://impactospositivos.com/project/departamento-de-educacao-social-de-itanhaem2022"><img src="https://impactospositivos.com/storage/projeto/arULWiR3QZUc9okqiEsYsng9WKhDMCLLvwC5OBYY.png" alt=""/></a>
+                            </div>
+                            <h4>Departamento de Educação Social de Itanhaém</h4>
+                            <p><span>Itanhaém | São Paulo</span></p>
+                            <p>Desenvolvimento de políticas públicas para superação da exclusão, da evasão e das desigualdades educacionais.</p> 
+                            <p><span>Cidadania, Direitos Humanos e Sociedade</span></p>     
+                            <div class="img-ods">
+                                <ul>
+                                    <li><img src="https://impactospositivos.com/storage/ods/01.png" alt=""/></li>
+                                    <li><img src="https://impactospositivos.com/storage/ods/02.png" alt=""/></li>
+                                    <li><img src="https://impactospositivos.com/storage/ods/03.png" alt=""/></li>
+                                    <li><img src="https://impactospositivos.com/storage/ods/04.png" alt=""/></li>
+                                    <li><img src="https://impactospositivos.com/storage/ods/05.png" alt=""/></li>
+                                    <li><img src="https://impactospositivos.com/storage/ods/08.png" alt=""/></li>
+                                    <li><img src="https://impactospositivos.com/storage/ods/10.png" alt=""/></li>
+                                    <li><img src="https://impactospositivos.com/storage/ods/11.png" alt=""/></li>
+                                    <li><img src="https://impactospositivos.com/storage/ods/16.png" alt=""/></li>
+                                </ul>
+                            </div>                                                             
+                            <div class="read-more">                                             
+                                <p><a href="https://impactospositivos.com/project/departamento-de-educacao-social-de-itanhaem2022" class="btn bg-blue">Ver Projeto</a></p>
+                            </div>
+                        </div>
+                        
+                        <div class="item-projeto">
+                            <div class="titulo-subcategoria">
+                                <h3>Comunidades</h3>
+                            </div>
+                            <div class="logo-project">
+                                <a href="https://impactospositivos.com/project/passos-da-crianca2022"><img src="https://impactospositivos.com/storage/projeto/ZDX4L8MTKmkrogXWAvZgPewv4N8IHRFRJZhJP1nq.png" alt=""/></a>
+                            </div>
+                            <h4>Passos da Criança</h4>
+                            <p><span>Curitiba | Paraná</span></p>
+                            <p>A Associação Iniciativa Cultural (Passos da Criança) atua na garantia dos Direitos da Criança e do Adolescente com a oferta de oficinas, atendimento psicológico e assistencial e alimentação visando o desenvolvimento integral.</p>
+                            <p><span>Cidadania, Direitos Humanos e Sociedade</span></p> 
+                            <div class="img-ods">
+                                <ul>
+                                    <li><img src="https://impactospositivos.com/storage/ods/01.png" alt=""/></li>
+                                    <li><img src="https://impactospositivos.com/storage/ods/02.png" alt=""/></li>
+                                    <li><img src="https://impactospositivos.com/storage/ods/03.png" alt=""/></li>
+                                    <li><img src="https://impactospositivos.com/storage/ods/04.png" alt=""/></li>
+                                    <li><img src="https://impactospositivos.com/storage/ods/05.png" alt=""/></li>
+                                    <li><img src="https://impactospositivos.com/storage/ods/10.png" alt=""/></li>
+                                    <li><img src="https://impactospositivos.com/storage/ods/11.png" alt=""/></li>
+                                    <li><img src="https://impactospositivos.com/storage/ods/16.png" alt=""/></li>
+                                    <li><img src="https://impactospositivos.com/storage/ods/17.png" alt=""/></li>
+                                </ul>
+                            </div>                               
+                            <div class="read-more">                                                 
+                                <p><a href="https://impactospositivos.com/project/passos-da-crianca2022" class="btn bg-blue">Ver Projeto</a></p>
+                            </div>
+                        </div>
+                        
+                        <div class="item-projeto">
+                            <div class="titulo-subcategoria">
+                                <h3>Médias e grandes empresas</h3>
+                            </div>
+                            <div class="logo-project">
+                                <a href="https://impactospositivos.com/project/ajinomoto-do-brasil-industria-e-comercio-de-alimentos-ltda2022"><img src="https://impactospositivos.com/storage/projeto/zGrDmyaU96PKtLjWJSYbiXB9O00E2LFlWOr4GthV.png" alt=""/></a>
+                            </div>
+                            <h4>Ajinomoto do Brasil</h4>
+                            <p><span>São Paulo | São Paulo</span></p>
+                            <p>O conhecimento e a tradição artesanal das micro-regiões do país são a materia prima para elaborarmos juntamente com as comunidades de artesãos novos produtos e serviços.</p> 
+                            <p><span>Educação, cultura, economia criativa e tecnologia da informação</span></p> 
+                            <div class="img-ods">
+                                <ul>
+                                    <li><img src="https://impactospositivos.com/storage/ods/01.png" alt=""/></li>
+                                    <li><img src="https://impactospositivos.com/storage/ods/04.png" alt=""/></li>
+                                    <li><img src="https://impactospositivos.com/storage/ods/08.png" alt=""/></li>
+                                    <li><img src="https://impactospositivos.com/storage/ods/10.png" alt=""/></li>
+                                    <li><img src="https://impactospositivos.com/storage/ods/11.png" alt=""/></li>
+                                    <li><img src="https://impactospositivos.com/storage/ods/17.png" alt=""/></li>
+                                </ul>
+                            </div>                             
+                            <div class="read-more">                                                  
+                                <p><a href="https://impactospositivos.com/project/ajinomoto-do-brasil-industria-e-comercio-de-alimentos-ltda2022" class="btn bg-blue">Ver Projeto</a></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
     <section class="showcases">
         <div class="container">
             <div class="title">

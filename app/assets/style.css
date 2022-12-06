@@ -3844,3 +3844,108 @@ button.bg-none:hover{
     width: 100%;
     margin: auto;
 }
+.vencedores{
+    padding: 60px 0;
+}
+.vencedores .title{
+    text-align: center;
+}
+.vencedores .title h2{
+    font-family: Gothan, sans-serif;
+    font-weight: bold;
+    font-size: 28px;
+    text-transform: uppercase;
+}
+.vencedores h3.blue::after{
+    content: "\020";
+    display: block;
+    height: 2px;
+    margin: 10px auto;
+    width: 55%;
+    background: #32a7df;
+}
+.flex-container.projetos{
+    justify-content: space-between;
+    align-items: stretch;
+}
+.flex-container.categorias{
+    align-items: flex-start;
+}
+.col-categoria{
+    width: 80%;
+    padding: 40px 10px;
+    margin: 0 auto;
+}
+.item-projeto{
+    width: 100%;
+    padding: 10px;
+    background: #f8f8ff;
+    margin-bottom: 15px;
+    display: flex;
+    justify-content:space-between;
+    flex-direction: column;
+    /* height: 400px; */
+}
+.item-projeto .logo-project{
+    text-align: center;
+    height: 100px;
+}
+.item-projeto .logo-project img{
+    height: auto;
+}
+.col-categoria h3{ 
+    font-family: Gothan, sans-serif;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 28px;
+}
+.item-projeto h4{
+    font-size: 16px;
+    font-weight: bold;
+    text-align: left;
+    margin: 8px 0;
+    text-transform: uppercase;    
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+}
+.titulo-subcategoria h3{
+    font-size: 18px;
+    text-transform: uppercase;
+
+}
+.item-projeto .read-more{
+    margin-bottom: 15px;
+    text-align: center;
+}
+.item-projeto .read-more a{
+    font-size: 16px;
+}
+.item-projeto p{
+    font-size: 12px;
+    margin: 5px 0;
+}
+.item-projeto p span{
+    font-weight: bold;
+}
+
+@media  screen and (min-width: 768px){
+    .vencedores .title h2{
+        font-size: 38px;
+    }    
+    /* .col-categoria{
+        width: 50%;
+    } */
+    .item-projeto{
+        width: 33%;
+        margin-bottom: 0;
+        margin-right: 10px;
+        box-shadow: 3px 3px 5px #bbb;
+    }
+    .item-projeto:last-child{
+        margin-right: 0;
+    }
+}
