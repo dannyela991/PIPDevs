@@ -83,7 +83,7 @@ include 'app/views/header.php';
         </div>
     </section>
 
-    <section class="premiacao">
+    <!-- <section class="premiacao">
         <div class="container flex-container">
             <div class="col-title">
                 <div class="title">
@@ -98,76 +98,14 @@ include 'app/views/header.php';
                 </div>
             </div>
         </div>
-    </section>
+    </section> -->
 
     <!-- <section class="vencedores">
         <div class="container">
             <div class="title">
                 <h2>Vencedores Prêmio Impactos Positivos 2022</h2>
             </div>
-            <div class="flex-container cards-vencedores">
-                <div class="card-categoria">
-                    <div class="categoria">
-                        <h3>Negócios de Impactos</h3>
-                    </div>
-                    <div class="flex-container itens-vencedores">
-                        <div class="item-vencedor">
-                            <div class="titulo-subcategoria">
-                                <h3>Ideação</h3>
-                            </div>
-                            <div class="content-projeto">
-                                <div class="logo-project">
-                                    <a href="https://impactospositivos.com/project/mocambo-avicultura-naturalizada2022"><img src="https://impactospositivos.com/storage/projeto/zEsjJE4niDAULfr3oTZ2L0jQbaiAgJ7oaPA4PSMo.png" alt=""/></a>
-                                </div>
-                                <h3>Mocambo Avicultura Naturalizada</h3>
-                                <div class="objetivo-projeto">
-                                    <p>Insegurança alimentar nas comunidades quilombolas da Paraíba, desigualdade de gênero, desemprego e precarização para as mulheres que são as responsáveis pelo sustento familiar, êxodo rural de jovens por falta de emprego no território, ausência ou insuficiente.</p>
-                                <div>                                              
-                                <p><a href="https://impactospositivos.com/project/mocambo-avicultura-naturalizada2022" class="btn bg-blue">Ver Projeto</a></p>  
-                            </div>
-                        </div>
-                        <div class="item-vencedor">
-                            <div class="titulo-subcategoria">
-                                <h3>Operação</h3>
-                            </div>
-                            <div class="content-projeto">
-                                <div class="logo-project">
-                                    <a href="https://impactospositivos.com/project/acmella-beauty2022"><img src="https://impactospositivos.com/storage/projeto/rC0cyrQ3VI14bwnfJ85gAGKWbyCH33QjyMYEAPMd.png" alt=""/></a>
-                                </div>
-                                <h3>Acmella Beauty</h3>
-                                <div class="objetivo-projeto">
-                                    <p>Você sabia que de 15 mil cosméticos convencionais de personal care, 22% tem compostos tóxicos na formulação somando até 97% da sua composição.</p>
-                                <div>                                              
-                                <p><a href="https://impactospositivos.com/project/acmella-beauty2022" class="btn bg-blue">Ver Projeto</a></p>  
-                            </div>
-                        </div>
-                        <div class="item-vencedor">
-                            <div class="titulo-subcategoria">
-                                <h3>Tração</h3>
-                            </div>
-                            <div class="content-projeto">
-                                <div class="logo-project">
-                                    <a href="https://impactospositivos.com/project/central-da-visao2022"><img src="https://impactospositivos.com/storage/projeto/BYSF0CedKqz4s9aiEY1ZfeiXn8Bf5PZmZspc0sii.jpg" alt=""/></a>
-                                </div>
-                                <h3>Central da Visão</h3>
-                                <div class="objetivo-projeto">
-                                    <p>Resolvemos o problema da fila de cirurgias oftalmológicas no SUS. A catarata é a maior fila do SUS com mais de 500 mil pessoas aguardando.</p>
-                                <div>                                              
-                                <p><a href="https://impactospositivos.com/project/central-da-visao2022" class="btn bg-blue">Ver Projeto</a></p>  
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section> -->
-
-    <section class="vencedores">
-        <div class="container">
-            <div class="title">
-                <h2>Vencedores Prêmio Impactos Positivos 2022</h2>
-            </div>
-            <div class=" categorias">
+            <div class=" flex-container categorias">
                 <div class="col-categoria">
                     <h3 class="blue">Negócios de Impacto</h3>
                     <div class="flex-container projetos">
@@ -336,6 +274,229 @@ include 'app/views/header.php';
                             </div>                             
                             <div class="read-more">                                                  
                                 <p><a href="https://impactospositivos.com/project/ajinomoto-do-brasil-industria-e-comercio-de-alimentos-ltda2022" class="btn bg-blue">Ver Projeto</a></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section> -->
+
+    <section class="vencedores">
+        <div class="container">
+            <div class="title">
+                <h2>Encontro Prêmio Impactos Positivos 2022</h2>
+            </div>
+            <div class="flex-container colunas">
+                <div class="col-archives video-premio">
+                    <div class="video-premiacao">
+                        <div class="container-iframe">
+                            <iframe  class="responsive-iframe" src="https://www.youtube.com/embed/pZUhcbI27hY?autoplay=1&color=white" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        </div>
+                    </div>                         
+                    <div class="galeria-evento">                    
+                        <div class="carrossel-evento">
+                            <div class="card_img">
+                                <img src="app/assets/images/fotos-evento/02.jpg"/>
+                                <div class="legenda">
+                                Os vencedores do Prêmio 2022 receberam trófeus personalizados pelo artista Ciro Schu
+                                </div>
+                            </div>
+                            <div class="card_img">
+                                <img src="app/assets/images/fotos-evento/03.jpg"/>
+                                <div class="legenda">
+                                Cada um dos troféus foram criados com materias reutilizados pelo artista plástico Ciro Schu
+                                </div>
+                            </div>
+                            <div class="card_img">
+                                <img src="app/assets/images/fotos-evento/04.jpg"/>
+                                <div class="legenda">
+                                Equipe da Muri, marca de roupa patrocinadora do Encontro Impactos Positivos 2022
+                                </div>
+                            </div>
+                            <div class="card_img">
+                                <img src="app/assets/images/fotos-evento/08.jpg"/>
+                                <div class="legenda">
+                                Gisele Abrahão (Impactos Positivos), Dani Garcia (Capitalismo Consciente, Francisco Vicente (Yunus Social Brasil), Rachel Karam (Grupo Jurídico B - Sistema B) e Roberta Coutinho (Cèdre Consultoria)
+                                </div>
+                            </div>
+                            <div class="card_img">
+                                <img src="app/assets/images/fotos-evento/09.jpg"/>
+                                <div class="legenda">
+                                Sandra Pinheiro, da Pinho Pinheiro, membra do board de conselheiros da edição 2022 do Prêmio Impactos Positivos
+                                </div>
+                            </div>
+                            <div class="card_img">
+                                <img src="app/assets/images/fotos-evento/12.jpg"/>
+                                <div class="legenda">
+                                Gisele Abrahão apresentou o Encontro Impactos Positivos 2022 no Cubo Itaú SP
+                                </div>
+                            </div>
+                            <div class="card_img">
+                                <img src="app/assets/images/fotos-evento/15.jpg"/>
+                                <div class="legenda">
+                                Gisele Abrahão (Impactos Positivos), Ricardo Fortes (Fiap), Daniela Maia (GoNew) e Alexandre Uehara (Innov8)
+                                </div>
+                            </div>                            
+                            <div class="card_img">
+                                <img src="app/assets/images/fotos-evento/17.jpg"/>
+                                <div class="legenda">
+                                Filipe Guimarães, representante do Cubo Itaú durante o Encontro Impactos Positivos 2022
+                                </div>
+                            </div>                     
+                            <div class="card_img">
+                                <img src="app/assets/images/fotos-evento/18.jpg"/>
+                                <div class="legenda">
+                                Renata Troncoso, do Portal Telemedicina, durante seu Painel Escalando o Impacto
+                                </div>
+                            </div>                  
+                            <div class="card_img">
+                                <img src="app/assets/images/fotos-evento/20.jpg"/>
+                                <div class="legenda">
+                                Gisele Abrahão (Impactos Positivos), Luciana Miranda (Coordenadora Geral de Empreendedorismo Feminino e Impacto), Marcel Fukayama (Sistema B) e Aron Belinky (ABC Associados)
+                                </div>
+                            </div>             
+                            <div class="card_img">
+                                <img src="app/assets/images/fotos-evento/23.jpg"/>
+                                <div class="legenda">
+                                Ciro Schu (artista plástico), Gisele Abrahão (Impactos Positivos) e Daniel Cady (Muri) apresentaram os vencedores do Prêmio Impactos Positivos 2022
+                                </div>
+                            </div>                                         
+                            <div class="card_img">
+                                <img src="app/assets/images/fotos-evento/26.jpg"/>
+                                <div class="legenda">
+                                Central da Visão esteve presente no Encontro e foi o vencedor da categoria Negócios de Impacto - Tração
+                                </div>
+                            </div>                                        
+                            <div class="card_img">
+                                <img src="app/assets/images/fotos-evento/28.jpg"/>
+                                <div class="legenda">
+                                Departamento de Educação Social de Itanhanhém esteve presente no Encontro e foi o vencedor da categoria Ecossistema de Impacto - Dinamizadores
+                                </div>
+                            </div>                                       
+                            <div class="card_img">
+                                <img src="app/assets/images/fotos-evento/30.jpg"/>
+                                <div class="legenda">
+                                Ajinomoto do Brasil esteve presente no Encontro e foi o vencedore da categoria Ecossistema de Impacto - Médias e Grandes Empresas
+                                </div>
+                            </div>                                       
+                            <div class="card_img">
+                                <img src="app/assets/images/fotos-evento/32.jpg"/>
+                                <div class="legenda">
+                                Alexandre Uehara (Innov8), Sandra Pinheiro (Pinho Pinheiro), Gisele Abrahão (Impactos Positivos), Philippe Figueiredo (Sebrae Nacional) e Roberta Coutinho (Cèdre Consultoria)
+                                </div>
+                            </div>                                       
+                            <div class="card_img">
+                                <img src="app/assets/images/fotos-evento/36.jpg"/>
+                                <div class="legenda">
+                                Mais de 100 pessoas compareceram ao Encontro Impactos Positivos no Cubo Itaú SP
+                                </div>
+                            </div>
+                        </div>                   
+                        <div class="nav-evento">
+                            <a id="prev-gal-evento" class="icon arrow-left">
+                                <i class="fas fa-chevron-left"></i>
+                            </a>
+                            <a id="next-gal-evento" class="icon arrow-right">
+                                <i class="fas fa-chevron-right"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-archives card-vencedores">
+                    <div class=" categorias">
+                        <div class="col-categoria">
+                            <h3 class="blue">Vencedores Negócios de Impacto</h3>
+                            <div class="flex-container projetos">
+                                <div class="item-projeto">
+                                    <div class="titulo-subcategoria">
+                                        <h3>Ideação</h3>
+                                    </div>
+                                    <div class="logo-project">
+                                    <a href="https://impactospositivos.com/project/mocambo-avicultura-naturalizada2022"><img src="https://impactospositivos.com/storage/projeto/zEsjJE4niDAULfr3oTZ2L0jQbaiAgJ7oaPA4PSMo.png" alt=""/></a>
+                                    </div>
+                                    <h4>Mocambo Avicultura Naturalizada</h4>
+                                    <p><span>João Pessoa | Paraíba</span></p>                                                          
+                                    <div class="read-more">
+                                        <p><a href="https://impactospositivos.com/project/mocambo-avicultura-naturalizada2022" class="btn bg-blue">Ver Projeto</a></p> 
+                                    </div>                          
+                                    
+                                </div>
+                                
+                                <div class="item-projeto">
+                                    <div class="titulo-subcategoria">
+                                        <h3>Operação</h3>
+                                    </div>
+                                    <div class="logo-project">
+                                        
+                                    <a href="https://impactospositivos.com/project/acmella-beauty2022"><img src="https://impactospositivos.com/storage/projeto/rC0cyrQ3VI14bwnfJ85gAGKWbyCH33QjyMYEAPMd.png" alt=""/></a>
+                                    </div>
+                                    <h4>Acmella Beauty</h4>
+                                    <p><span>Macapá | Amapá</span></p>                                               
+                                    <div class="read-more">                        
+                                        <p><a href="https://impactospositivos.com/project/acmella-beauty2022" class="btn bg-blue">Ver Projeto</a></p> 
+                                    </div>
+                                </div>
+
+                                <div class="item-projeto">
+                                    <div class="titulo-subcategoria">
+                                        <h3>Tração</h3>
+                                    </div>
+                                    <div class="logo-project">
+                                    <a href="https://impactospositivos.com/project/central-da-visao2022"><img src="https://impactospositivos.com/storage/projeto/BYSF0CedKqz4s9aiEY1ZfeiXn8Bf5PZmZspc0sii.jpg" alt=""/></a>
+                                    </div>
+                                    <h4>Central da Visão</h4>
+                                    <p><span>São Paulo | São Paulo</span></p>                                                                                 
+                                    <div class="read-more">                                                  
+                                        <p><a href="https://impactospositivos.com/project/central-da-visao2022" class="btn bg-blue">Ver Projeto</a></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-categoria">
+                            <h3 class="blue">Vencedores Ecossistemas de Impacto</h3>
+                            <div class="flex-container projetos">
+                                <div class="item-projeto">
+                                    <div class="titulo-subcategoria">
+                                        <h3>Dinamizadores</h3>
+                                    </div>
+                                    <div class="logo-project">
+                                        <a href="https://impactospositivos.com/project/departamento-de-educacao-social-de-itanhaem2022"><img src="https://impactospositivos.com/storage/projeto/arULWiR3QZUc9okqiEsYsng9WKhDMCLLvwC5OBYY.png" alt=""/></a>
+                                    </div>
+                                    <h4>Departamento de Educação Social de Itanhaém</h4>
+                                    <p><span>Itanhaém | São Paulo</span></p>                                                        
+                                    <div class="read-more">                                             
+                                        <p><a href="https://impactospositivos.com/project/departamento-de-educacao-social-de-itanhaem2022" class="btn bg-blue">Ver Projeto</a></p>
+                                    </div>
+                                </div>
+                                
+                                <div class="item-projeto">
+                                    <div class="titulo-subcategoria">
+                                        <h3>Comunidades</h3>
+                                    </div>
+                                    <div class="logo-project">
+                                        <a href="https://impactospositivos.com/project/passos-da-crianca2022"><img src="https://impactospositivos.com/storage/projeto/ZDX4L8MTKmkrogXWAvZgPewv4N8IHRFRJZhJP1nq.png" alt=""/></a>
+                                    </div>
+                                    <h4>Passos da Criança</h4>
+                                    <p><span>Curitiba | Paraná</span></p>                             
+                                    <div class="read-more">                                                 
+                                        <p><a href="https://impactospositivos.com/project/passos-da-crianca2022" class="btn bg-blue">Ver Projeto</a></p>
+                                    </div>
+                                </div>
+                                
+                                <div class="item-projeto">
+                                    <div class="titulo-subcategoria">
+                                        <h3>Médias e grandes empresas</h3>
+                                    </div>
+                                    <div class="logo-project">
+                                        <a href="https://impactospositivos.com/project/ajinomoto-do-brasil-industria-e-comercio-de-alimentos-ltda2022"><img src="https://impactospositivos.com/storage/projeto/zGrDmyaU96PKtLjWJSYbiXB9O00E2LFlWOr4GthV.png" alt=""/></a>
+                                    </div>
+                                    <h4>Ajinomoto do Brasil</h4>
+                                    <p><span>São Paulo | São Paulo</span></p>                          
+                                    <div class="read-more">                                                  
+                                        <p><a href="https://impactospositivos.com/project/ajinomoto-do-brasil-industria-e-comercio-de-alimentos-ltda2022" class="btn bg-blue">Ver Projeto</a></p>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -865,9 +1026,7 @@ include 'app/views/header.php';
                 </div>
             </div>
         </div>
-    </section>
-
-    
+    </section>    
 
     <section class="further apoiadores">
         <div class="container">
@@ -924,9 +1083,7 @@ include 'app/views/header.php';
                 </div>
             </div>
         </div>
-    </section>
-
-    
+    </section>    
 
     <section class="materias"> 
         <div class="container">
@@ -1630,6 +1787,7 @@ include 'app/views/header.php';
     </section>
 
 </main>
+
 
 <?php
 // footer

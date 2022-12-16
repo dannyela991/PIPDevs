@@ -3888,7 +3888,7 @@ button.bg-none:hover{
 }
 .item-projeto .logo-project{
     text-align: center;
-    height: 100px;
+    height: 50px;
 }
 .item-projeto .logo-project img{
     height: auto;
@@ -3896,12 +3896,12 @@ button.bg-none:hover{
 .col-categoria h3{ 
     font-family: Gothan, sans-serif;
     font-weight: bold;
-    margin-bottom: 20px;
+    margin-bottom: 15px;
     text-align: center;
     font-size: 28px;
 }
 .item-projeto h4{
-    font-size: 16px;
+    font-size: 12px;
     font-weight: bold;
     text-align: left;
     margin: 8px 0;
@@ -3913,12 +3913,13 @@ button.bg-none:hover{
     -webkit-box-orient: vertical;
 }
 .titulo-subcategoria h3{
-    font-size: 18px;
+    font-size: 15px;
     text-transform: uppercase;
 
 }
 .item-projeto .read-more{
     margin-bottom: 15px;
+    margin-top: 10px;
     text-align: center;
 }
 .item-projeto .read-more a{
@@ -3931,7 +3932,19 @@ button.bg-none:hover{
 .item-projeto p span{
     font-weight: bold;
 }
-
+.vencedores .flex-container.colunas{
+    align-items: flex-start;
+}
+.galeria-evento{
+    position: relative;
+    padding: 0 10px;
+    margin-top: 30px;
+}
+.legenda{
+    font-size: 12px;
+    font-style: italic;
+    margin-top: 5px;
+}
 @media  screen and (min-width: 768px){
     .vencedores .title h2{
         font-size: 38px;
@@ -3947,5 +3960,24 @@ button.bg-none:hover{
     }
     .item-projeto:last-child{
         margin-right: 0;
+    }
+
+    .vencedores .col-archives.video-premio{
+        width: 40%;
+    }
+    .vencedores .col-archives.card-vencedores {
+        width: 60%;
+    }
+    .vencedores .title h2{
+        font-size: 34px;
+        text-align: center;
+    }
+    .galeria-evento{
+        position: relative;
+        padding: 0 25px;
+        margin-top: 60px;
+    }
+    .card_img{
+        width: 100%;
     }
 }

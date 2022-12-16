@@ -309,6 +309,20 @@ $(function () {
   })
 })
 
+  // CARROSSEL GALERIA EVENTO
+  $(function () {
+    $('.carrossel-evento').slick({
+      infinite: true,    
+      autoplay: true,
+      autoplaySpeed: 1500,
+  
+      prevArrow: $('#prev-gal-evento'),
+      nextArrow: $('#next-gal-evento'),
+    })
+  })
+
+  
+
 // TAB MY ACCOUNT
 function openPage(pageName) {
   var i, tabcontent, tablinks;
